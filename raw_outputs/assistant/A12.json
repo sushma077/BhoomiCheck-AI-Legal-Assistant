@@ -1,0 +1,21 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A12",
+    "name": "Provision that does not exist",
+    "documents": [],
+    "question": "What does Section 999 of the Transfer of Property Act say?",
+    "language": "en",
+    "must_say_not_found": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "I could not find that in the legal sources BhoomiCheck has collected, so I will not guess. Please check with a lawyer or on India Code.",
+  "kind": "not_found",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

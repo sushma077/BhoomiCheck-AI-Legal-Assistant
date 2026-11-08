@@ -1,0 +1,126 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "input_document": "data/synthetic_documents/holdout_leave_licence.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nLEAVE AND LICENCE AGREEMENT\nThis agreement is made on 1 December 2023 between Mrs. Farida Khan (Licensor) and Mr.\nTarun Nair (Licensee).\nThe Licensor permits the Licensee to use Flat 2B for twenty-four months from 01/01/2024.\nThe licence fee is Rs 22,500 per month. An interest-free refundable deposit of Rs 1,00,000 has\nbeen paid."
+    }
+  ],
+  "classification": {
+    "type": "rent_agreement",
+    "label": "Rent Agreement",
+    "confidence": 1.0,
+    "evidence": [
+      "leave and licence"
+    ],
+    "scores": {
+      "rent_agreement": 32.0
+    }
+  },
+  "structured_fields": {
+    "landlord": [],
+    "tenant": [],
+    "lease": {
+      "monthly_rent": {
+        "value": {
+          "amount": 22500,
+          "display": "Rs. 22,500"
+        },
+        "page": 1,
+        "evidence": "Licensee to use Flat 2B for twenty-four months from 01/01/2024. The licence fee is Rs 22,500 per month. An interest-free refundable deposit of Rs 1,00,000",
+        "method": "rule"
+      },
+      "security_deposit": {
+        "value": {
+          "amount": 100000,
+          "display": "Rs. 1,00,000"
+        },
+        "page": 1,
+        "evidence": "01/01/2024. The licence fee is Rs 22,500 per month. An interest-free refundable deposit of Rs 1,00,000 has been paid.",
+        "method": "rule"
+      }
+    },
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": {
+      "value": "2023-12-01",
+      "page": 1,
+      "evidence": "legal record. LEAVE AND LICENCE AGREEMENT This agreement is made on 1 December 2023 between Mrs. Farida Khan (Licensor) and Mr. Tarun Nair (Licensee).",
+      "method": "rule"
+    },
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "rent_agreement",
+        "actual": "rent_agreement",
+        "ok": true
+      },
+      {
+        "field": "landlord",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "field": "tenant",
+        "expected": [
+          "Tarun Nair"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "field": "rent",
+        "expected": 22500,
+        "actual": 22500,
+        "ok": true
+      },
+      {
+        "field": "deposit",
+        "expected": 100000,
+        "actual": 100000,
+        "ok": true
+      },
+      {
+        "field": "term_months",
+        "expected": 24,
+        "actual": null,
+        "ok": false
+      },
+      {
+        "field": "start_date",
+        "expected": "2024-01-01",
+        "actual": null,
+        "ok": false
+      }
+    ]
+  }
+}

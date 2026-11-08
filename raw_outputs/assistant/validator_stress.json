@@ -1,0 +1,408 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "rows": [
+    {
+      "expected": "false",
+      "question": "Does a sale of immovable property need registration?",
+      "statement": "A sale deed is not required to be registered [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "sale deed is not required"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [
+          "A sale deed is not required to be registered  ."
+        ],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Does a sale of immovable property need registration?",
+      "statement": "Registration is optional for every sale of land [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [
+          "Registration is optional for every sale of land  ."
+        ],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Does a mutation entry confer title to land?",
+      "statement": "A mutation entry proves ownership of the land [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "mutation entry proves ownership"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Does a mutation entry confer title to land?",
+      "statement": "Once mutation is done, the person becomes the legal owner with clear title [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "What is a mortgage?",
+      "statement": "A mortgage does not transfer any interest in the property [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Who is competent to contract?",
+      "statement": "A minor is fully competent to sign a sale deed [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [
+          "A minor is fully competent to sign a sale deed  ."
+        ],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "When does an agency end?",
+      "statement": "An agent's authority continues after the death of the principal [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "How is a gift of immovable property effected?",
+      "statement": "A gift of land can be made orally without any document [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [
+          "A gift of land can be made orally without any document  ."
+        ],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "What is the time limit for presenting a document for registration?",
+      "statement": "A document can be registered at any time, even after twenty years [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Can an instrument which is not duly stamped be used as evidence?",
+      "statement": "An unstamped instrument is fully admissible in evidence [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "What is a sale?",
+      "statement": "Section 999 says all sales are void [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [],
+        "unsupported_sections": [
+          "Section 999"
+        ],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "What is a sale?",
+      "statement": "Sale means a free transfer without any price [L9].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [
+          "[L9]"
+        ],
+        "missing_citation_tag": true,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [
+          "Sale means a free transfer without any price  ."
+        ],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Is this property safe?",
+      "statement": "This property is 100% safe to buy [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "100% safe",
+          "safe to buy"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Does this property have litigation?",
+      "statement": "There is no litigation on this property [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "no litigation"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [
+          "There is no litigation on this property  ."
+        ],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "What does the encumbrance certificate show?",
+      "statement": "An encumbrance certificate reveals every claim on the property [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "encumbrance certificate reveals every"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "false",
+      "question": "Does a mutation entry confer title?",
+      "statement": "The Supreme Court in Sharma v. Union of India held that mutation gives title [L1].",
+      "accepted": false,
+      "validation": {
+        "ok": false,
+        "forbidden_claims": [
+          "mutation gives title"
+        ],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "What is a sale of immovable property and how is it made?",
+      "statement": "Sale is a transfer of ownership in exchange for a price [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "Does a mutation entry confer title to land?",
+      "statement": "Mutation entries do not confer title [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "When does an agency end?",
+      "statement": "An agency is terminated by the principal revoking his authority [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "What is a mortgage?",
+      "statement": "A mortgage is the transfer of an interest in specific immoveable property [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "Who is competent to contract?",
+      "statement": "Every person is competent to contract who is of the age of majority [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    },
+    {
+      "expected": "true",
+      "question": "Which documents must be compulsorily registered?",
+      "statement": "Non-testamentary instruments which purport to create any right in immovable property shall be registered [L1].",
+      "accepted": true,
+      "validation": {
+        "ok": true,
+        "forbidden_claims": [],
+        "unsupported_sections": [],
+        "unknown_tags": [],
+        "missing_citation_tag": false,
+        "script_problems": [],
+        "ungrounded_sentences": [],
+        "unsupported_negatives": [],
+        "empty": false
+      }
+    }
+  ]
+}

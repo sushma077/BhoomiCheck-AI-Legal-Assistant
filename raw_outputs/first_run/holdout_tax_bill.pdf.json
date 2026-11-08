@@ -1,0 +1,119 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "input_document": "data/synthetic_documents/holdout_tax_bill.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nHouse Tax Paid Challan\nHarinagar Municipal Council. Financial Year 2024-2025.\nTaxpayer: Farida Khan. Assessment No. GF/2291.\nBuilt-up/site extent 2400 sq ft. Survey No. 91/3B.\nTotal paid Rs. 6,120 on 11/05/2024."
+    }
+  ],
+  "classification": {
+    "type": "property_tax_receipt",
+    "label": "Property Tax Receipt",
+    "confidence": 1.0,
+    "evidence": [
+      "house tax",
+      "assessment no"
+    ],
+    "scores": {
+      "property_tax_receipt": 40.0
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Farida Khan. Assessment No. GF",
+        "page": 1,
+        "evidence": "Challan Harinagar Municipal Council. Financial Year 2024-2025. Taxpayer: Farida Khan. Assessment No. GF/2291. Built-up/site extent 2400 sq ft. Survey No. 91/3B. Total paid",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "91/3B",
+        "page": 1,
+        "evidence": "Khan. Assessment No. GF/2291. Built-up/site extent 2400 sq ft. Survey No. 91/3B. Total paid Rs. 6,120 on 11/05/2024.",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 2400.0,
+        "unit": "sq. ft",
+        "sq_m": 222.97,
+        "text": "2400 sq ft"
+      },
+      "page": 1,
+      "evidence": "Taxpayer: Farida Khan. Assessment No. GF/2291. Built-up/site extent 2400 sq ft. Survey No. 91/3B. Total paid Rs. 6,120 on 11/05/2024.",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "tax_paid": null,
+    "assessment_year": {
+      "value": "2024-2025",
+      "page": 1,
+      "evidence": "record. House Tax Paid Challan Harinagar Municipal Council. Financial Year 2024-2025. Taxpayer: Farida Khan. Assessment No. GF/2291. Built-up/site",
+      "method": "rule"
+    },
+    "receipt_date": null,
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "property_tax_receipt",
+        "actual": "property_tax_receipt",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [
+          "Farida Khan. Assessment No. GF"
+        ],
+        "ok": false
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "91/3B"
+        ],
+        "actual": [
+          "91/3B"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 222.97,
+        "actual": 222.97,
+        "ok": true
+      }
+    ]
+  }
+}

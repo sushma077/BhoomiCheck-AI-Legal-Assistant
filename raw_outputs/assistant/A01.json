@@ -1,0 +1,26 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A01",
+    "name": "English: who is the seller",
+    "documents": [
+      "sale_deed_2023.pdf"
+    ],
+    "question": "Who is the seller in this deed?",
+    "language": "en",
+    "must_include": [
+      "Ramesh Chandra Verma"
+    ],
+    "must_cite_page": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "The seller named in sale_deed_2023.pdf is Shri Ramesh Chandra Verma [sale_deed_2023.pdf, p.1].\n\nThis is what the document states. It is not independently verified ownership.",
+  "kind": "document_fact",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

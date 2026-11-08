@@ -1,0 +1,153 @@
+{
+  "execution_timestamp": "2026-11-07T16:12:37+00:00",
+  "input_document": "data/synthetic_documents/fresh_lease.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nLEASE DEED\nThis Lease Deed is between Ms. Neha Kulkarni (Lessor) and M/s Orbit Traders (Lessee), on 2\nFebruary 2022.\nThe lease of the shop is for five years beginning 01/03/2022. Rent is Rs. 40,000 per month with\na deposit of Rs. 4,00,000."
+    }
+  ],
+  "classification": {
+    "type": "lease_deed",
+    "label": "Lease Deed",
+    "confidence": 1.0,
+    "evidence": [
+      "lease deed",
+      "lessor",
+      "lessee"
+    ],
+    "scores": {
+      "lease_deed": 59.31
+    }
+  },
+  "structured_fields": {
+    "landlord": [
+      {
+        "value": "Ms. Neha Kulkarni",
+        "page": 1,
+        "evidence": "are fictional. Not a legal record. LEASE DEED This Lease Deed is between Ms. Neha Kulkarni (Lessor) and M/s Orbit Traders (Lessee), on 2 February 2022. The lease",
+        "method": "rule"
+      }
+    ],
+    "tenant": [
+      {
+        "value": "M/s Orbit Traders",
+        "page": 1,
+        "evidence": "DEED This Lease Deed is between Ms. Neha Kulkarni (Lessor) and M/s Orbit Traders (Lessee), on 2 February 2022. The lease of the shop is for five years",
+        "method": "rule"
+      }
+    ],
+    "lease": {
+      "monthly_rent": {
+        "value": {
+          "amount": 40000,
+          "display": "Rs. 40,000"
+        },
+        "page": 1,
+        "evidence": "The lease of the shop is for five years beginning 01/03/2022. Rent is Rs. 40,000 per month with a deposit of Rs. 4,00,000.",
+        "method": "rule"
+      },
+      "security_deposit": {
+        "value": {
+          "amount": 400000,
+          "display": "Rs. 4,00,000"
+        },
+        "page": 1,
+        "evidence": "years beginning 01/03/2022. Rent is Rs. 40,000 per month with a deposit of Rs. 4,00,000.",
+        "method": "rule"
+      },
+      "term_months": {
+        "value": 60,
+        "page": 1,
+        "evidence": "Traders (Lessee), on 2 February 2022. The lease of the shop is for five years beginning 01/03/2022. Rent is Rs. 40,000 per month with a deposit",
+        "method": "rule"
+      },
+      "start_date": {
+        "value": "2022-03-01",
+        "page": 1,
+        "evidence": "on 2 February 2022. The lease of the shop is for five years beginning 01/03/2022. Rent is Rs. 40,000 per month with a deposit of Rs. 4,00,000.",
+        "method": "rule"
+      }
+    },
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "lease_deed",
+        "actual": "lease_deed",
+        "ok": true
+      },
+      {
+        "field": "landlord",
+        "expected": [
+          "Neha Kulkarni"
+        ],
+        "actual": [
+          "Ms. Neha Kulkarni"
+        ],
+        "ok": true
+      },
+      {
+        "field": "tenant",
+        "expected": [
+          "Orbit Traders"
+        ],
+        "actual": [
+          "M/s Orbit Traders"
+        ],
+        "ok": true
+      },
+      {
+        "field": "rent",
+        "expected": 40000,
+        "actual": 40000,
+        "ok": true
+      },
+      {
+        "field": "deposit",
+        "expected": 400000,
+        "actual": 400000,
+        "ok": true
+      },
+      {
+        "field": "term_months",
+        "expected": 60,
+        "actual": 60,
+        "ok": true
+      },
+      {
+        "field": "start_date",
+        "expected": "2022-03-01",
+        "actual": "2022-03-01",
+        "ok": true
+      }
+    ]
+  }
+}

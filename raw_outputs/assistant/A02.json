@@ -1,0 +1,26 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A02",
+    "name": "Hinglish: who is the seller",
+    "documents": [
+      "sale_deed_2023.pdf"
+    ],
+    "question": "Is deed mein seller kaun hai?",
+    "language": "hinglish",
+    "must_include": [
+      "Ramesh Chandra Verma"
+    ],
+    "must_cite_page": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "sale_deed_2023.pdf mein seller ka naam Shri Ramesh Chandra Verma hai [sale_deed_2023.pdf, p.1].\n\nYeh wahi hai jo document mein likha hai. Isse ownership ki independent verification nahi hoti.",
+  "kind": "document_fact",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

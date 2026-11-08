@@ -1,0 +1,28 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A04",
+    "name": "Hinglish: mortgage in document",
+    "documents": [
+      "sale_deed_2023.pdf",
+      "ec_mortgage.pdf"
+    ],
+    "question": "Kya is property par koi loan ya girvi hai?",
+    "language": "hinglish",
+    "must_include": [
+      "ec_mortgage.pdf"
+    ],
+    "must_cite_page": true,
+    "lawyer": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "BhoomiCheck ke checks mein yeh mila:\n- High Priority: The documents mention a mortgage, loan or charge, but no release or no-dues reference was found in the uploads. It may exist elsewhere, but it was not seen. [ec_mortgage.pdf, p.1]; [ec_mortgage.pdf, p.1]\n\nPayment ya sign karne se pehle kisi qualified property lawyer se verify zaroor karwayein.",
+  "kind": "findings",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

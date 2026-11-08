@@ -1,0 +1,52 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "model_identifier": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "question": "Can a tenant be evicted without notice under this law?",
+  "answer_shown_to_user": "Here is what the collected legal sources say. These are direct extracts, not legal advice:\n\n[L1] Indian Easements Act, 1882, Section 64, p.20: \"64. Licensee’s rights on eviction.—Where a license has been granted for a consideration, and the licensee, without any fault of his own, is evicted by the grantor before he has fully enjoyed, under the license, the right for which he contracted, he is entitled to recover compensation from the grantor. ______\"\n\n[L2] Transfer of Property Act, 1882, Section 106, p.38: \"1[106. Duration of certain leases in absence of written contract or local usage.—(1) In the absence of a contract or local law or usage to the contrary, a lease of immovable property for agricultural or manufacturing purposes shall be deemed to be a lease from year to year, terminable, on the part of either lessor or lessee, by six ...\"\n\n[L3] Transfer of Property Act, 1882, Section 113, p.41: \"113. Waiver of notice to quit.—A notice given under section 111, clause (h), is waived, with the express or implied consent of the person to whom it is given, by any act on the part of the person giving it showing an intention to treat the lease as subsisting. Illustrations (a) A, the lessor, gives B, the lessee, notice to quit the ...\"",
+  "original_model_response": "No, a tenant cannot be evicted without notice. For eviction to be valid, the tenant must receive six months' notice for a lease of agricultural or manufacturing purposes, or fifteen days' notice for any other purpose. [L1]",
+  "validation": {
+    "ok": false,
+    "forbidden_claims": [],
+    "unsupported_sections": [],
+    "unknown_tags": [],
+    "missing_citation_tag": false,
+    "script_problems": [],
+    "ungrounded_sentences": [],
+    "unsupported_negatives": [
+      "No, a tenant cannot be evicted without notice."
+    ],
+    "empty": false
+  },
+  "kind": "legal",
+  "seconds": 5.1,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "easements_1882::section_64::1",
+      "title": "Indian Easements Act, 1882",
+      "provision": "Section 64",
+      "page": 20,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Easements%20Act,%201882.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_106::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 106",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_113::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 113",
+      "page": 41,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_93::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 93",
+      "page": 36,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    }
+  ]
+}

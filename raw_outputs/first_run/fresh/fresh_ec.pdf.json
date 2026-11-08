@@ -1,0 +1,117 @@
+{
+  "execution_timestamp": "2026-11-07T16:12:37+00:00",
+  "input_document": "data/synthetic_documents/fresh_ec.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nStatement of Encumbrance\nEncumbrance Certificate for R.S. No. 402/1, Sunrise Colony, for the period 01-04-2010 to\n31-03-2026, issued by the Sub-Registrar, Sunrise.\nSl. 1: Conveyance, 2011. Sl. 2: Sale, 2021, Doc 1190/2021.\nSl. 3: Hypothecation in favour of Sahyadri Finance Ltd, 2022."
+    }
+  ],
+  "classification": {
+    "type": "encumbrance_certificate",
+    "label": "Encumbrance Certificate",
+    "confidence": 1.0,
+    "evidence": [
+      "encumbrance certificate"
+    ],
+    "scores": {
+      "encumbrance_certificate": 40.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [],
+    "buyers": [],
+    "owners": [],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "402/1",
+        "page": 1,
+        "evidence": "record. Statement of Encumbrance Encumbrance Certificate for R.S. No. 402/1, Sunrise Colony, for the period 01-04-2010 to 31-03-2026, issued",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "transaction_amount": null,
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ec": {
+      "search_period": {
+        "value": {
+          "from": "2010-04-01",
+          "to": "2026-03-31"
+        },
+        "page": 1,
+        "evidence": "Encumbrance Certificate for R.S. No. 402/1, Sunrise Colony, for the period 01-04-2010 to 31-03-2026, issued by the Sub-Registrar, Sunrise. Sl. 1: Conveyance, 2011.",
+        "method": "rule"
+      }
+    },
+    "ec_date": null,
+    "sub_registrar": {
+      "value": "Sunrise",
+      "page": 1,
+      "evidence": "Colony, for the period 01-04-2010 to 31-03-2026, issued by the Sub-Registrar, Sunrise. Sl. 1: Conveyance, 2011. Sl. 2: Sale, 2021, Doc 1190/2021.",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [
+      {
+        "value": "3: Hypothecation in favour of Sahyadri Finance Ltd, 2022.",
+        "page": 1,
+        "evidence": "3: Hypothecation in favour of Sahyadri Finance Ltd, 2022.",
+        "method": "rule"
+      }
+    ],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "encumbrance_certificate",
+        "actual": "encumbrance_certificate",
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "402/1"
+        ],
+        "actual": [
+          "402/1"
+        ],
+        "ok": true
+      },
+      {
+        "field": "ec_period",
+        "expected": [
+          "2010-04-01",
+          "2026-03-31"
+        ],
+        "actual": [
+          "2010-04-01",
+          "2026-03-31"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

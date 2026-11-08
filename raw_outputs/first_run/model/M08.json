@@ -1,0 +1,52 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "model_identifier": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "question": "Which Supreme Court case says mutation gives ownership?",
+  "answer_shown_to_user": "Here is what the collected legal sources say. These are direct extracts, not legal advice:\n\n[L1] Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India), Judgment, page 4, p.4: \"Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 4 of 16 in-interest of the plaintiffs. During pendency of the proceedings relating to mutation, Kartar Kaur died on 28.12.1983. The defendants in the suit, namely, the contesting respondents herein, in the mutation proceedings, set up a will dated 15.12.1976, alleged to have been executed ...\"\n\n[L2] P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India), Judgment, page 11, p.11: \"11 13. This was further affirmed in Balwant Singh & Ors vs. Daulat Singh (Dead) by LRs and Ors.3 wherein this Court held that mere mutation of records would not divest the owners of a land of their right, title and interest in the land. 14. In Jitendra Singh vs. State of Madhya Pradesh and Ors.4, this Court after considering a catena of ...\"\n\n[L3] Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India), Judgment, page 11, p.11: \"Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 11 of 16 parties. As far as mutation proceedings are concerned, it is well settled that mutation entries do not confer title. They serve a fiscal purpose, that is, to realize tax from the person whose name is recorded in the revenue records8. Besides above, the plaint averments indicated ...\"",
+  "original_model_response": "None of the Supreme Court cases mentioned above explicitly state that mutation gives ownership. [L1]",
+  "validation": {
+    "ok": false,
+    "forbidden_claims": [
+      "mutation gives ownership"
+    ],
+    "unsupported_sections": [],
+    "unknown_tags": [],
+    "missing_citation_tag": false,
+    "script_problems": [],
+    "ungrounded_sentences": [],
+    "unsupported_negatives": [],
+    "empty": false
+  },
+  "kind": "legal",
+  "seconds": 5.5,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_4::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 4",
+      "page": 4,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf"
+    },
+    {
+      "chunk_id": "sc_2023_insc_1009::judgment,_page_11::1",
+      "title": "P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2011/10304/10304_2011_5_1501_48291_Judgement_20-Nov-2023.pdf"
+    },
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf"
+    },
+    {
+      "chunk_id": "sc_2024_insc_1006::judgment,_page_20::1",
+      "title": "Mansoor Saheb v. Salima, 2024 INSC 1006 (Supreme Court of India)",
+      "provision": "Judgment, page 20",
+      "page": 20,
+      "url": "https://api.sci.gov.in/supremecourt/2006/12193/12193_2006_9_1506_58088_Judgement_19-Dec-2024.pdf"
+    }
+  ]
+}

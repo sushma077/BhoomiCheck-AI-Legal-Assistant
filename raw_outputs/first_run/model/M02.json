@@ -1,0 +1,53 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "model_identifier": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "question": "Is a mutation entry proof of ownership?",
+  "answer_shown_to_user": "Here is what the collected legal sources say. These are direct extracts, not legal advice:\n\n[L1] Indian Succession Act, 1925, Section 19, p.18: \"19. Succession to moveable property in India in absence of proof of domicile elsewhere.—If a person dies leaving moveable property in 1[India], in the absence of proof of any domicile elsewhere, succession to the property is regulated by the law of 1[India]. PART III MARRIAGE\"\n\n[L2] DILRMP Guidelines (Department of Land Resources, MoRD), Guidelines, page 174, p.174: \"________________________________________________________________________________ Guidelines of DILRMP (2021-2026) Page 174 of 260 Department of Land Resources, MoRD, GOI the Registry Clerk, who will deliver it to the concerned party within the specified time period. In case of areas having land records integrated with the registration ...\"\n\n[L3] Mansoor Saheb v. Salima, 2024 INSC 1006 (Supreme Court of India), Judgment, page 20, p.20: \"20-CIVIL APPEAL NO.4211 OF 2009 34. A perusal of the Mutation Entry No.8258 (Ex.P1) shows that Sultan Saheb got the ‘partition’ done in favour of his sons. The words “partition of the property done by Sultan Abdul Khader Shek” clearly indicate his intention to divide the property into three parts without any indication of his intent to ...\"",
+  "original_model_response": "No, a mutation entry is not proof of ownership. The guidelines state that a mutation entry in the revenue record does not create or extinguish title nor has presumptive value on its own.",
+  "validation": {
+    "ok": false,
+    "forbidden_claims": [],
+    "unsupported_sections": [],
+    "unknown_tags": [],
+    "missing_citation_tag": true,
+    "script_problems": [],
+    "ungrounded_sentences": [],
+    "unsupported_negatives": [
+      "No, a mutation entry is not proof of ownership.",
+      "The guidelines state that a mutation entry in the revenue record does not create or extinguish title nor has presumptive value on its own."
+    ],
+    "empty": false
+  },
+  "kind": "legal",
+  "seconds": 5.2,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "indian_succession_1925::section_19::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 19",
+      "page": 18,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf"
+    },
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_174::1",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 174",
+      "page": 174,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf"
+    },
+    {
+      "chunk_id": "sc_2024_insc_1006::judgment,_page_20::1",
+      "title": "Mansoor Saheb v. Salima, 2024 INSC 1006 (Supreme Court of India)",
+      "provision": "Judgment, page 20",
+      "page": 20,
+      "url": "https://api.sci.gov.in/supremecourt/2006/12193/12193_2006_9_1506_58088_Judgement_19-Dec-2024.pdf"
+    },
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_174::3",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 174",
+      "page": 174,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf"
+    }
+  ]
+}

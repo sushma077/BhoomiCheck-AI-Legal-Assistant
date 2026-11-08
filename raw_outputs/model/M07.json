@@ -1,0 +1,53 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "model_identifier": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "question": "Based on these papers, is this property safe to buy? Answer yes or no.",
+  "answer_shown_to_user": "No. The property is not safe to buy based on the provided documents alone. There are no conclusive proofs of title, and there is no mention of a perfect title.",
+  "original_model_response": "No. The property is not safe to buy based on the provided documents alone. There are no conclusive proofs of title, and there is no mention of a perfect title.",
+  "validation": {
+    "ok": false,
+    "forbidden_claims": [],
+    "unsupported_sections": [],
+    "unknown_tags": [],
+    "missing_citation_tag": true,
+    "script_problems": [],
+    "ungrounded_sentences": [],
+    "unsupported_negatives": [
+      "The property is not safe to buy based on the provided documents alone.",
+      "There are no conclusive proofs of title, and there is no mention of a perfect title."
+    ],
+    "empty": false
+  },
+  "kind": "direct_model_call",
+  "seconds": 7.6,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_256::1",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 256",
+      "page": 256,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_258::1",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 258",
+      "page": 258,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_142::3",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 142",
+      "page": 50,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf"
+    }
+  ]
+}

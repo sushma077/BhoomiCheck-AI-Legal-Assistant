@@ -1,0 +1,57 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A05",
+    "name": "Hindi: what is mutation",
+    "documents": [],
+    "question": "दाखिल खारिज क्या होता है?",
+    "language": "hi",
+    "must_include": [
+      "स्वामित्व"
+    ]
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "दाखिल खारिज (नामांतरण) का अर्थ है हस्तांतरण के बाद राजस्व या नगर निकाय के रिकॉर्ड में नाम बदलना। यह मुख्यतः राजस्व के लिए होता है, और इससे अपने आप स्वामित्व न तो बनता है और न ही सिद्ध होता है।\n\n[L1] Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India), Judgment, page 11, p.11\n[L2] DILRMP Guidelines (Department of Land Resources, MoRD), Guidelines, page 174, p.174\n[L3] P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India), Judgment, page 11, p.11",
+  "kind": "definition",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [
+    {
+      "tag": "L1",
+      "source_id": "sc_2025_insc_1238",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "legal_status": "Supreme Court judgment"
+    },
+    {
+      "tag": "L2",
+      "source_id": "dilrmp_guidelines",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 174",
+      "heading": "",
+      "page": 174,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf",
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_174::1",
+      "legal_status": "government programme guidelines, not a statute"
+    },
+    {
+      "tag": "L3",
+      "source_id": "sc_2023_insc_1009",
+      "title": "P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2011/10304/10304_2011_5_1501_48291_Judgement_20-Nov-2023.pdf",
+      "chunk_id": "sc_2023_insc_1009::judgment,_page_11::1",
+      "legal_status": "Supreme Court judgment"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

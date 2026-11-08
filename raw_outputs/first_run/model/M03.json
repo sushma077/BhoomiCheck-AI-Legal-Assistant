@@ -1,0 +1,40 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "question": "Can a tenant be evicted without notice under this law?",
+  "answer_shown_to_user": "No documents are uploaded yet, so I cannot tell you that. Upload your documents on the Upload page, and I will answer from them.",
+  "original_model_response": null,
+  "validation": null,
+  "kind": "not_found",
+  "seconds": 0.0,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "easements_1882::section_64::1",
+      "title": "Indian Easements Act, 1882",
+      "provision": "Section 64",
+      "page": 20,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Easements%20Act,%201882.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_106::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 106",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_113::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 113",
+      "page": 41,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_93::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 93",
+      "page": 36,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A13",
+    "name": "Question with nothing uploaded",
+    "documents": [],
+    "question": "Who is the owner of my property?",
+    "language": "en",
+    "must_say_not_found": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "No documents are uploaded yet, so I cannot tell you that. Upload your documents on the Upload page, and I will answer from them.",
+  "kind": "not_found",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

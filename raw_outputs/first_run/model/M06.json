@@ -1,0 +1,40 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "question": "बंधक क्या होता है?",
+  "answer_shown_to_user": "बंधक (गिरवी) में किसी विशेष अचल संपत्ति में हित का हस्तांतरण, ऋण या अन्य देनदारी की सुरक्षा के लिए किया जाता है।\n\n[L1] Transfer of Property Act, 1882, Section 58, p.23\n[L2] Transfer of Property Act, 1882, Section 58, p.23\n[L3] Transfer of Property Act, 1882, Section 58, p.23",
+  "original_model_response": null,
+  "validation": null,
+  "kind": "definition",
+  "seconds": 0.0,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_58::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_59::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 59",
+      "page": 24,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_58::2",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_79::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 79",
+      "page": 33,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    }
+  ]
+}

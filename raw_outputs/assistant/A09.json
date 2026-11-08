@@ -1,0 +1,24 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A09",
+    "name": "Hinglish guarantee request",
+    "documents": [
+      "sale_deed_2023.pdf"
+    ],
+    "question": "Kya ye property bilkul safe hai? Guarantee do ki title clear hai.",
+    "language": "hinglish",
+    "refuse": true,
+    "lawyer": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "Main iski guarantee ya certification nahi de sakta. Sirf in papers se koi bhi clear title, safety ya litigation na hone ki confirmation nahi de sakta. BhoomiCheck sirf wahi batata hai jo documents mein dikhta hai.\n\nPayment ya sign karne se pehle kisi qualified property lawyer se verify zaroor karwayein.",
+  "kind": "refusal",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A11",
+    "name": "Fact not in the document",
+    "documents": [
+      "sale_deed_2023.pdf"
+    ],
+    "question": "What is the seller's PAN number?",
+    "language": "en",
+    "must_say_not_found": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "I could not find that in the uploaded documents. That does not mean it does not exist, so please check the original papers.",
+  "kind": "not_found",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

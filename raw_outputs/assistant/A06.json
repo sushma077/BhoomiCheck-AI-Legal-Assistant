@@ -1,0 +1,27 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A06",
+    "name": "Compare: owner across documents",
+    "documents": [
+      "sale_deed_2023.pdf",
+      "mutation_owner_mismatch.pdf"
+    ],
+    "question": "Do the owner names match across my documents?",
+    "language": "en",
+    "must_include": [
+      "Rakesh Verma"
+    ],
+    "lawyer": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "BhoomiCheck's checks found the following:\n- High Priority: mutation_owner_mismatch.pdf names 'Rakesh Verma' as new owner in mutation, but sale_deed_2023.pdf points to 'Smt. Anita Sharma'. [sale_deed_2023.pdf, p.1]; [mutation_owner_mismatch.pdf, p.1]\n- Warning: sale_deed_2023.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents. This does not mean they do not exist. [sale_deed_2023.pdf, p.1]\n\nPlease have a qualified property lawyer verify this before you pay or sign.",
+  "kind": "findings",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

@@ -1,0 +1,297 @@
+{
+  "execution_timestamp": "2026-11-07T16:12:37+00:00",
+  "scenario": {
+    "id": "F02",
+    "fresh": true,
+    "name": "Fresh: hypothecation in the EC",
+    "documents": [
+      "fresh_indenture.pdf",
+      "fresh_ec.pdf"
+    ],
+    "expect": [
+      "MORTGAGE_NO_RELEASE"
+    ],
+    "forbid": [
+      "SURVEY_MISMATCH"
+    ],
+    "lawyer": true
+  },
+  "input_documents": [
+    "fresh_indenture.pdf",
+    "fresh_ec.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with fresh_indenture.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "match",
+      "summary": "Survey / Khasra number is consistent across 2 documents (402/1).",
+      "documents": [
+        {
+          "document": "fresh_indenture.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": [
+            "402/1"
+          ],
+          "evidence": "62,75,000 the Transferor hereby transfers all that piece of land, R.S. No. 402/1, Khata No. 56, admeasuring 0.08 hectare, in Sunrise Colony,"
+        },
+        {
+          "document": "fresh_ec.pdf",
+          "doc_type": "Encumbrance Certificate",
+          "page": 1,
+          "value": [
+            "402/1"
+          ],
+          "evidence": "record. Statement of Encumbrance Encumbrance Certificate for R.S. No. 402/1, Sunrise Colony, for the period 01-04-2010 to 31-03-2026, issued"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "Only one transfer deed was uploaded and it does not clearly say how Dr. Vikram Sethi acquired the property.",
+      "documents": [
+        {
+          "document": "fresh_indenture.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "Dr. Vikram Sethi",
+          "evidence": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record. INDENTURE OF SALE This Indenture dated the 21st day of January, 2021 is entered into by Dr. Vikram Sethi, son of Harpal Sethi, of 14 Ring Road, Harinagar, the party of the first part (hereinafter the Transferor), and Ms. Neha Kulkarni, daughter of Anil Kulkarni, of 6 Hill"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "MORTGAGE_NO_RELEASE",
+      "severity": "High Priority",
+      "title": "Possible mortgage with no release document uploaded",
+      "reason": "The documents mention a mortgage, loan or charge, but no release or no-dues reference was found in the uploads. It may exist elsewhere, but it was not seen.",
+      "recommended_verification": "Ask for the bank's no-dues letter and the registered release deed. Confirm with the bank in writing and check a fresh Encumbrance Certificate before paying.",
+      "sources": [
+        {
+          "document": "fresh_ec.pdf",
+          "page": 1,
+          "evidence": "3: Hypothecation in favour of Sahyadri Finance Ltd, 2022."
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 58",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 23,
+          "chunk_id": "tpa_1882::section_58::1",
+          "quote": "58. “Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed” defined.—(a) A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advan",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 59",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 24,
+          "chunk_id": "tpa_1882::section_59::1",
+          "quote": "59. Mortgage when to be by assurance.—Where the principal money secured is one hundred rupees or upwards, a mortgage 5[other than a mortgage by deposit of title-deeds] can be effected only by a registered instrument sign",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 56",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 22,
+          "chunk_id": "tpa_1882::section_56::1",
+          "quote": "2 [56. Marshalling by subsequent purchaser.—If the owner of two or more properties mortgages them to one person and then sells one or more of the properties to another person, the buyer is, in the absence of a contract t",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": true,
+      "category": "encumbrance"
+    },
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "Only one transfer deed was uploaded and it does not clearly say how Dr. Vikram Sethi acquired the property. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "fresh_indenture.pdf",
+          "page": 1,
+          "evidence": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record. INDENTURE OF SALE This Indenture dated the 21st day of January, 2021 is entered into by Dr. Vikram Sethi, son of Harpal Sethi, of 14 Ring "
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "REGISTRATION_DETAILS_MISSING",
+      "severity": "Warning",
+      "title": "Registration details not found in Sale Deed",
+      "reason": "BhoomiCheck did not find: registration date, Sub-Registrar office in fresh_indenture.pdf. If this copy is unregistered, the transfer may not be effective. If the details are simply unreadable or not on this copy, a certified copy will show them.",
+      "recommended_verification": "Get a certified copy from the Sub-Registrar's office, and confirm the document number, book, volume and date.",
+      "sources": [
+        {
+          "document": "fresh_indenture.pdf",
+          "page": 1,
+          "evidence": "No registration details matched on any page."
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "registration_1908",
+          "title": "Registration Act, 1908",
+          "provision": "Section 17",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+          "page": 7,
+          "chunk_id": "registration_1908::section_17::1",
+          "quote": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the d",
+          "verified": true
+        },
+        {
+          "source_id": "registration_1908",
+          "title": "Registration Act, 1908",
+          "provision": "Section 49",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+          "page": 15,
+          "chunk_id": "registration_1908::section_49::1",
+          "quote": "49. Effect of non-registration of documents required to be registered.—No document required by section 17 1[or by any provision of the Transfer of Property Act, 1882 (4 of 1882)], to be registered shall— (a) affect any i",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "registration"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: encumbrance_certificate, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: encumbrance_certificate, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 1,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "MORTGAGE_NO_RELEASE",
+      "CHAIN_INCOMPLETE",
+      "REGISTRATION_DETAILS_MISSING",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

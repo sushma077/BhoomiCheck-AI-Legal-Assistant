@@ -1,0 +1,26 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "test": {
+    "id": "A03",
+    "name": "Hindi: area",
+    "documents": [
+      "sale_deed_2023.pdf"
+    ],
+    "question": "इस संपत्ति का क्षेत्रफल कितना है?",
+    "language": "hi",
+    "must_include": [
+      "200"
+    ],
+    "must_cite_page": true
+  },
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "answer": "sale_deed_2023.pdf में क्षेत्रफल 200 sq. yards लिखा है [sale_deed_2023.pdf, p.1].",
+  "kind": "document_fact",
+  "original_model_response": null,
+  "validation": null,
+  "retrieved_legal_sources": [],
+  "score": {
+    "passed": true,
+    "problems": []
+  }
+}

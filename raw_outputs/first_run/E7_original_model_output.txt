@@ -1,0 +1,8 @@
+Question: Registry karana zaroori hai kya?
+Model: mlx-community/Qwen2.5-3B-Instruct-4bit
+Run: first real model run, 2026-11-07, before the validator was strengthened.
+Validator result at the time: {'ok': True, 'forbidden_claims': [], 'unsupported_sections': [], 'unknown_tags': []}
+Note: copied from the terminal output of that ad hoc run. Evaluation runs did not exist yet, so no JSON file was saved.
+
+Original model response:
+Registry करना जरूरी नहीं, का� urgently registration करना नहीं है। इन प्रकार के सामान्य दस्तावेज़ों को रजिस्टर करण नहीं करना चाहिए। यहाँ नहीं दिखता कि किसी रजिस्टर डायगनिका के रूप में रजिस्टर करण की आवश्यकता है।

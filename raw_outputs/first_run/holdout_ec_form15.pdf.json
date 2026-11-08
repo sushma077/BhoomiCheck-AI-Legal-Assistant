@@ -1,0 +1,114 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "input_document": "data/synthetic_documents/holdout_ec_form15.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nFORM No. 15: Certificate of Encumbrance on Property\nThe Sub-Registrar of Greenfield has searched the index from 1st April 2003 till 31st March 2025\nfor acts and encumbrances affecting Survey No. 91/3B.\n1. Gift deed, 14/02/2005, Executant: Parvati Iyer, Claimant: Gopal Krishna Iyer.\n2. Sale deed, 07/06/2022, Executant: Gopal Krishna Iyer, Claimant: Farida Khan.\n3. Deposit of title deeds in favour of Coastal Grameen Bank to secure a housing loan,\n11/11/2022."
+    }
+  ],
+  "classification": {
+    "type": "encumbrance_certificate",
+    "label": "Encumbrance Certificate",
+    "confidence": 0.79,
+    "evidence": [
+      "certificate of encumbrance",
+      "form no. 15"
+    ],
+    "scores": {
+      "sale_deed": 6.0,
+      "gift_deed": 8.0,
+      "encumbrance_certificate": 52.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [],
+    "buyers": [],
+    "owners": [],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "91/3B",
+        "page": 1,
+        "evidence": "2003 till 31st March 2025 for acts and encumbrances affecting Survey No. 91/3B. 1. Gift deed, 14/02/2005, Executant: Parvati Iyer, Claimant:",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "transaction_amount": null,
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ec": {
+      "search_period": {
+        "value": {
+          "from": "2003-04-01",
+          "to": "2025-03-31"
+        },
+        "page": 1,
+        "evidence": "Property The Sub-Registrar of Greenfield has searched the index from 1st April 2003 till 31st March 2025 for acts and encumbrances affecting Survey No. 91/3B. 1. Gift",
+        "method": "rule"
+      }
+    },
+    "ec_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [
+      {
+        "value": "Deposit of title deeds in favour of Coastal Grameen Bank to secure a housing loan,",
+        "page": 1,
+        "evidence": "Deposit of title deeds in favour of Coastal Grameen Bank to secure a housing loan,",
+        "method": "rule"
+      }
+    ],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "encumbrance_certificate",
+        "actual": "encumbrance_certificate",
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "91/3B"
+        ],
+        "actual": [
+          "91/3B"
+        ],
+        "ok": true
+      },
+      {
+        "field": "ec_period",
+        "expected": [
+          "2003-04-01",
+          "2025-03-31"
+        ],
+        "actual": [
+          "2003-04-01",
+          "2025-03-31"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

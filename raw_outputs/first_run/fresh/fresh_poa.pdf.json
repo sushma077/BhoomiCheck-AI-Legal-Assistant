@@ -1,0 +1,110 @@
+{
+  "execution_timestamp": "2026-11-07T16:12:37+00:00",
+  "input_document": "data/synthetic_documents/fresh_poa.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nPower of Attorney\nI, Rohit Malhotra, resident of Harinagar, nominate my sister Kavya Malhotra to manage my\nproperty at Survey No. 77, to pay its taxes and to sell the said property on my behalf.\nRegistered as Document No. 77/2024 on 04/04/2024."
+    }
+  ],
+  "classification": {
+    "type": "power_of_attorney",
+    "label": "Power of Attorney",
+    "confidence": 1.0,
+    "evidence": [
+      "power of attorney"
+    ],
+    "scores": {
+      "power_of_attorney": 32.0
+    }
+  },
+  "structured_fields": {
+    "poa_principal": [
+      {
+        "value": "Rohit Malhotra",
+        "page": 1,
+        "evidence": "places are fictional. Not a legal record. Power of Attorney I, Rohit Malhotra, resident of Harinagar, nominate my sister Kavya Malhotra to",
+        "method": "rule"
+      }
+    ],
+    "poa_attorney": [
+      {
+        "value": "Kavya Malhotra",
+        "page": 1,
+        "evidence": "Power of Attorney I, Rohit Malhotra, resident of Harinagar, nominate my sister Kavya Malhotra to manage my property at Survey No. 77, to pay its taxes and",
+        "method": "rule"
+      }
+    ],
+    "poa_kind": "not stated",
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "77",
+        "page": 1,
+        "evidence": "Harinagar, nominate my sister Kavya Malhotra to manage my property at Survey No. 77, to pay its taxes and to sell the said property on my behalf.",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {
+      "document_no": {
+        "value": "77/2024",
+        "page": 1,
+        "evidence": "to pay its taxes and to sell the said property on my behalf. Registered as Document No. 77/2024 on 04/04/2024.",
+        "method": "rule"
+      }
+    },
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "power_of_attorney",
+        "actual": "power_of_attorney",
+        "ok": true
+      },
+      {
+        "field": "poa_principal",
+        "expected": [
+          "Rohit Malhotra"
+        ],
+        "actual": [
+          "Rohit Malhotra"
+        ],
+        "ok": true
+      },
+      {
+        "field": "poa_attorney",
+        "expected": [
+          "Kavya Malhotra"
+        ],
+        "actual": [
+          "Kavya Malhotra"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

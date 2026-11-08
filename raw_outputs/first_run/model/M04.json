@@ -1,0 +1,50 @@
+{
+  "execution_timestamp": "2026-11-07T16:09:10+00:00",
+  "model_identifier": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+  "question": "What is the penalty for not registering a sale deed under Section 83 of the Registration Act?",
+  "answer_shown_to_user": "Here is what the collected legal sources say. These are direct extracts, not legal advice:\n\n[L1] Registration Act, 1908, Section 83, p.22: \"83. Registering officers may commence prosecutions.—(1) A prosecution for any offence under this Act coming to the knowledge of a registering officer in his official capacity may be commenced by or with the permission of the Inspector-General, 1*** the Registrar or the Sub-Registrar, in whose territories, district or sub-district, as the ...\"\n\n[L2] Transfer of Property Act, 1882, Section 54, p.20: \"54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered ...\"\n\n[L3] Registration Act, 1908, Section 17, p.7: \"17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the ...\"",
+  "original_model_response": "According to Section 83 of the Registration Act, 1908, if a registering officer knows or believes that a document should be registered and fails to do so with the intention to cause injury, they can be punished with imprisonment for a term which may extend to seven years, or with fine, or with both.",
+  "validation": {
+    "ok": false,
+    "forbidden_claims": [],
+    "unsupported_sections": [],
+    "unknown_tags": [],
+    "missing_citation_tag": true,
+    "script_problems": [],
+    "ungrounded_sentences": [],
+    "unsupported_negatives": [],
+    "empty": false
+  },
+  "kind": "legal",
+  "seconds": 6.3,
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_83::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 83",
+      "page": 22,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf"
+    },
+    {
+      "chunk_id": "tpa_1882::section_54::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 54",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf"
+    },
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf"
+    },
+    {
+      "chunk_id": "registration_1908::section_81::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 81",
+      "page": 22,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf"
+    }
+  ]
+}
