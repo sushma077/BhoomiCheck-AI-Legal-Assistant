@@ -1,0 +1,206 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T12",
+    "name": "'Free from mortgages' must not be read as a mortgage",
+    "documents": [
+      "sale_deed_2023.pdf",
+      "ec_clean.pdf"
+    ],
+    "expect": [],
+    "forbid": [
+      "MORTGAGE_NO_RELEASE",
+      "MORTGAGE_WITH_RELEASE"
+    ]
+  },
+  "input_documents": [
+    "sale_deed_2023.pdf",
+    "ec_clean.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with sale_deed_2023.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "match",
+      "summary": "Survey / Khasra number is consistent across 2 documents (245/2).",
+      "documents": [
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": [
+            "245/2"
+          ],
+          "evidence": "C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the"
+        },
+        {
+          "document": "ec_clean.pdf",
+          "doc_type": "Encumbrance Certificate",
+          "page": 1,
+          "value": [
+            "245/2"
+          ],
+          "evidence": "to 31/10/2026 Property: Plot No. 17, Lakshmi Nagar Extension, Khasra No. 245/2. Transactions found in the index Entry 1. Sale deed dated 05/08/2009,"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "sale_deed_2023.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents.",
+      "documents": [
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": null,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "detail": {
+        "reference": {
+          "deed_type": "sale deed",
+          "date": "2009-08-05",
+          "from": null,
+          "document_no": null,
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has",
+          "method": "rule"
+        }
+      }
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "sale_deed_2023.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "sale_deed_2023.pdf",
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: encumbrance_certificate, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: encumbrance_certificate, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

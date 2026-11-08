@@ -1,0 +1,272 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T24",
+    "name": "Inheritance and litigation references",
+    "documents": [
+      "sale_deed_inherited_litigation.pdf"
+    ],
+    "expect": [
+      "INHERITANCE_CONCERN",
+      "LITIGATION_REFERENCE"
+    ],
+    "forbid": [],
+    "lawyer": true
+  },
+  "input_documents": [
+    "sale_deed_inherited_litigation.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with sale_deed_inherited_litigation.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "not_comparable",
+      "summary": "Survey / Khasra number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "Only one transfer deed was uploaded and it does not clearly say how Shri Ramesh Chandra Verma acquired the property.",
+      "documents": [
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "Shri Ramesh Chandra Verma",
+          "evidence": "Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma, R/o 12 Civil Lines,"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "LITIGATION_REFERENCE",
+      "severity": "High Priority",
+      "title": "Possible court case or dispute is mentioned",
+      "reason": "The documents use words that may refer to a court case, stay, attachment or dispute. BhoomiCheck does not check court records, so it cannot tell the current status.",
+      "recommended_verification": "Have a lawyer search the relevant court records and read the order before you proceed. A transfer during a pending case may be bound by its outcome.",
+      "sources": [
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "page": 1,
+          "evidence": "Civil Suit No."
+        },
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "page": 1,
+          "evidence": "212 of 2021 concerning this property is pending before the Civil Judge,"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 52",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 19,
+          "chunk_id": "tpa_1882::section_52::1",
+          "quote": "52. Transfer of property pending suit relating thereto.—During the 1[pendency] in any Court having authority 2[3[within the limits of India excluding the State of Jammu and Kashmir] or established beyond such limits] by ",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": true,
+      "category": "litigation"
+    },
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "Only one transfer deed was uploaded and it does not clearly say how Shri Ramesh Chandra Verma acquired the property. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "page": 1,
+          "evidence": "Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "INHERITANCE_CONCERN",
+      "severity": "Warning",
+      "title": "Inheritance appears in the ownership history",
+      "reason": "The documents refer to inheritance, legal heirs, a will or a deceased owner. Other heirs may have rights that these papers do not show.",
+      "recommended_verification": "Ask for the death certificate, will or legal heir papers, and consent or relinquishment from all heirs. A lawyer should check this, as personal law may apply.",
+      "sources": [
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "page": 1,
+          "evidence": "The Vendor inherited the property as one of the legal heirs of his late father Shyam Lal Verma,"
+        },
+        {
+          "document": "sale_deed_inherited_litigation.pdf",
+          "page": 1,
+          "evidence": "who died intestate in 2015."
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "hindu_succession_1956",
+          "title": "Hindu Succession Act, 1956",
+          "provision": "Section 8",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+          "page": 8,
+          "chunk_id": "hindu_succession_1956::section_8::1",
+          "quote": "8. General rules of succession in the case of males.―The property of a male Hindu dying intestate shall devolve according to the provisions of this Chapter:― (a) firstly, upon the heirs, being the relatives specified in ",
+          "verified": true
+        },
+        {
+          "source_id": "indian_succession_1925",
+          "title": "Indian Succession Act, 1925",
+          "provision": "Section 63",
+          "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+          "page": 27,
+          "chunk_id": "indian_succession_1925::section_63::1",
+          "quote": "63. Execution of unprivileged wills.—Every testator, not being a soldier employed in an expedition or engaged in actual warfare, 1[or an airman so employed or engaged,] or a mariner at sea, shall execute his will accordi",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": true,
+      "category": "inheritance"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Encumbrance Certificate",
+      "reason": "Encumbrance Certificate was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Encumbrance Certificate and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 1,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "LITIGATION_REFERENCE",
+      "CHAIN_INCOMPLETE",
+      "INHERITANCE_CONCERN",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

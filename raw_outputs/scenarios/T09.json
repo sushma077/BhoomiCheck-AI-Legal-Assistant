@@ -1,0 +1,194 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T09",
+    "name": "Only one deed and no prior-title reference",
+    "documents": [
+      "sale_deed_no_prior.pdf"
+    ],
+    "expect": [
+      "CHAIN_INCOMPLETE"
+    ],
+    "forbid": [
+      "CHAIN_BREAK"
+    ]
+  },
+  "input_documents": [
+    "sale_deed_no_prior.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with sale_deed_no_prior.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "not_comparable",
+      "summary": "Survey / Khasra number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "Only one transfer deed was uploaded and it does not clearly say how Shri Ramesh Chandra Verma acquired the property.",
+      "documents": [
+        {
+          "document": "sale_deed_no_prior.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "Shri Ramesh Chandra Verma",
+          "evidence": "Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma, R/o 12 Civil Lines,"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "Only one transfer deed was uploaded and it does not clearly say how Shri Ramesh Chandra Verma acquired the property. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "sale_deed_no_prior.pdf",
+          "page": 1,
+          "evidence": "Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Encumbrance Certificate",
+      "reason": "Encumbrance Certificate was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Encumbrance Certificate and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

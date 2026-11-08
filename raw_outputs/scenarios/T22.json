@@ -1,0 +1,266 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T22",
+    "name": "Late registration",
+    "documents": [
+      "sale_deed_late_registration.pdf"
+    ],
+    "expect": [
+      "LATE_REGISTRATION"
+    ],
+    "forbid": [
+      "DATE_INCONSISTENT"
+    ]
+  },
+  "input_documents": [
+    "sale_deed_late_registration.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with sale_deed_late_registration.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "not_comparable",
+      "summary": "Survey / Khasra number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "sale_deed_late_registration.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents.",
+      "documents": [
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": null,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "detail": {
+        "reference": {
+          "deed_type": "sale deed",
+          "date": "2009-08-05",
+          "from": null,
+          "document_no": null,
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has",
+          "method": "rule"
+        }
+      }
+    },
+    {
+      "check": "dates",
+      "status": "mismatch",
+      "summary": "sale_deed_late_registration.pdf was registered 187 days after execution. The Registration Act normally allows four months for presentation, so check how this was accepted.",
+      "documents": [
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "2023-03-12",
+          "evidence": "Deed is executed on 12/03/2023 at Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma,"
+        },
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "2023-09-15",
+          "evidence": "No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 15/09/2023 Signed by the Vendor and the Vendee in the presence of witnesses."
+        }
+      ],
+      "detail": {
+        "days": 187,
+        "kind": "late_registration"
+      }
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "sale_deed_late_registration.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "LATE_REGISTRATION",
+      "severity": "Warning",
+      "title": "Long gap between signing and registration",
+      "reason": "sale_deed_late_registration.pdf was registered 187 days after execution. The Registration Act normally allows four months for presentation, so check how this was accepted.",
+      "recommended_verification": "Check the endorsement on the deed, and with the Sub-Registrar, to see how delay was dealt with.",
+      "sources": [
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "page": 1,
+          "evidence": "Deed is executed on 12/03/2023 at Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma,"
+        },
+        {
+          "document": "sale_deed_late_registration.pdf",
+          "page": 1,
+          "evidence": "No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 15/09/2023 Signed by the Vendor and the Vendee in the presence of witnesses."
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "registration_1908",
+          "title": "Registration Act, 1908",
+          "provision": "Section 23",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+          "page": 9,
+          "chunk_id": "registration_1908::section_23::1",
+          "quote": "23. Time for presenting documents.—Subject to the provisions contained in sections 24, 25 and 26, no document other than a will shall be accepted for registration unless presented for that purpose to the proper officer w",
+          "verified": true
+        },
+        {
+          "source_id": "registration_1908",
+          "title": "Registration Act, 1908",
+          "provision": "Section 25",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+          "page": 10,
+          "chunk_id": "registration_1908::section_25::1",
+          "quote": "25. Provision where delay in presentation is unavoidable.—(1) If, owing to urgent necessity or unavoidable accident, any document executed, or copy of a decree or order made, in 2[India] is not presented for registration",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "registration"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Encumbrance Certificate",
+      "reason": "Encumbrance Certificate was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Encumbrance Certificate and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "LATE_REGISTRATION",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

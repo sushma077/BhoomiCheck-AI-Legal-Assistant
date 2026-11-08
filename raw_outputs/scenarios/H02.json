@@ -1,0 +1,253 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "H02",
+    "holdout": true,
+    "name": "Holdout: deed, mutation and tax bill agree",
+    "documents": [
+      "holdout_conveyance_deed.pdf",
+      "holdout_namantaran.pdf",
+      "holdout_tax_bill.pdf"
+    ],
+    "expect": [],
+    "forbid": [
+      "OWNER_NAME_MISMATCH",
+      "SURVEY_MISMATCH",
+      "AREA_MISMATCH",
+      "CHAIN_BREAK"
+    ]
+  },
+  "input_documents": [
+    "holdout_conveyance_deed.pdf",
+    "holdout_namantaran.pdf",
+    "holdout_tax_bill.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with holdout_conveyance_deed.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "match",
+      "summary": "Survey / Khasra number is consistent across 3 documents (91/3B).",
+      "documents": [
+        {
+          "document": "holdout_conveyance_deed.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": [
+            "91/3B"
+          ],
+          "evidence": "WHEREAS the Seller is the absolute owner of the land bearing Survey No. 91/3B situated at Greenfield Layout, Harinagar, having acquired it"
+        },
+        {
+          "document": "holdout_namantaran.pdf",
+          "doc_type": "Mutation Record",
+          "page": 1,
+          "value": [
+            "91/3B"
+          ],
+          "evidence": "changed. Transferor | Gopal Krishna Iyer Transferee | Farida Khan Survey No: 91/3B Extent: 2400 sq ft Order passed on 30-08-2022."
+        },
+        {
+          "document": "holdout_tax_bill.pdf",
+          "doc_type": "Property Tax Receipt",
+          "page": 1,
+          "value": [
+            "91/3B"
+          ],
+          "evidence": "Khan. Assessment No. GF/2291. Built-up/site extent 2400 sq ft. Survey No. 91/3B. Total paid Rs. 6,120 on 11/05/2024."
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "match",
+      "summary": "Area is consistent across 3 documents, within 1%.",
+      "documents": [
+        {
+          "document": "holdout_conveyance_deed.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "2400 sq. ft",
+          "evidence": "Purchaser, the Seller hereby conveys the said land measuring 2400 sq. ft. to the Purchaser. The land is bounded on the North by a 40 ft"
+        },
+        {
+          "document": "holdout_namantaran.pdf",
+          "doc_type": "Mutation Record",
+          "page": 1,
+          "value": "2400 sq ft",
+          "evidence": "Krishna Iyer Transferee | Farida Khan Survey No: 91/3B Extent: 2400 sq ft Order passed on 30-08-2022."
+        },
+        {
+          "document": "holdout_tax_bill.pdf",
+          "doc_type": "Property Tax Receipt",
+          "page": 1,
+          "value": "2400 sq ft",
+          "evidence": "Taxpayer: Farida Khan. Assessment No. GF/2291. Built-up/site extent 2400 sq ft. Survey No. 91/3B. Total paid Rs. 6,120 on 11/05/2024."
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "holdout_conveyance_deed.pdf refers to an earlier gift deed dated 2005-02-14 that is not among the uploaded documents.",
+      "documents": [
+        {
+          "document": "holdout_conveyance_deed.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": null,
+          "evidence": "Harinagar, having acquired it under a registered gift deed dated 14 February 2005. In consideration of"
+        }
+      ],
+      "detail": {
+        "reference": {
+          "deed_type": "gift deed",
+          "date": "2005-02-14",
+          "from": null,
+          "document_no": null,
+          "page": 1,
+          "evidence": "Harinagar, having acquired it under a registered gift deed dated 14 February 2005. In consideration of",
+          "method": "rule"
+        }
+      }
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "holdout_conveyance_deed.pdf refers to an earlier gift deed dated 2005-02-14 that is not among the uploaded documents. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "holdout_conveyance_deed.pdf",
+          "page": 1,
+          "evidence": "Harinagar, having acquired it under a registered gift deed dated 14 February 2005. In consideration of"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "STAMP_NOT_FOUND",
+      "severity": "Information",
+      "title": "Stamp duty details not found",
+      "reason": "BhoomiCheck did not find a stamp duty amount in holdout_conveyance_deed.pdf. It may be on a stamp paper or e-stamp page not uploaded.",
+      "recommended_verification": "Check the stamp paper or e-stamp certificate, and whether the duty paid is correct for your state.",
+      "sources": [
+        {
+          "document": "holdout_conveyance_deed.pdf",
+          "page": 1,
+          "evidence": ""
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "stamp_1899",
+          "title": "Indian Stamp Act, 1899",
+          "provision": "Section 35",
+          "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+          "page": 27,
+          "chunk_id": "stamp_1899::section_35::1",
+          "quote": "35. Instruments not duly stamped inadmissible in evidence, etc.-No instrument chargeable with duty shall be admitted in evidence for any purpose by any person having by law or consent of parties authority to receive evid",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "registration"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Encumbrance Certificate",
+      "reason": "Encumbrance Certificate was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Encumbrance Certificate and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: mutation_record, property_tax_receipt, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "STAMP_NOT_FOUND",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}

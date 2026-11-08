@@ -1,0 +1,181 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T14",
+    "name": "Long rent agreement without registration",
+    "documents": [
+      "rent_3yr_unregistered.pdf"
+    ],
+    "expect": [
+      "LEASE_NEEDS_REGISTRATION"
+    ],
+    "forbid": [
+      "LEASE_SHORT_TERM"
+    ]
+  },
+  "input_documents": [
+    "rent_3yr_unregistered.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "not_comparable",
+      "summary": "No transfer deed was uploaded, so owner names were only compared between other records.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "not_comparable",
+      "summary": "Survey / Khasra number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "not_comparable",
+      "summary": "Area: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "No registered transfer deed (sale, gift or partition) was found in the uploaded documents.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "not_comparable",
+      "summary": "Transaction amount: fewer than two documents about the same transaction state one.",
+      "documents": [],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "No registered transfer deed (sale, gift or partition) was found in the uploaded documents. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "This comes from looking across all uploaded documents."
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "LEASE_NEEDS_REGISTRATION",
+      "severity": "Warning",
+      "title": "Long lease without registration details",
+      "reason": "rent_3yr_unregistered.pdf states a term of 36 months, and no registration details were found. Leases of more than one year, or year-to-year leases, generally must be registered.",
+      "recommended_verification": "Register the agreement at the Sub-Registrar's office, and check local rent law. An unregistered lease may be of limited use as evidence.",
+      "sources": [
+        {
+          "document": "rent_3yr_unregistered.pdf",
+          "page": 1,
+          "evidence": "No. 17, Block C, Lakshmi Nagar Extension, Harinagar. 1. The period of this agreement is 3 years, commencing from 01/04/2024. 2. The tenant shall pay a monthly"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 105",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 37,
+          "chunk_id": "tpa_1882::section_105::1",
+          "quote": "105. Lease defined.—A lease of immoveable property is a transfer of a right to enjoy such property, made for a certain time, express or implied, or in perpetuity, in consideration of a price paid or promised, or of money",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 107",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 38,
+          "chunk_id": "tpa_1882::section_107::1",
+          "quote": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable proper",
+          "verified": true
+        },
+        {
+          "source_id": "registration_1908",
+          "title": "Registration Act, 1908",
+          "provision": "Section 17",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+          "page": 7,
+          "chunk_id": "registration_1908::section_17::1",
+          "quote": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the d",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "lease"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "LEASE_NEEDS_REGISTRATION"
+    ]
+  }
+}

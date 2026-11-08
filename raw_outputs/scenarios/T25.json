@@ -1,0 +1,327 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "scenario": {
+    "id": "T25",
+    "name": "Amount differs between agreement and deed",
+    "documents": [
+      "agreement_to_sell.pdf",
+      "sale_deed_2023.pdf"
+    ],
+    "expect": [
+      "AMOUNT_MISMATCH",
+      "AGREEMENT_NOT_TITLE"
+    ],
+    "forbid": []
+  },
+  "input_documents": [
+    "agreement_to_sell.pdf",
+    "sale_deed_2023.pdf"
+  ],
+  "model_identifier": "none (deterministic rules and retrieval)",
+  "status": "completed",
+  "error": null,
+  "detected_mismatches": [
+    {
+      "check": "owner_name",
+      "status": "match",
+      "summary": "Owner names in other records agree with sale_deed_2023.pdf.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "survey_numbers",
+      "status": "match",
+      "summary": "Survey / Khasra number is consistent across 2 documents (245/2).",
+      "documents": [
+        {
+          "document": "agreement_to_sell.pdf",
+          "doc_type": "Agreement to Sell",
+          "page": 1,
+          "value": [
+            "245/2"
+          ],
+          "evidence": "Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-."
+        },
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": [
+            "245/2"
+          ],
+          "evidence": "C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "khata_numbers",
+      "status": "not_comparable",
+      "summary": "Khata number: fewer than two uploaded documents state one, so it could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "area",
+      "status": "match",
+      "summary": "Area is consistent across 2 documents, within 1%.",
+      "documents": [
+        {
+          "document": "agreement_to_sell.pdf",
+          "doc_type": "Agreement to Sell",
+          "page": 1,
+          "value": "200 sq. yards",
+          "evidence": "Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of"
+        },
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "200 sq. yards",
+          "evidence": "District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the property: North: 30 feet wide road South:"
+        }
+      ],
+      "detail": {}
+    },
+    {
+      "check": "boundaries",
+      "status": "not_comparable",
+      "summary": "Boundaries: fewer than two uploaded documents state them, so they could not be compared.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "ownership_chain",
+      "status": "missing",
+      "summary": "sale_deed_2023.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents.",
+      "documents": [
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": null,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "detail": {
+        "reference": {
+          "deed_type": "sale deed",
+          "date": "2009-08-05",
+          "from": null,
+          "document_no": null,
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has",
+          "method": "rule"
+        }
+      }
+    },
+    {
+      "check": "dates",
+      "status": "match",
+      "summary": "No date inconsistency was detected in the dates BhoomiCheck could read.",
+      "documents": [],
+      "detail": {}
+    },
+    {
+      "check": "amounts",
+      "status": "mismatch",
+      "summary": "Transaction amount differs: Rs. 42,00,000 in agreement_to_sell.pdf, but Rs. 45,00,000 in sale_deed_2023.pdf.",
+      "documents": [
+        {
+          "document": "agreement_to_sell.pdf",
+          "doc_type": "Agreement to Sell",
+          "page": 1,
+          "value": "Rs. 42,00,000",
+          "evidence": "Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The balance"
+        },
+        {
+          "document": "sale_deed_2023.pdf",
+          "doc_type": "Sale Deed",
+          "page": 1,
+          "value": "Rs. 45,00,000",
+          "evidence": "has agreed to sell the property described below for a total sale consideration of Rs. 45,00,000/- (Rupees in full), received by bank transfer. Stamp duty of"
+        }
+      ],
+      "detail": {}
+    }
+  ],
+  "risk_findings": [
+    {
+      "code": "CHAIN_INCOMPLETE",
+      "severity": "Warning",
+      "title": "Earlier ownership documents were not uploaded",
+      "reason": "sale_deed_2023.pdf refers to an earlier sale deed dated 2009-08-05 that is not among the uploaded documents. This does not mean they do not exist.",
+      "recommended_verification": "Ask the seller for earlier title deeds and get certified copies from the Sub-Registrar. A title search commonly goes back 30 years, and your lawyer can advise on the right period.",
+      "sources": [
+        {
+          "document": "sale_deed_2023.pdf",
+          "page": 1,
+          "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 54",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_54::1",
+          "quote": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one",
+          "verified": true
+        },
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 55",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_55::1",
+          "quote": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "ownership_chain"
+    },
+    {
+      "code": "AMOUNT_MISMATCH",
+      "severity": "Warning",
+      "title": "Transaction amount differs between documents",
+      "reason": "Transaction amount differs: Rs. 42,00,000 in agreement_to_sell.pdf, but Rs. 45,00,000 in sale_deed_2023.pdf.",
+      "recommended_verification": "Ask why the amounts differ and confirm against payment records. Understated values can raise stamp duty questions.",
+      "sources": [
+        {
+          "document": "agreement_to_sell.pdf",
+          "page": 1,
+          "evidence": "Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The balance"
+        },
+        {
+          "document": "sale_deed_2023.pdf",
+          "page": 1,
+          "evidence": "has agreed to sell the property described below for a total sale consideration of Rs. 45,00,000/- (Rupees in full), received by bank transfer. Stamp duty of"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "stamp_1899",
+          "title": "Indian Stamp Act, 1899",
+          "provision": "Section 35",
+          "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+          "page": 27,
+          "chunk_id": "stamp_1899::section_35::1",
+          "quote": "35. Instruments not duly stamped inadmissible in evidence, etc.-No instrument chargeable with duty shall be admitted in evidence for any purpose by any person having by law or consent of parties authority to receive evid",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "transaction"
+    },
+    {
+      "code": "AGREEMENT_NOT_TITLE",
+      "severity": "Information",
+      "title": "An agreement to sell is not a transfer of ownership",
+      "reason": "agreement_to_sell.pdf is an agreement to sell. Ownership normally passes only through a registered sale deed.",
+      "recommended_verification": "Make sure a registered sale deed follows, and take legal advice on part-payment and possession.",
+      "sources": [
+        {
+          "document": "agreement_to_sell.pdf",
+          "page": 1,
+          "evidence": "Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The balance"
+        }
+      ],
+      "citations": [
+        {
+          "source_id": "tpa_1882",
+          "title": "Transfer of Property Act, 1882",
+          "provision": "Section 53A",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+          "page": 20,
+          "chunk_id": "tpa_1882::section_53a::1",
+          "quote": "1 [53A. Part performance.—Where any person contracts to transfer for consideration any immoveable property by writing signed by him or on his behalf from which the terms necessary to constitute the transfer can be ascert",
+          "verified": true
+        },
+        {
+          "source_id": "specific_relief_1963",
+          "title": "Specific Relief Act, 1963",
+          "provision": "Section 10",
+          "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+          "page": 5,
+          "chunk_id": "specific_relief_1963::section_10::1",
+          "quote": "1[10. Specific performance in respect of contracts.—The specific performance of a contract shall be enforced by the court subject to the provisions contained in sub-section (2) of section 11, section 14 and section 16.]",
+          "verified": true
+        }
+      ],
+      "lawyer_referral": false,
+      "category": "registration"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Encumbrance Certificate",
+      "reason": "Encumbrance Certificate was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Encumbrance Certificate and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: agreement_to_sell, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Mutation record",
+      "reason": "Mutation record was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Mutation record and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: agreement_to_sell, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    },
+    {
+      "code": "MISSING_DOCUMENT",
+      "severity": "Information",
+      "title": "Not uploaded: Latest property tax receipt",
+      "reason": "Latest property tax receipt was not among the uploaded documents. This does not mean it does not exist.",
+      "recommended_verification": "Ask for the Latest property tax receipt and review it before relying on the other papers.",
+      "sources": [
+        {
+          "document": "(uploaded set)",
+          "page": null,
+          "evidence": "Uploaded types: agreement_to_sell, sale_deed"
+        }
+      ],
+      "citations": [],
+      "lawyer_referral": false,
+      "category": "missing_documents"
+    }
+  ],
+  "score": {
+    "passed": true,
+    "missing_expected": [],
+    "forbidden_present": [],
+    "high_count": 0,
+    "too_many_high": false,
+    "lawyer_missing": false,
+    "findings_without_evidence": [],
+    "codes": [
+      "CHAIN_INCOMPLETE",
+      "AMOUNT_MISMATCH",
+      "AGREEMENT_NOT_TITLE",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT",
+      "MISSING_DOCUMENT"
+    ]
+  }
+}
