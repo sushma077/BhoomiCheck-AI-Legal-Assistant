@@ -1,0 +1,52 @@
+BHOOMICHECK: THREE-MINUTE WALKTHROUGH SCRIPT
+
+Before recording:
+  1. Run:  .venv/bin/streamlit run app.py
+  2. Have these files ready from data/synthetic_documents/:
+     sale_deed_2023.pdf, mutation_owner_mismatch.pdf, ec_mortgage.pdf, hindi_khatauni_scan.pdf
+  3. Run the upload once before recording, so the wait is no surprise. The Hindi scan takes a few seconds.
+  4. Have evaluation/evaluation_summary.json ready to open.
+
+Spoken text is about 420 words, roughly 3 minutes at a calm pace. All the people and properties shown are fictional.
+
+
+[0:00 - 0:25] THE PROBLEM
+SHOW: Home page.
+
+"I chose Problem 2, Build an AI Lawyer. Buying property is the biggest purchase most Indian families make, and many buyers can't read the papers they're asked to rely on. But a chatbot that sounds confident is dangerous in law, because one invented section can cost a family its savings. So BhoomiCheck doesn't replace a lawyer. It helps a citizen understand the documents, spot conflicts, and know what to verify."
+
+
+[0:25 - 0:55] UPLOAD
+SHOW: Upload Documents. Add the four files. Click Analyse documents.
+
+"I'm uploading four sample documents with fictional people: a sale deed, a mutation record, an encumbrance certificate, and a scanned Khatauni in Hindi. BhoomiCheck reads the text, runs OCR on scans, and works out each document's type. Hindi PDFs often extract as junk, so it detects that and uses OCR instead."
+
+
+[0:55 - 1:30] COMPARE AND RISKS
+SHOW: Document Analysis briefly, then Compare Documents, then Risk Analysis.
+
+"Every detail keeps its page number. Here, the comparison found a conflict: the sale deed transfers to Anita Sharma, but the mutation names Rakesh Verma. Python rules make that call, not an AI model. In Risk Analysis, each finding gives the reason, the document and page, and what to verify. The encumbrance certificate shows a mortgage with no release uploaded. Notice the careful wording: it may exist, but it wasn't seen here."
+
+
+[1:30 - 2:05] ASSISTANT AND SAFETY
+SHOW: Legal Assistant. Type "Is deed mein seller kaun hai?" Then "Please certify this property has guaranteed clear title."
+
+"The assistant works in English, Hindi and Hinglish, and cites the page. Now I'll ask it to certify clear title. It refuses, because no one can promise that from these papers. Legal answers come from a searchable index of official sources, including the Transfer of Property Act, the Registration Act, RERA, and Supreme Court judgments saying mutation doesn't confer title. That's retrieval. No model was trained on this law."
+
+
+[2:05 - 2:20] REPORT
+SHOW: Property Report. Point to the download buttons.
+
+"The citizen can download a PDF or Word report to take to a lawyer."
+
+
+[2:20 - 2:50] HONEST RESULTS
+SHOW: evaluation_summary.json, or the Actual test results section of the solution PDF.
+
+"Now the honest part. On my own test documents, extraction scored 99.6 percent. But the same AI wrote the rules and those documents. So I tested wording it hadn't seen: 64 percent the first time. After general fixes, a second new set scored 81.5 percent. That's the number I trust, and real documents may be lower. My favourite failure: a small local model said registration wasn't necessary, and the AI-written safety check approved it. We only caught it by reading the raw output. Now source quotes always appear, and that exact answer is a permanent test."
+
+
+[2:50 - 3:00] CLOSE
+SHOW: About and Disclaimer.
+
+"BhoomiCheck was built using Claude Code from my brief, and the development log records every error. It gives preliminary help, and a qualified lawyer should make the final call. Thank you."
