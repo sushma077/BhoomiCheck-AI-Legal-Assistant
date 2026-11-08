@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "The seller died after giving a GPA. Is the power of attorney still good?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "contract_1872",
+      "201"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "contract_1872",
+        "201"
+      ],
+      [
+        "poa_1882",
+        "3"
+      ],
+      [
+        "poa_1882",
+        "2"
+      ],
+      [
+        "contract_1872",
+        "86"
+      ],
+      [
+        "rera_2016",
+        "91"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "contract_1872::section_201::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 201",
+      "heading": "Termination of agency",
+      "page": 45,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.05,
+      "text": "201. Termination of agency.—An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors."
+    },
+    {
+      "chunk_id": "poa_1882::section_3::1",
+      "title": "Powers of Attorney Act, 1882",
+      "provision": "Section 3",
+      "heading": "Payment by attorney under power, without notice of death, etc., good",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/e801bb57-6d01-41fc-a253-fed1f9c47f03/content",
+      "score": 0.03333,
+      "text": "3. Payment by attorney under power, without notice of death, etc., good.—Any person making or doing any payment or act in good faith, in pursuance of a power-of-attorney, shall not be liable in respect of the payment or act by reason that, before the payment or act, the donor of the power had died or become 5*** of unsound mind, 6*** or insolvent, or had revoked the power, if the fact of death, 7*** unsoundness of mind, 8*** insolvency or revocation was not, at the time of the payment or act, known to the person making or doing the same. But this section shall not affect any right against the payee of any person interested in any money so paid; and that person shall have the like remedy against the payee as he would have had against the payer, if the payment had not been made by him. This section applies only to payments and acts made or done after this Act comes into force."
+    },
+    {
+      "chunk_id": "poa_1882::section_2::1",
+      "title": "Powers of Attorney Act, 1882",
+      "provision": "Section 2",
+      "heading": "Execution under power-of-attorney",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/e801bb57-6d01-41fc-a253-fed1f9c47f03/content",
+      "score": 0.02889,
+      "text": "2. Execution under power-of-attorney.—The donee of a power-of-attorney may, if he thinks fit, execute or do any 4*** instrument or thing in and with his own name and signature, and his own seal, where sealing is required, by the authority of the donor of the power; and every 4*** instrument and thing so executed and done, shall be as effectual in law as if it had been executed or done by the donee of the power in the name, and with the signature and seal, of the donor thereof. This section applies to powers-of-attorney created by instruments executed either before or after this Act comes into force."
+    },
+    {
+      "chunk_id": "contract_1872::section_86::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 86",
+      "heading": "Buyer to bear loss after good have become his property.] Rep. by s. 65,ibid",
+      "page": 32,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02246,
+      "text": "86. [Buyer to bear loss after good have become his property.] Rep. by s. 65,ibid."
+    },
+    {
+      "chunk_id": "rera_2016::section_91::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 91",
+      "heading": "(1) If any difficulty arises in giving effect to the provisions of this Act, the  Central",
+      "page": 36,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.01587,
+      "text": "91. (1) If any difficulty arises in giving effect to the provisions of this Act, the Central Government may, by order, published in the Official Gazette, make such provisions not inconsistent with the provisions of this Act as may appear to be necessary for removing the difficulty: Provided that no order shall be made under this section after the expiry of two years from the date of the commencement of this Act. (2) Every order made under this section shall be laid, as soon as may be after it is made, before each House of Parliament. Laying of rules. Members, etc., to be public servants. Application of other laws not barred. Act to have overriding effect. Protection of action taken in good faith. Power to remove difficulties. 45 of 1860. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY"
+    }
+  ]
+}

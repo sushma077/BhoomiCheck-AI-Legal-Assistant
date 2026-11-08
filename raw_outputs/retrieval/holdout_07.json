@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Do daughters get an equal share in joint family property?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "hindu_succession_1956",
+      "6"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "hindu_succession_1956",
+        "6"
+      ],
+      [
+        "hindu_succession_1956",
+        "29"
+      ],
+      [
+        "partition_1893",
+        "4"
+      ],
+      [
+        "hindu_succession_1956",
+        "10"
+      ],
+      [
+        "hindu_succession_1956",
+        "6"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "hindu_succession_1956::section_6::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 6",
+      "heading": "Devolution of interest in coparcenary property",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.06053,
+      "text": "2[6. Devolution of interest in coparcenary property.―(1) On and from the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005), in a Joint Hindu family governed by the Mitakshara law, the daughter of a coparcener shall,― (a) by birth become a coparcener in her own right the same manner as the son; (b) have the same rights in the coparcenery property as she would have had if she had been a son; (c) be subject to the same liabilities in respect of the said coparcenery property as that of a son, and any reference to a Hindu Mitakshara coparcener shall be deemed to include a reference to a daughter of a coparcener: Provided that nothing contained in this sub-section shall affect or invalidate any disposition or alienation including any partition or testamentary disposition of property which had taken place before the 20th day of December, 2004. (2) Any property to which a female Hindu becomes entitled by virtue of sub-section (1) shall be held by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything contained in this Act or any other law for the time being in force, as property capable of being disposed of by her by testamentary disposition."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_29::2",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 29",
+      "heading": "Failure of heirs",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03137,
+      "text": "partition in such a Joint Hindu Family the coparcenary property shall be so divided as to allot to a daughter the same share as is allotable to a son: Provided that the share which a pre-deceased son or a pre-deceased daughter would have got at the partition if he or she had been alive at the time of the partition shall be allotted to the surviving child of such pre-deceased son or of such pre-deceased daughter: Provided further that the share allotable to the pre-deceased child of a predeceased son or of a pre-deceased daughter, if such child had been alive at the time of the partition, shall be allotted to the child of such pre-deceased child of the predeceased son or of the pre-deceased daughter, as the case may be; (iii) any property to which a female Hindu becomes entitled by virtue of the provisions of clause (i) shall be held by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything contained in this Act or any other law for the time being in force, as property capable of being disposed of by her by will or other testamentary disposition; (iv) nothing in this Chapter shall apply to a daughter married before the date of the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989;"
+    },
+    {
+      "chunk_id": "partition_1893::section_4::1",
+      "title": "Partition Act, 1893",
+      "provision": "Section 4",
+      "heading": "Partition suit by transferee of share in dwelling-house",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/f98adb76-5420-4868-a1f9-e200011e3be2/content",
+      "score": 0.03068,
+      "text": "4. Partition suit by transferee of share in dwelling-house.—(1) Where a share of a dwelling-house belonging to an undivided family has been transferred to a person who is not a member of such family and such transferee sues for partition, the court shall, if any member of the family being a shareholder shall undertake to buy the share of such transferee, make a valuation of such share in such manner as it thinks fit and direct the sale of such share to such shareholder, and may give all necessary and proper directions in that behalf. (2) If in any case described in sub-section (1) two or more members of the family being such shareholders severally undertake to buy such share, the court shall follow the procedure prescribed by sub-section (2) of the last foregoing section. (1) Dadra and Nagar Haveli (w.e.f. 1-7-1965) by Reg. 6 of 1963, s. 2 and the First Schedule. (2) Pondicherry by Act 26 of 1968, s. 3 and the Schedule. (3) Sikkim (w.e.f. 1-9-1984) vide Notification No. S. O. 651 (E), dated 24-8-1984, Gazette of India, Extraordinary, Part II, s. 3(ii). (w.e.f. 31-10-2019).. 3. The word “and” rep. by Act 10 of 1914, s. 3 and the Second Schedule. IndiaCode"
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_10::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 10",
+      "heading": "Distribution of property among heirs in class I of the Schedule",
+      "page": 8,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03018,
+      "text": "10. Distribution of property among heirs in class I of the Schedule.―The property of an intestate shall be divided among the heirs in class I of the Schedule in accordance with the following rules:― Rule 1.―The intestate’s widow, or if there are more widows than one, all the widows together, shall take one share. Rule 2.―The surviving sons and daughters and the mother of the intestate shall each take one share. Rule 3.―The heirs in the branch of each pre-deceased son or each pre-deceased daughter of the intestate shall take between them one share. Rule 4.―The distribution of the share referred to in Rule 3— (i) among the heirs in the branch of the pre-deceased son shall be so made that his widow (or widows together) and the surviving sons and daughters get equal portions; and the branch of his pre-deceased sons gets the same portion; (ii) among the heirs in the branch of the pre-deceased daughter shall be so made that the surviving sons and daughters get equal portions."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_6::5",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 6",
+      "heading": "Devolution of interest in coparcenary property",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.02912,
+      "text": "al Act 30 of 1956.―In the Hindu Succession Act, 1956 (Central Act 30 of 1956) after section 6, the following sections shall be inserted, namely:― “6A. Equal rights to daughter in co-parcenary property.―Notwithstanding anything contained in section 6 of this Act,― (a) in a joint Hindu family governed by Mitakshara law, the daughter of a co-parcener shall by birth become a co-parcener in her own right in the same manner as the son and have the same rights in the co-parcenary property as she would have had if she had been a son inclusive of the right to claim by survivorship and shall be subject to the same liabilities and disabilities in respect thereto as the son; (b) at a partition in such Joint Hindu Family the co-parcenary property shall be so divided as to allot to a daughter the same share as is allotable to a son: Provided that the share which a predeceased son or a predeceased daughter would have got at the partition if he or she had been alive at the time of the partition, shall be allotted to the surviving child of such predeceased son or of such predeceased daughter:"
+    }
+  ]
+}

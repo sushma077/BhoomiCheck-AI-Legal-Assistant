@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Mutation report after succession in Uttar Pradesh",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "up_revenue_code_2006",
+      "33"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "up_revenue_code_2006",
+        "33"
+      ],
+      [
+        "up_revenue_code_2006",
+        "35"
+      ],
+      [
+        "up_revenue_code_2006",
+        "225"
+      ],
+      [
+        "up_revenue_code_2006",
+        "2"
+      ],
+      [
+        "up_revenue_code_2006",
+        "108"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "up_revenue_code_2006::section_33::1",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 33",
+      "heading": "Mutation in cases of succession",
+      "page": 19,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.05,
+      "text": "33. Mutation in cases of succession.- (1) Every person obtaining possession of any land by succession shall submit report of such succession to the Revenue Inspector of the circle in which the land is situate in such form as may be prescribed. (2) On receipt of a report under sub-section (1) or on facts otherwise coming to his knowledge, the Revenue Inspector shall- (a) if the case is not disputed, record such succession in the record of rights (Khatauni); (b) in any other case, make such inquiry as may appear to him to be necessary and submit his report to the Tahsildar; (3) Any person whose name has not been recorded by Revenue Inspector or who is aggrieved by the order passed by the Revenue Inspector under clause (a) or (b) of sub-section (2) may move an application before Tahsildar. (4) The provisions of this section shall mutatis mutandis apply to every person admitted as a Bhumidhar with non-transferable rights or as an asami by the Bhumi Prabandhak Samiti in accordance with the provisions of this Code or any enactment repealed by it."
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_35::1",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 35",
+      "heading": "Mutation in cases of succession or transfer",
+      "page": 19,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.04803,
+      "text": "35. Mutation in cases of succession or transfer.-(1) On the receipt of a report under section 33 or section 34, or upon facts otherwise coming to his knowledge, the Tahsildar shall issue a proclamation and make such inquiry as appears to be necessary and- (a) if the case is not disputed, he shall direct the record of rights (Khatauni) to be amended accordingly; (b) (deleted); (c) if the case is disputed, he shall decide the dispute and direct, if necessary, the record of rights (khatauni) to be amended accordingly. (2) Any person aggrieved by an order of the Tahsildar under sub-section (1) may prefer an appeal to the Sub-Divisional Officer within a period of thirty days from the date of such order."
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_225::3",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 225",
+      "heading": "Protection",
+      "page": 81,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.03643,
+      "text": "as may be notified by the State Government from time to time to assist in the disposal of cases and redressal of grievances in the manner prescribed. (2) Every committee constituted under sub-section (1) shall consist of a Chairman and four other members, who shall be nominated or designated in the manner prescribed: Provided that in each such committee, there shall be at least one Woman member, one member belonging to the Scheduled Castes or the Scheduled Tribes and one member belonging to the Other Backward Class. 225-D Power of an Assistant Collector of First Class not in charge of a subdivision.- An Assistant Collector of the first class not in charge of a subdivision of a District shall exercise all or any of the powers conferred on an Assistant Collector of the first class in charge of a sub- division in such cases or classes of cases as the Collector may, from time to time, refer to him for disposal. 225-E Powers of Assistant Collector of second class.- Assistant Collectors of the second class shall have power to investigate and report on such cases as the Collector or Assistant Collector in charge of a sub-division of a district may, from time to time, commit to them for investigation and report."
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_2::1",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 2",
+      "heading": "Applicability of the Code",
+      "page": 8,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.03643,
+      "text": "2. Applicability of the Code. - The provisions of this Code, except Chapters VII and IX shall apply to the whole of Uttar Pradesh, and Chapters VIII and IX shall apply to the areas to which any of the enactments specified at serial numbers 19 and 25 of the First Schedule was applicable on the date immediately preceding their repeal by this Code."
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_108::3",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 108",
+      "heading": "General order of succession",
+      "page": 50,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.03511,
+      "text": "d daughter the sister having been the daughter of the same father as the deceased; (1) Brother's son's son, third gender issue and unmarried daughter; (m) Father's father's son, third gender issue and unmarried daughter; (n) Father's father's son's son, third gender issue and unmarried daughter; (o)Mother's mother's son, third gender issue and unmarried daughter."
+    }
+  ]
+}

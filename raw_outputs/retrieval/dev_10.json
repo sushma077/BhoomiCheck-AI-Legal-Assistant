@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "What happens if a document that needs registration is not registered?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "49"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "49"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "registration_1908",
+        "47"
+      ],
+      [
+        "registration_1908",
+        "23A"
+      ],
+      [
+        "registration_1908",
+        "29"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_49::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 49",
+      "heading": "Effect of non-registration of documents required to be registered",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.08229,
+      "text": "49. Effect of non-registration of documents required to be registered.—No document required by section 17 1[or by any provision of the Transfer of Property Act, 1882 (4 of 1882)], to be registered shall— (a) affect any immovable property comprised therein, or (b) confer any power to adopt, or (c) be received as evidence of any transaction affecting such property or conferring such power, unless it has been registered: 1[Provided that an unregistered document affecting immovable property and required by this Act or the Transfer of Property Act, 1882 (4 of 1882), to be registered may be received as evidence of a contract in a suit for specific performance under Chapter II of the Specific Relief Act, 1877 (3 of 1877) 2, 3*** or as evidence of any collateral transaction not required to be effected by registered instrument.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.06408,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "registration_1908::section_47::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 47",
+      "heading": "Time from which registered document operates",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.0328,
+      "text": "47. Time from which registered document operates.—A registered document shall operate from the time which it would have commenced to operate if no registration thereof had been required or made, and not from the time of its registration."
+    },
+    {
+      "chunk_id": "registration_1908::section_23a::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 23A",
+      "heading": "Re-registration of certain documents",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.03227,
+      "text": "1[23A. Re-registration of certain documents.—Notwithstanding anything to the contrary contained in this Act, if in any case a document requiring registration has been accepted for registration by a Registrar or Sub-Registrar from a person not duly empowered to present the same, and has been registered, any person claiming under such document may, within four months form his first becoming aware that the registration of such document is invalid, present such document or cause the same to be presented, in accordance with the provisions of Part VI for re-registration in the office of the Registrar of the district in which the document was originally registered; and upon the Registrar being satisfied that the document was so accepted for registration from a person not duly empowered to present the same, he shall proceed to the re-registration of the document as if it has not been previously registered, and as if such presentation for re-registration was a presentation for registration made within the time allowed therefore under Part IV, and all the provisions of this Act, as to registration of documents, shall apply to such re-registration; and such document, if duly re-registered in accordance with the provisions of this section, shall be deemed to have been duly registered for all purposes from the date of its original registration: Provided that, within three months from the twelfth day of September, 1917, any person claiming under a document to which this section applies may present the same or cause the same to be presented for re-registration in accordance with this section, whatever may have been the time when he first became aware that the registration of the document was invalid."
+    },
+    {
+      "chunk_id": "registration_1908::section_29::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 29",
+      "heading": "Place for registering other documents",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02896,
+      "text": "29. Place for registering other documents.—(1) Every document 2[not being a document referred to in section 28 or a copy of a decree or order], may be presented for registration either in the office of the Sub-Registrar in whose sub-district the document was executed, or in the office of any other Sub-Registrar under the 3[State Government] at which all the persons executing and claiming under the document desire the same to be registered. (2) A copy of a decree or order may be presented for registration in the office of the Sub-Registrar in whose sub-district the original decree or order was made, or, where the decree or order does not affect immovable property, in the office of any the Sub-Registrar under the 2[State Government] at which all the persons claiming under the decree or order desire the copy to be registered."
+    }
+  ]
+}

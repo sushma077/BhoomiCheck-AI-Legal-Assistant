@@ -1,0 +1,95 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "दान में मिली जमीन का दान पत्र कैसे बनता है?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "123"
+    ],
+    [
+      "tpa_1882",
+      "122"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "122"
+      ],
+      [
+        "tpa_1882",
+        "123"
+      ],
+      [
+        "tpa_1882",
+        "124"
+      ],
+      [
+        "tpa_1882",
+        "128"
+      ],
+      [
+        "tpa_1882",
+        "126"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_122::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 122",
+      "heading": "Gift” defined",
+      "page": 43,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.08205,
+      "text": "122. “Gift” defined.—“Gift” is the transfer of certain existing moveable or immoveable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee. Acceptance when to be made.—Such acceptance must be made during the lifetime of the donor and while he is till capable of giving, If the donee dies before acceptance, the gift is void."
+    },
+    {
+      "chunk_id": "tpa_1882::section_123::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 123",
+      "heading": "Transfer how effected",
+      "page": 43,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.07826,
+      "text": "123. Transfer how effected.—For the purpose of making a gift of immoveable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor, and attested by at least two witnesses. For the purpose of making a gift of moveable property, the transfer may be effected either by a registered instrument signed as aforesaid or by delivery. Such delivery may be made in the same way as goods sold may be delivered."
+    },
+    {
+      "chunk_id": "tpa_1882::section_124::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 124",
+      "heading": "Gift of existing and future property",
+      "page": 43,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.03202,
+      "text": "124. Gift of existing and future property.—A gift comprising both existing and future property is void as to the latter."
+    },
+    {
+      "chunk_id": "tpa_1882::section_128::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 128",
+      "heading": "Universal donee",
+      "page": 44,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02976,
+      "text": "128. Universal donee.—Subject to the provisions of section 127, where a gift consists of the donor’s whole property, the done is personally liable for all the debts due by 1[and liabilities of] the donor at the time of the gift to the extent of the property comprised therein."
+    },
+    {
+      "chunk_id": "tpa_1882::section_126::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 126",
+      "heading": "When gift may be suspended or revoked",
+      "page": 43,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02967,
+      "text": "126. When gift may be suspended or revoked.—The donor and donee may agree that on the happening of any specified event which does not depend on the will of the donor a gift shall be suspended or revoked; but a gift which the parties agree shall be revocable wholly or in part, at the mere will of the donor, is void wholly or in part, as the case may be. A gift may also be revoked in any of the cases (save want or failure of consideration) in which, if it were a contract, it might be rescinded. Save as aforesaid, a gift cannot be revoked. Nothing contained in this section shall be deemed to affect the rights of transferees for consideration without notice. Illustrations (a) A gives a field to B, reserving to himself, with B’s assent, the right to take back the field in case B and his descendants dies before A. B dies without descendants in A’s lifetime. A may take back the field. (b) A gives a lakh of rupees to B, reserving to himself, with B’s assent, the right to take back at pleasure Rs. 10,000 out of the lakh. The gift holds good as to Rs. 90,000, but is vo id as to Rs.10,000, which continue to belong to A."
+    }
+  ]
+}

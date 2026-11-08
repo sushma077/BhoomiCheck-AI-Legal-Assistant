@@ -1,0 +1,103 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Mukhtarnama kya hota hai aur agent ki authority kab khatam hoti hai?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "contract_1872",
+      "201"
+    ],
+    [
+      "contract_1872",
+      "182"
+    ],
+    [
+      "poa_1882",
+      "1A"
+    ],
+    [
+      "poa_1882",
+      "2"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "contract_1872",
+        "201"
+      ],
+      [
+        "registration_1908",
+        "33"
+      ],
+      [
+        "poa_1882",
+        "1A"
+      ],
+      [
+        "contract_1872",
+        "188"
+      ],
+      [
+        "poa_1882",
+        "1"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "contract_1872::section_201::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 201",
+      "heading": "Termination of agency",
+      "page": 45,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.05885,
+      "text": "201. Termination of agency.—An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors."
+    },
+    {
+      "chunk_id": "registration_1908::section_33::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 33",
+      "heading": "Power-of-attorney recognisable for purposes of section 32",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.03128,
+      "text": "33. Power-of-attorney recognisable for purposes of section 32.—(1) For the purposes of section 32, the following powers-of-attorney shall alone be recognized, namely:— (a) if the principal at the time of executing the power-of-attorney resides in any part of 1[India] in which this Act is for the time being in force, a power-of-attorney executed before and authenticated by the Registrar or Sub-Registrar within whose district or sub-district the principal resides; (b) if the principal at the time aforesaid 2[resides in any part of India in which this Act is not in force], a power-of-attorney executed before and authenticated by any Magistrate; (c) if the principal at the time aforesaid does not reside in 1[India], a power-of-attorney executed before and authenticated by a Notary Public, or any Court, Judge, Magistrate, 3[Indian] Consul or Vice-Consul, or representative 4*** of the Central Government: Provided that the following persons shall not be required to attend at any registration-office or Court for the purpose of executing any such power-of-attorney as is mentioned in clauses (a) and (b) of this section, namely:— (i) persons who by reason of bodily infirmity are unable without risk or serious inconvenience so to attend; (ii) persons who are in jail under civil or criminal process; and (iii) persons exempt by law from personal appearance in court."
+    },
+    {
+      "chunk_id": "poa_1882::section_1a::1",
+      "title": "Powers of Attorney Act, 1882",
+      "provision": "Section 1A",
+      "heading": "Definition",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/e801bb57-6d01-41fc-a253-fed1f9c47f03/content",
+      "score": 0.02941,
+      "text": "3 [1A. Definition.—In this Act, “Power-of-Attorney” includes any instrument empowering a specified person to act for and in the name of the person executing it.]"
+    },
+    {
+      "chunk_id": "contract_1872::section_188::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 188",
+      "heading": "Extent of agent’s authority",
+      "page": 43,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02802,
+      "text": "188. Extent of agent’s authority.—An agent, having an authority to do an act, has authority to do every lawful thing which is necessary in order to do such act. An agent having an authority to carry on a business, has authority to do every lawful thing necessary for the purpose, or usually done in the course, of conducting such business. 1. See, however, the Registration Act, 1908 (16 of 1908), s. 33; see also the Code of Civil Procedure, 1908 (5 of 1908), Sch. I, Order III, rule 4. Illustrations (a) A is employed by B, residing in London, to recover at Bombay a debt due to B. A may adopt any legal process necessary for the purpose of recovering the debt, and may give a valid discharge for the same. (b) A constitutes B his agent to carry on his business of a ship-builder. B may purchase timber and other materials, and hire workmen, for the purpose of carrying on the business."
+    },
+    {
+      "chunk_id": "poa_1882::section_1::1",
+      "title": "Powers of Attorney Act, 1882",
+      "provision": "Section 1",
+      "heading": "Short title",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/e801bb57-6d01-41fc-a253-fed1f9c47f03/content",
+      "score": 0.02538,
+      "text": "1. Short title.—This Act may be called the Powers-of-Attorney Act, 1882. Local extent.—It applies to the whole of India 2[*[***]]; Commencement.—and it shall come into force on the first day of May, 1882."
+    }
+  ]
+}

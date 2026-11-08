@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "पिता की मृत्यु बिना वसीयत के हुई, संपत्ति किसे मिलेगी?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "hindu_succession_1956",
+      "8"
+    ]
+  ],
+  "score": {
+    "rank": null,
+    "top1": false,
+    "top3": false,
+    "top5": false,
+    "retrieved": [
+      [
+        "indian_succession_1925",
+        "61"
+      ],
+      [
+        "indian_succession_1925",
+        "59"
+      ],
+      [
+        "indian_succession_1925",
+        "88"
+      ],
+      [
+        "indian_succession_1925",
+        "240"
+      ],
+      [
+        "indian_succession_1925",
+        "70"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "indian_succession_1925::section_61::2",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 61",
+      "heading": "Will obtained by fraud, coercion or importunity",
+      "page": 26,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.03037,
+      "text": "that he is not a free agent, makes a will, dictated by B. It appears that he would not have executed the will but for fear of B. The will is invalid. (vi) A, being in so feeble a state of health as to be unable to resist importunity, is pressed by B to make a will of a certain purport and does so merely to purchase peace and in submission to B. The will is invalid. (vii) A being in such a state of health as to be capable of exercising his own judgment and volition, B uses urgent intercession and persuasion with him to induce him to make a will of a certain purport. A, in consequence of the intercession and persuasion, but in the free exercise of his judgment and volition makes his will in the manner recommended by B. The will is not redered invalid by the intercession and persuasion of B. (viii) A, with a view to obaining a legacy from B, pays him attention and flatters him and thereby produces in him a capricious partiality to A. B, in consequence of such attention and flattery, makes his will, by which he leaves a legacy to A. The bequest is not rendered invalid by the attention and flattery of A."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_59::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 59",
+      "heading": "Person capable of making wills",
+      "page": 26,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02861,
+      "text": "59. Person capable of making wills.—Every person of sound mind not being a minor may dispose of his property by will. Explanation 1.—A married woman may dispose by will of any property which she could alienate by her own act during her life. Explanation 2.—Persons who are deaf or dumb or blind are not thereby incapacitated for making a will if they are able to know what they do by it. Explanation 3.—A person who is ordinarily insane may make a will during interval in which he is of sound mind. Explanation 4.—No person can make a will while he is in such a state of mind, whether arising from intoxication or from illness or from any other cause, that he does not know what he is doing. Illustrations (i) A can perceive what is going on in his immediate neighbourhood, and can answer familiar questions, but has not a competent understanding as to the nature of his property, or the persons who are of kindred to him, or in whose favour it would be proper that he should make his will. A cannot make a valid will. (ii) A executes an instrument purporting to be his will, but he does not understand the nature of the instrument, nor the effect of its provisions. This instrument is not a valid will. (iii) A, being very feeble and debilitated, but capable of exercising a judgment as to the proper mode of disposing of his property, makes a will. This is a valid will."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_88::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 88",
+      "heading": "The last of two inconsistent clauses prevails",
+      "page": 33,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02831,
+      "text": "88. The last of two inconsistent clauses prevails.—Where two clauses of gifts in a will are irreconcileable, so that they cannot possibly stand together, the last shall prevail. Illustrations (i) The testator by the first clause of his will leaves his estate of Ramnagar “to A,” and by the last clause of his will leaves it “to B and not to A”. B will have it. (ii) If a man, at the commencement of his will gives his house to A, and at the close of it directs that his house shall be sold and the proceeds invested for the benefit of B, the latter disposition will prevail."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_240::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 240",
+      "heading": "Administration until will produced",
+      "page": 70,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02782,
+      "text": "240. Administration until will produced.—Where no will of the deceased is forthcoming, but there is reason to believe that there is a will in existence, letters of administration may be granted, limited until the will or an authenticated copy of it is produced. Grants for the use and benefit of others having right"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_70::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 70",
+      "heading": "Revocation of unprivileged will or codicil",
+      "page": 29,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02736,
+      "text": "70. Revocation of unprivileged will or codicil.—No unprivileged will or codicil, nor any part thereof, shall be trevoked otherwise than by marriage, or by another will or codicil, or by some writing declaring an intention to revoke the same and executed in the manner in which an unprivileged will is herein before required to be executed, or by the burning, tearing, or otherwise destroying the same by the testator or by some person in his presence and by his direction with the intention of revoking the same. Illustrations (i) A has made an unprivileged will. Afterwards, A makes another unprivileged will which purports to revoke the first. This is a revocation. (ii) A has made an unprivileged will. Afterwards, A, being entitled to make a privileged will, makes a privileged will, which purports to revoke his unprivileged will. This is a revocation."
+    }
+  ]
+}

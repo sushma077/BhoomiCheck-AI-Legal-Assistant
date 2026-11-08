@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Flat ka possession time par nahi mila, builder se paisa wapas mil sakta hai?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "rera_2016",
+      "18"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "rera_2016",
+        "18"
+      ],
+      [
+        "rera_2016",
+        "4"
+      ],
+      [
+        "rera_2016",
+        "14"
+      ],
+      [
+        "rera_2016",
+        "4"
+      ],
+      [
+        "rera_2016",
+        "3"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "rera_2016::section_18::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 18",
+      "heading": "(1) If the promoter fails to complete or is unable to give possession of an apartment,",
+      "page": 16,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.08154,
+      "text": "18. (1) If the promoter fails to complete or is unable to give possession of an apartment, plot or building,— (a) in accordance with the terms of the agreement for sale or, as the case may be, duly completed by the date specified therein; or (b) due to discontinuance of his business as a developer on account of suspension or revocation of the registration under this Act or for any other reason, he shall be liable on demand to the allottees, in case the allottee wishes to withdraw from the project, without prejudice to any other remedy available, to return the amount received by him in respect of that apartment, plot, building, as the case may be, with interest at such rate as may be prescribed in this behalf including compensation in the manner as provided under this Act: Provided that where an allottee does not intend to withdraw from the project, he shall be paid, by the promoter, interest for every month of delay, till the handing over of the possession, at such rate as may be prescribed. (2) The promoter shall compensate the allottees in case of any loss caused to him due to defective title of the land, on which the project is being developed or has been developed, in the manner as provided under this Act, and the claim for compensation under this sub- section shall not be barred by limitation provided under any law for the time being in force. Transfer of title. Return of amount and compensation. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY (3) If the promoter fails to discharge any other obligations imposed on him under this Act or the rules or regulations made thereunder or in accordance with the terms and conditions of the agreement for sale, he shall be liable to pay such compensation to the allottees, in the manner as provided under this Act. CHAPTER IV RIGHTS AND DUTIES OF ALLOTTEES"
+    },
+    {
+      "chunk_id": "rera_2016::section_4::3",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 4",
+      "heading": "(1) Every promoter shall make an application to the Authority for registration of the",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03002,
+      "text": "end points of the project; (g) proforma of the allotment letter, agreement for sale, and the conveyance deed proposed to be signed with the allottees; (h) the number, type and the carpet area of apartments for sale in the project along with the area of the exclusive balcony or verandah areas and the exclusive open terrace areas apartment with the apartment, if any; (i) the number and areas of garage for sale in the project; (j) the names and addresses of his real estate agents, if any, for the proposed project; (k) the names and addresses of the contractors, architect, structural engineer, if any and other persons concerned with the development of the proposed project; (l) a declaration, supported by an affidavit, which shall be signed by the promoter or any person authorised by the promoter, stating:— (A) that he has a legal title to the land on which the development is proposed along with legally valid documents with authentication of such title, if such land is owned by another person; (B) that the land is free from all encumbrances, or as the case may be details of the encumbrances on such land including any rights, title, interest or name of any party in or over such land along with details; (C) the time period within which he undertakes to complete the project or phase thereof, as the case may be; (D) that seventy per cent."
+    },
+    {
+      "chunk_id": "rera_2016::section_14::3",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 14",
+      "heading": "(1) The proposed project shall be developed and completed by the promoter in",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02947,
+      "text": "ut the previous written consent of at least two-thirds of the allottees, other than the promoter, who have agreed to take apartments in such building. Explanation.—For the purpose of this clause, the allottees, irrespective of the number of apartments or plots, as the case may be, booked by him or booked in the name of his family, or in the case of other persons such as companies or firms or any association of individuals, etc., by whatever name called, booked in its name or booked in the name of its associated entities or related enterprises, shall be considered as one allottee only. (3) In case any structural defect or any other defect in workmanship, quality or provision of services or any other obligations of the promoter as per the agreement for sale relating to such development is brought to the notice of the promoter within a period of five years by the allottee from the date of handing over possession, it shall be the duty of the promoter to rectify such defects without further charge, within thirty days, and in the event of promoter's failure to rectify such defects within such time, the aggrieved allottees shall be entitled to receive appropriate compensation in the manner as provided under this Act."
+    },
+    {
+      "chunk_id": "rera_2016::section_4::4",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 4",
+      "heading": "(1) Every promoter shall make an application to the Authority for registration of the",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02859,
+      "text": "with details; (C) the time period within which he undertakes to complete the project or phase thereof, as the case may be; (D) that seventy per cent. of the amounts realised for the real estate project from the allottees, from time to time, shall be deposited in a separate account to be maintained in a scheduled bank to cover the cost of construction and the land cost and shall be used only for that purpose: Provided that the promoter shall withdraw the amounts from the separate account, to cover the cost of the project, in proportion to the percentage of completion of the project: Provided further that the amounts from the separate account shall be withdrawn by the promoter after it is certified by an engineer, an architect and a chartered accountant in practice that the withdrawal is in proportion to the percentage of completion of the project: Provided also that the promoter shall get his accounts audited within six months after the end of every financial year by a chartered accountant in practice, and shall produce a statement of accounts duly certified and signed by such SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY chartered accountant and it shall be verified during the audit that the amounts collected for a particular project have been utilised for the project and the withdrawal has been in compliance with the proportion to the percentage of completion of the project."
+    },
+    {
+      "chunk_id": "rera_2016::section_3::2",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 3",
+      "heading": "(1) No promoter shall advertise, market, book, sell or offer for sale, or invite persons",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02844,
+      "text": "Authority, and the provisions of this Act or the rules and regulations made thereunder, shall apply to such projects from that stage of registration. (2) Notwithstanding anything contained in sub-section (1), no registration of the real estate project shall be required— (a) where the area of land proposed to be developed does not exceed five hundred square meters or the number of apartments proposed to be developed does not exceed eight inclusive of all phases: Provided that, if the appropriate Government considers it necessary, it may, reduce the threshold below five hundred square meters or eight apartments, as the case may be, inclusive of all phases, for exemption from registration under this Act; (b) where the promoter has received completion certificate for a real estate project prior to commencement of this Act; (c) for the purpose of renovation or repair or re-development which does not involve marketing, advertising selling or new allotment of any apartment, plot or building, as the case may be, under the real estate project. Explanation.—For the purpose of this section, where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+    }
+  ]
+}

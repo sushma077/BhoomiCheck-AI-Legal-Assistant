@@ -1,0 +1,95 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "My tenant's agreement is for 2 years. Does it have to be registered?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "17"
+    ],
+    [
+      "tpa_1882",
+      "107"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "limitation_1963",
+        null
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "rera_2016",
+        "7"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.07636,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.05,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "limitation_1963::the_schedule::8",
+      "title": "Limitation Act, 1963",
+      "provision": "The Schedule",
+      "heading": "",
+      "page": 12,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Limitation%20Act,%202019.pdf",
+      "score": 0.02418,
+      "text": "the plaintiff which have been wrongfully received by the defendant. Three years. When the profits are received. 52. For arrears of rent. Three years. When the arrears become due. 53. By a vendor of immovable property for personal payment of unpaid purchase-money. Three years. The time fixed for completing the sale, or (where the title is accepted after the time fixed for completion) the date of the acceptance. 54. For specific performance of a contract. Three years. The date fixed for the performance, or, if no such date is fixed, when the plaintiff has notice that performance is refused. 55. For compensation for the breach of any contract, express or implied not herein specially provided for. Three years. When the contract is broken or (where there are successive breaches) when the breach in respect of which the suit is instituted occurs or (where the breach is continuing) when it ceases. Description of suit Period of limitation Time from which period begins to run PART III.—SUITS RELATING TO DECLARATIONS 56. To declare the forgery of an instrument issued or registered. Three years. When the issue or registration becomes known to the plaintiff. 57. To obtain a declaration that an alleged adoption is invalid, or never, in fact, took place. Three years. When the alleged adoption becomes known to the plaintiff. 58. To obtain any other declaration. Three years."
+    },
+    {
+      "chunk_id": "registration_1908::section_17::3",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02277,
+      "text": "istrict, or part of a district, the terms granted by which do not exceed five years and the annual rents reserved by which do not exceed fifty rupees. 4[(1A) The documents containing contracts to transfer for consideration, any immovable property for the purpose of section 53A of the Transfer of Property Act, 1882 (4 of 1882) shall be registered if they have been executed on or after the commencement of the Registration and Other Related laws (Amendment) Act, 2001 (48 of 2001) and if such documents are not registered on or after such commencement, then, they shall have no effect for the purposes of the said section 53A.] (2) Nothing in clauses (b) and (c) of sub-section (1) applies to— (i) any composition deed; or (ii) any instrument relating to shares in a joint stock Company, notwithstanding that the assets of such Company consist in whole or in part of immovable property; or (iii) any debenture issued by any such Company and not creating, declaring, assigning, limiting or extinguishing any right, title or interest, to or in immovable property except in so far as it entitles the holder to the security afforded by a registered instrument whereby the Company has mortgaged, conveyed or otherwise transferred the whole or part of its immovable property or any interest therein to trustees upon trust for the benefit of the holders of such debentures;"
+    },
+    {
+      "chunk_id": "rera_2016::section_7::2",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 7",
+      "heading": "(1) The Authority may, on receipt of a complaint or suo motu in this behalf or on the",
+      "page": 10,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.01667,
+      "text": "ospectus whether in any newspaper or otherwise of services that are not intended to be offered; (d) the promoter indulges in any fraudulent practices. (2) The registration granted to the promoter under section 5 shall not be revoked unless the Authority has given to the promoter not less than thirty days notice, in writing, stating the grounds on which it is proposed to revoke the registraton, and has considered any cause shown by the promoter within the period of that notice against the proposed revocation. (3) The Authority may, instead of revoking the registration under sub-section (1), permit it to remain in force subject to such further terms and conditions as it thinks fit to impose in the interest of the allottees, and any such terms and conditions so imposed shall be binding upon the promoter. (4) The Authority, upon the revocation of the registration,— (a) shall debar the promoter from accessing its website in relation to that project and specify his name in the list of defaulters and display his photograph on its website and also inform the other Real Estate Regulatory Authority in other States and Union territories about such revocation or registration; (b) shall facilitate the remaining development works to be carried out in accordance with the provisions of section 8;"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Is my name in the revenue records enough to prove that I own the land?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "sc_2025_insc_1238",
+      null
+    ],
+    [
+      "sc_2024_insc_1006",
+      null
+    ],
+    [
+      "sc_2023_insc_1009",
+      null
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "sc_2025_insc_1238",
+        null
+      ],
+      [
+        "indian_succession_1925",
+        "81"
+      ],
+      [
+        "indian_succession_1925",
+        "76"
+      ],
+      [
+        "indian_succession_1925",
+        "142"
+      ],
+      [
+        "indian_succession_1925",
+        "102"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "score": 0.05,
+      "text": "Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 11 of 16 parties. As far as mutation proceedings are concerned, it is well settled that mutation entries do not confer title. They serve a fiscal purpose, that is, to realize tax from the person whose name is recorded in the revenue records8. Besides above, the plaint averments indicated that the mutation proceedings culminated in the year 2017 and the suit in question was instituted within three years thereafter. 17. Apart from above, the suit was not for a mere declaration of the will being null and void but for possession as well. The plaintiff claimed title over the suit land by natural succession and sought possession based on title. Where a suit is for possession of immovable property or any interest therein, based on title, the limitation period is 12 years when the possession of the defendants becomes adverse to the plaintiff (vide Article 65 of the Schedule to the Limitation Act). 18. In Indira v. Arumugam & Anr.9, this court held that when the suit is based on title for possession, once the title 8 See: Balwant Singh v. Daulat Singh, (1997) 7 SCC 137; Suraj Bhan v. Financial Commissioner, (2007) 6 SCC 186 9 (1998) 1 SCC 614"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_81::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 81",
+      "heading": "Extrinsic evidence inadmissible in case of patent ambiguity or deficiency",
+      "page": 31,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.01667,
+      "text": "81. Extrinsic evidence inadmissible in case of patent ambiguity or deficiency.—Where there is an ambiguity or deficiency on the face of a will, no extrinsic evidence as to the intentions of the testator shall be admitted. Illustrations (i) A man has an aunt, Caroline, and a cousin, Mary, and has no aunt of the name of Mary. By his Will he bequeaths 1,000 rupees to “my aunt, Caroline” and 1,000 rupees to “my cousin, Mary” and afterwards bequeaths 2,000 rupees to “my before-mentioned aunt, Mary”. There is no person to whom the description given in the Will can apply, and evidence is not admissible to show who was meant by “my before-mentioned aunt, Mary”. The bequest is, therefore, void for uncertainty under section 89. (ii) A bequeaths 1,000 rupees to............leaving a blank for the name of the legatee. Evidence is not admissible to show what name the testator intended to insert. (iii) A bequeaths to B .......................rupees, or “my estate of........................” Evidence is not admissible to show what sum or what estate the testator intended to insert."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_76::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 76",
+      "heading": "Misnomer or misdescription of object",
+      "page": 30,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.01639,
+      "text": "76. Misnomer or misdescription of object.—(1) Where the words used in a will to designate or describe a legatee or a class of legatees sufficiently show what is meant, and error in the name or description shall not prevent the legacy from taking effect. (2) A mistake in the name of a legatee may be corrected by a description of him, and a mistake in the description of a legatee may be corrected by the name. Illustrations (i) A bequeaths a legacy to “Thomas, the second son of my brother John”. The testator has an only brother named John, who has no son named Thomas, but has a second son whose name is William. William will have the legacy. (ii) A bequeaths a legacy “to Thomas, the second son of my brother John”. The testator has an only brother, named John, whose first son is named Thomas and whose second son is named William. Thomas will have the legacy. (iii) The testator bequeaths his property “to A and B, the legitimate children of C”. C has no legitimate child, but has two illegitimate children, A and B. The bequest to A and B takes effect, although they are illegitimate. (iv) The testator gives his residuary estate to be divided among “my seven children” and, proceeding to enumerate them, mentions six names only. This omission will not prevent the seventh child from taking a share with the others. (v) The testator, having six grandchildren, makes a bequest to “my six grandchildren” and, proceeding to mention them by their Christian names, mentions one twice over omitting another altogether. The one whose name is not mentioned will take a share with the others. (vi) The testator bequeaths “1,000 rupees to each of the three children of A”. At the date of the will A has four children. Each of these four children will, if he survives the testator, receive a legacy of 1,000 rupees."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_142::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 142",
+      "heading": "Specific legacy defined",
+      "page": 50,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.01613,
+      "text": "142. Specific legacy defined.—Where a testator bequeaths to any person a specified part of his property, which is distinguished from all other parts of his property, the legacy is said to be specific. Illustrations (i) A bequeaths to B— “the diamond ring presented to me by C”: “my gold chain”: “a certain bale of wool”: “a certain piece of cloth”: “all my household goods which shall be in or about my dwelling-house in M. Street, in Calcutta, at time of my death”: “the sum of 1,000 rupees in a certain chest”: “the debt which B owes me”: “all my bills, bonds and securities belonging to me lying in my lodgings in Calcutta”: “all my furniture in my house in Calcutta”: “all my goods on board a certain ship now lying in the river Hughli”: “2,000 rupees which I have in the hands of C”: “the money due to me on the bond of D”: “my mortgage on the Rampur factory”: “one-half of the money owing to me on my mortgage of Rampur factory”: “1,000 rupees, being part of a debt due to me from C”: “my capital stock of 1,0001 in East India Stock”: “my promissory notes of the Central Government for 10,000 rupees in their 4 per cent. Loan”: “all such sums of money as my executors may, after my-death, receive in respect of the debt due to me from the insolvent firm of D and Company”: “all the wine which I may have in my cellar at the time of my death”:"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_102::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 102",
+      "heading": "Constitution of residuary legatee",
+      "page": 37,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.01587,
+      "text": "102. Constitution of residuary legatee.—A residuary legatee may be constituted by any words that show an intention on the part of the testator that the person designated shall take the surplus or residue of his property. Illustrations (i) A makes her will, consisting of several testamentary papers, in one of which are contained the following words:—“I think there will be something left, after all funeral expenses, etc., to give to B, now at school, towards equipping him to any profession he may hereafter be appointed to.” B is constituted residuary legatee. (ii) A makes his will, with the following passage at the end of it:—“I believe there will be found sufficient in my banker’s hands to defray and discharge my debts, which I hereby, desire B to do, and keep the residue for her own use and pleasure.” B is constituted the residuary legatee. (iii) A bequeaths all his property to B, except certain stock and funds, which he bequeaths to C. B is the residuary legatee."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "What must a seller tell the buyer about defects in the land?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "55"
+    ]
+  ],
+  "score": {
+    "rank": 2,
+    "top1": false,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "easements_1882",
+        "57"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "contract_1872",
+        "116"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "easements_1882::section_57::1",
+      "title": "Indian Easements Act, 1882",
+      "provision": "Section 57",
+      "heading": "Grantor’s duty to disclose defects",
+      "page": 19,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Easements%20Act,%201882.pdf",
+      "score": 0.02844,
+      "text": "57. Grantor’s duty to disclose defects.—The grantor of a license is bound to disclose to the licensee any defect in the property affected by the license, likely to be dangerous to the person or property of the licensee, of which the grantor is, and the licensee is not, aware."
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::4",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02803,
+      "text": "or other inevitable accident. (4) The seller is entitled— (a) to the rents and profits of the property till the ownership thereof passes to the buyer; (b) where the ownership of the property has passed to the buyer before payment of the whole of the purchase-money, to a charge upon the property in the hands of the buyer, 1[any transferee without consideration or any transferee with notice of the non-payment,] for the amount of the purchase-money, or any part thereof remaining unpaid, and for interest on such amount or part 1[from the date on which possession has been delivered]. (5) The buyer is bound— (a) to disclose to the seller any fact as to the nature or extent of the seller’s interest in the property of which the buyer is aware, but of which he has reason to believe that the seller is not aware, and which materially increases the value of such interest; (b) to pay or tender, at the time and place of completing the sale, the purchase-money to the seller or such person, as he directs: provided that, where the property is sold free from incumbrances, the buyer may retain out of the purchase-money the amount of any incumbrances on the property existing at the date of the sale, and shall pay the amount so retained to the persons entitled thereto;"
+    },
+    {
+      "chunk_id": "contract_1872::section_116::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 116",
+      "heading": "Seller when not responsible for latent defects.] Rep. by s. 65,ibid",
+      "page": 33,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02667,
+      "text": "116. [Seller when not responsible for latent defects.] Rep. by s. 65,ibid."
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02532,
+      "text": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in the rules next following, or such of them as are applicable to the property sold: (1) The seller is bound— (a) to disclose to the buyer any material defect in the property 3[or in the seller’s title thereto] of which the seller is, and the buyer is not, aware, and which the buyer could not with ordinary care discover; 24-9-2001). (b) to produce to the buyer on his request for examination all documents of title relating to the property which are in the seller's possession or power; (c) to answer to the best of his information all relevant questions put to him by the buyer in respect to the property or the title thereto; (d) on payment or tender of the amount due in respect of the price, to execute a proper conveyance of the property when the buyer tenders it to him for execution at a proper time and place; (e) between the date of the contract of sale and the delivery of the property, to take as much care of the property and all documents of title relating thereto which are in his possession as an owner of ordinary prudence would take of such property and documents;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::5",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02319,
+      "text": "the amount of any incumbrances on the property existing at the date of the sale, and shall pay the amount so retained to the persons entitled thereto; (c) where the ownership of the property has passed to the buyer, to bear any loss arising from the destruction, injury or decrease in value of the property not caused by the seller; (d) where the ownership of the property has passed to the buyer, as between himself and the seller, to pay all public charges and rent which may become payable in respect of the property, the principal moneys due on any incumbrances subject to which the property is sold, and the interest thereon afterwards accruing due. (6) The buyer is entitled— (a) where the ownership of the property has passed to him, to the benefit of any improvement in, or increase in value of, the property, and to the rents and profits thereof; (b) unless he has improperly declined to accept delivery of the property, to a charge on the property, as against the seller and all persons claiming under him 1*** to the extent of the seller's interest in the property, for the amount of any purchase-money properly paid by the buyer in anticipation of the delivery and for interest on such amount;"
+    }
+  ]
+}

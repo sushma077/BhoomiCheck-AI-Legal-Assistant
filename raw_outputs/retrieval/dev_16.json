@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "When does an agency end? Does the death of the principal end the agent's authority?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "contract_1872",
+      "201"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "contract_1872",
+        "201"
+      ],
+      [
+        "contract_1872",
+        "209"
+      ],
+      [
+        "contract_1872",
+        "203"
+      ],
+      [
+        "contract_1872",
+        "202"
+      ],
+      [
+        "contract_1872",
+        "208"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "contract_1872::section_201::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 201",
+      "heading": "Termination of agency",
+      "page": 45,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.08254,
+      "text": "201. Termination of agency.—An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors."
+    },
+    {
+      "chunk_id": "contract_1872::section_209::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 209",
+      "heading": "Agent’s duty on termination of agency by principal’s death or insanity",
+      "page": 46,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03306,
+      "text": "209.Agent’s duty on termination of agency by principal’s death or insanity.—When an agency is terminated by the principal dying or becoming of unsound mind, the agent is bound to take, on behalf of the representatives of his late principal, all reasonable steps for the protection and preservation of the interests entrusted to him."
+    },
+    {
+      "chunk_id": "contract_1872::section_203::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 203",
+      "heading": "When principal may revoke agent’s authority",
+      "page": 46,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03077,
+      "text": "203.When principal may revoke agent’s authority.—The principal may, save as is otherwise provided by the last preceding section, revoke the authority given to his agent at any time before the authority has been exercised so as to bind the principal."
+    },
+    {
+      "chunk_id": "contract_1872::section_202::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 202",
+      "heading": "Termination of agency, where agent has an interest in subject-matter",
+      "page": 45,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03058,
+      "text": "202.Termination of agency, where agent has an interest in subject-matter.—Where the agent has himself an interest in the property which forms the subject-matter of the agency, the agency cannot, in the absence of an express contract, be terminated to the prejudice of such interest. Illustrations (a) A gives authority to B to sell A‟s land, and to pay himself, out of the proceeds, the debts due to him from A. A cannot revoke this authority, nor can it be terminated by his insanity or death. (b) A consigns 1,000 bales of cotton to B, who has made advances to him on such cotton, and desires B to sell the cotton, and to repay himself out of the price, the amount of his own advances. A cannot revoke this authority, nor is it terminated by his insanity or death."
+    },
+    {
+      "chunk_id": "contract_1872::section_208::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 208",
+      "heading": "When termination of agent’s authority takes effect as to agent, and as to third persons",
+      "page": 46,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02964,
+      "text": "208.When termination of agent’s authority takes effect as to agent, and as to third persons.— The termination of the authority of an agent does not, so far as regards the agent, take effect before it becomes known to him, or, so far as regards third persons, before it becomes known to them. Illustrations (a) A directs B to sell goods for him, and agrees to give B five per cent. commission on the price fetched by the goods. A afterwards, by letter, revoke B‟s authority. B, after the letter is sent, but before he receives it, sells the goods for 100 rupees. The sale is binding on A, and B is entitled to five rupees as his commission. (b) A, at Madras, by letter, directs B to sell for him some cotton lying in a warehouse in Bombay, and afterwards, by letter, revokes his authority to sell, and directs B to send the cotton to Madras. B, after receiving the second letter, enters into a contract with C, who knows of the first letter, but not of the second, for the sale to him of the cotton. C pays B the money, with which B absconds. C‟s payment is good as against A. (c) A directs B, his agent, to pay certain money to C. A dies, and D takes out probate to his will. B, after A‟s death, but before hearing of it, pays the money to C. The payment is good as against D, the executor."
+    }
+  ]
+}

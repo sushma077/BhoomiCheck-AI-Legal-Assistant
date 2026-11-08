@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "How many months do I have after signing a deed to get it registered?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "23"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "23"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "registration_1908",
+        "23A"
+      ],
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "rera_2016",
+        "4"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_23::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 23",
+      "heading": "Time for presenting documents",
+      "page": 9,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.06493,
+      "text": "23. Time for presenting documents.—Subject to the provisions contained in sections 24, 25 and 26, no document other than a will shall be accepted for registration unless presented for that purpose to the proper officer within four months from the date of its execution: Provided that a copy a of a decree or order may be presented within four months from the day on which the decree or order was made, or, where it is appealable, within four months from the day on which it becomes final."
+    },
+    {
+      "chunk_id": "registration_1908::section_17::3",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02991,
+      "text": "istrict, or part of a district, the terms granted by which do not exceed five years and the annual rents reserved by which do not exceed fifty rupees. 4[(1A) The documents containing contracts to transfer for consideration, any immovable property for the purpose of section 53A of the Transfer of Property Act, 1882 (4 of 1882) shall be registered if they have been executed on or after the commencement of the Registration and Other Related laws (Amendment) Act, 2001 (48 of 2001) and if such documents are not registered on or after such commencement, then, they shall have no effect for the purposes of the said section 53A.] (2) Nothing in clauses (b) and (c) of sub-section (1) applies to— (i) any composition deed; or (ii) any instrument relating to shares in a joint stock Company, notwithstanding that the assets of such Company consist in whole or in part of immovable property; or (iii) any debenture issued by any such Company and not creating, declaring, assigning, limiting or extinguishing any right, title or interest, to or in immovable property except in so far as it entitles the holder to the security afforded by a registered instrument whereby the Company has mortgaged, conveyed or otherwise transferred the whole or part of its immovable property or any interest therein to trustees upon trust for the benefit of the holders of such debentures;"
+    },
+    {
+      "chunk_id": "registration_1908::section_23a::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 23A",
+      "heading": "Re-registration of certain documents",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02797,
+      "text": "1[23A. Re-registration of certain documents.—Notwithstanding anything to the contrary contained in this Act, if in any case a document requiring registration has been accepted for registration by a Registrar or Sub-Registrar from a person not duly empowered to present the same, and has been registered, any person claiming under such document may, within four months form his first becoming aware that the registration of such document is invalid, present such document or cause the same to be presented, in accordance with the provisions of Part VI for re-registration in the office of the Registrar of the district in which the document was originally registered; and upon the Registrar being satisfied that the document was so accepted for registration from a person not duly empowered to present the same, he shall proceed to the re-registration of the document as if it has not been previously registered, and as if such presentation for re-registration was a presentation for registration made within the time allowed therefore under Part IV, and all the provisions of this Act, as to registration of documents, shall apply to such re-registration; and such document, if duly re-registered in accordance with the provisions of this section, shall be deemed to have been duly registered for all purposes from the date of its original registration: Provided that, within three months from the twelfth day of September, 1917, any person claiming under a document to which this section applies may present the same or cause the same to be presented for re-registration in accordance with this section, whatever may have been the time when he first became aware that the registration of the document was invalid."
+    },
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02468,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "rera_2016::section_4::4",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 4",
+      "heading": "(1) Every promoter shall make an application to the Authority for registration of the",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02375,
+      "text": "with details; (C) the time period within which he undertakes to complete the project or phase thereof, as the case may be; (D) that seventy per cent. of the amounts realised for the real estate project from the allottees, from time to time, shall be deposited in a separate account to be maintained in a scheduled bank to cover the cost of construction and the land cost and shall be used only for that purpose: Provided that the promoter shall withdraw the amounts from the separate account, to cover the cost of the project, in proportion to the percentage of completion of the project: Provided further that the amounts from the separate account shall be withdrawn by the promoter after it is certified by an engineer, an architect and a chartered accountant in practice that the withdrawal is in proportion to the percentage of completion of the project: Provided also that the promoter shall get his accounts audited within six months after the end of every financial year by a chartered accountant in practice, and shall produce a statement of accounts duly certified and signed by such SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY chartered accountant and it shall be verified during the audit that the amounts collected for a particular project have been utilised for the project and the withdrawal has been in compliance with the proportion to the percentage of completion of the project."
+    }
+  ]
+}

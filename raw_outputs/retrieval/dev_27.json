@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Girvi rakhi hui zameen kya hoti hai?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "58"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "58"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "registration_1908",
+        "48"
+      ],
+      [
+        "mh_land_revenue_1966",
+        "181"
+      ],
+      [
+        "stamp_1899",
+        "2"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_58::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "heading": "Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.06429,
+      "text": "58. “Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed” defined.—(a) A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability. The transferor is called a mortgagor, the transferee a mortgagee; the principal money and interest of which payment is secured for the time being arc called the mortgage-money, and the instrument (if any) by which the transfer is effected is called a mortgage-deed. (b) Simple mortgage.—Where, without delivering possession of the mortgaged property, the mortgagor binds himself personally to pay the mortgage-money, and agrees, expressly or impliedly, that, in the event of his failing to pay according to his contract, the mortgagee shall have a right to cause the mortgaged property to be sold and the proceeds of sale to be applied, so far as may be necessary, in payment of the mortgage-money, the transaction is called a simple mortgage and the mortgagee a simple mortgagee."
+    },
+    {
+      "chunk_id": "registration_1908::section_17::5",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.01587,
+      "text": "3; or (x) any order granting a loan under the Agriculturists, Loans Act, 1884, or instrument for securing the repayment of a loan made under that Act; or 4[(xa) any order made under the Charitable Endowments Act, 1890 (6 of 1890), vesting any property in a Treasurer of Charitable Endowments or divesting any such Treasurer of any property; or] (xi) any endorsement on a mortgage-deed acknowledging the payment of the whole or any part of the mortgage-money, and any other receipt for payment of money due under a mortgage when the receipt does not purport to extinguish the mortgage; or (xii) any certificate of sale granted to the purchaser of any property sold by public auction by a Civil or Revenue-Officer. 5[Explanation.—A document purporting or operating to effect a contract for the sale of immovable property shall not be deemed to require or ever to have required registration by reason only of the fact that such document contains a recital of the payment of any earnest money or of the whole or any part of the purchase money.] (3) Authorities to adopt a son, executed after the 1st day of January, 1872, and not conferred by a will, shall also be registered."
+    },
+    {
+      "chunk_id": "registration_1908::section_48::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 48",
+      "heading": "Registered documents relating to property when to take effect against oral",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.01562,
+      "text": "48. Registered documents relating to property when to take effect against oral agreements.— All non-testamentary documents duly registered under this Act, and relating to any property, whether movable or immovable, shall take effect against any order agreement or declaration relating to such property, unless where the agreement or declaration has been accompanied or followed by delivery of possession 1[and the same constitutes a valid transfer under any law for the time being in force: Provided that a mortgage as defined in section 58 of the Transfer of Property Act, 1882 (4 of 1882), shall take effect against any mortgage-deed subsequently executed and registered which relates to the same property.]"
+    },
+    {
+      "chunk_id": "mh_land_revenue_1966::section_181::1",
+      "title": "Maharashtra Land Revenue Code, 1966",
+      "provision": "Section 181",
+      "heading": "Sale of defaulter’s immovable property",
+      "page": 70,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/de00ee10-97db-48e2-ba13-f25e652accad/content",
+      "score": 0.01542,
+      "text": "181. Sale of defaulter’s immovable property.— The Collector may also cause the right, title and interest of the defaulter 1[(not being a person belonging to a Scheduled Tribes)] in any immovable property other than the land on which the arrear is due to be attached and sold."
+    },
+    {
+      "chunk_id": "stamp_1899::section_2::10",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 2",
+      "heading": "Definitions",
+      "page": 8,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.01538,
+      "text": ".he pur:view of stamp duty payable as envisaged under section 2(24)(b); Hemanta Kumarl Patnalk v. Suryanarayan Acharya, AIR 1992 Ori 1. Mortgage deed: Meaning of Mortgage deed as defined in the Stamp Act is identical to the definition under the Transfer of Property Act but for the exception that in the Stamp Act, section 2(17), transfer is contemplated of both immovable as well as movable property whereas in the Transfer of Property Act mortgage of only immovable property is stipulated; Chief Controlling Revenue Authority and Inspector General of Registration, Madras v. Coimbatore Alchohol & Chemical (Pvt.) Ltd., AIR 1990 Mad 8. Scope A reading of section 2(14) makes clear where a document creates some right or liability between the parties transferring certain rights, then it comes within the meaning of definition of an \"instrument\" and is chargeable; Channamma v. Shantkumar, AIR 2004 Kant 266. 1. The word \"and\" omitted by Act 18 of 1928, sec. 2 and Sch. I. 3. The word \"and\" ins. by Act 18 of 1928, sec. 2 and Sch. I and omitted by the A.O. 1950. 1-4-1956) and again ins. by Act 23 of 2004, sec. 117 (w.e.f. 10-9-2004). The Indian Stamp Act, 1899 [Sec. 2 What is not 'instrument' A copy of a document is not 'instrument' as envisaged in sub-clause (14) of section 2; Jupudi v. Pulavarthi, AIR 1971 SC 1070. Word 'chargeable':"
+    }
+  ]
+}

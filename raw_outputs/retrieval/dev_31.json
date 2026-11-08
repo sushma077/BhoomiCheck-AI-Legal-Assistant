@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "गिरवी या बंधक क्या होता है?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "58"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "58"
+      ],
+      [
+        "tpa_1882",
+        "58"
+      ],
+      [
+        "tpa_1882",
+        "93"
+      ],
+      [
+        "tpa_1882",
+        "58"
+      ],
+      [
+        "tpa_1882",
+        "59"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_58::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "heading": "Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.08132,
+      "text": "58. “Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed” defined.—(a) A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability. The transferor is called a mortgagor, the transferee a mortgagee; the principal money and interest of which payment is secured for the time being arc called the mortgage-money, and the instrument (if any) by which the transfer is effected is called a mortgage-deed. (b) Simple mortgage.—Where, without delivering possession of the mortgaged property, the mortgagor binds himself personally to pay the mortgage-money, and agrees, expressly or impliedly, that, in the event of his failing to pay according to his contract, the mortgagee shall have a right to cause the mortgaged property to be sold and the proceeds of sale to be applied, so far as may be necessary, in payment of the mortgage-money, the transaction is called a simple mortgage and the mortgagee a simple mortgagee."
+    },
+    {
+      "chunk_id": "tpa_1882::section_58::3",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "heading": "Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.03175,
+      "text": "shall transfer the property to the seller, the transaction is called a mortgage by conditional sale and the mortgagee a mortgagee by conditional sale: 1[Provided that no such transaction shall be deemed to be a mortgage, unless the condition is embodied in the document which effects or purports to effect the sale.] (d) Usufructuary mortgage.—Where the mortgagor delivers possession 1[or expressly or by implication binds himself to deliver possession] of the mortgaged property to the mortgagee, and authorises him to retain such possession until payment of the mortgage-money, and to receive the rents and profits accruing from the property 2[or any part of such rents and profits and to appropriate the same] in lieu of interest, or in payment of the mortgage-money, or partly in lieu of interest 3[or] partly in payment of the mortgage-money, the transaction is called an usufructuary mortgage and the mortgagee an usufructuary mortgagee. (e) English mortgage.—Where the mortgagor binds himself to re-pay the mortgage-money on a certain date, and transfers the mortgaged property absolutely to the mortgagee, but subject to a proviso that he will re-transfer it to the mortgagor upon payment of the mortgage-money as agreed, the transaction is called an English mortgage."
+    },
+    {
+      "chunk_id": "tpa_1882::section_93::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 93",
+      "heading": "Prohibition of tacking",
+      "page": 36,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02973,
+      "text": "93. Prohibition of tacking.—No mortgagee paying off a prior mortgage, whether with or without notice of an intermediate mortgage, shall thereby acquire any priority in respect of his original security; and, except in the case provided for by section 79, no mortgagee making a subsequent advance to the mortgagor, whether with or without notice of an intermediate mortgage, shall thereby acquire any priority in respect of his security for such subsequent advance."
+    },
+    {
+      "chunk_id": "tpa_1882::section_58::2",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "heading": "Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02957,
+      "text": "plied, so far as may be necessary, in payment of the mortgage-money, the transaction is called a simple mortgage and the mortgagee a simple mortgagee. (c) Mortgage by conditional sale.—Where the mortgagor ostensibly sells the mortgaged property— on condition that on default of payment of the mortgage-money on a certain date the sale shall become absolute, or on condition that on such payment being made the sale shall become void, or on condition that on such payment being made the buyer shall transfer the property to the seller, the transaction is called a mortgage by conditional sale and the mortgagee a mortgagee by conditional sale:"
+    },
+    {
+      "chunk_id": "tpa_1882::section_59::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 59",
+      "heading": "Mortgage when to be by assurance",
+      "page": 24,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02951,
+      "text": "59. Mortgage when to be by assurance.—Where the principal money secured is one hundred rupees or upwards, a mortgage 5[other than a mortgage by deposit of title-deeds] can be effected only by a registered instrument signed by the mortgagor and attested by at least two witnesses. Where the principal money secured is less than one hundred rupees, a mortgage may be effected either by 6[a registered instrument] signed and attested as aforesaid, or (except in the case of a simple mortgage) by delivery of the property. 7* * * *"
+    }
+  ]
+}

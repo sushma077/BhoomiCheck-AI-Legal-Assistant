@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Part performance: buyer took possession under a written contract",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "53A"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "53A"
+      ],
+      [
+        "specific_relief_1963",
+        "12"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "specific_relief_1963",
+        "12"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_53a::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 53A",
+      "heading": "Part performance",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.08306,
+      "text": "1 [53A. Part performance.—Where any person contracts to transfer for consideration any immoveable property by writing signed by him or on his behalf from which the terms necessary to constitute the transfer can be ascertained with reasonable certainty, and the transferee has, in part performance of the contract, taken possession of the property or any part thereof, or the transferee, being already in possession, continues in possession in part performance of the contract and has done some act in furtherance of the contract, and the transferee has performed or is willing to perform his part of the contract, then, notwithstanding that 2***, or, where there is an instrument of transfer, that the transfer has not been completed in the manner prescribed therefor by the law for the time being in force, the transferor or any person claiming under him shall be debarred from enforcing against the transferee and persons claiming under him any right in respect of the property of which the transferee has taken or continued in possession, other than a right expressly provided by the terms of the contract: Provided that nothing in this section shall affect the rights of a transferee for consideration who has no notice of the contract or of the part performance thereof.] CHAPTER III OF SALES OF IMMOVEABLE PROPERTY"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_12::2",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 12",
+      "heading": "Specific performance of part of contract",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.03182,
+      "text": "be left unperformed and in a case falling under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any abatement; and (ii) in either case, relinquishes all claims to the performance of the remaining part of the contract and all right to compensation, either for the deficiency or for the loss or damage sustained by him through the default of the defendant. (4) When a part of a contract which, taken by itself, can and ought to be specifically performed, stands on a separate and independent footing from another part of the same contract which cannot or ought not to be specifically performed, the court may direct specific performance of the former part. Explanation.—For the purposes of this section, a party to a contract shall be deemed to be unable to perform the whole of his part of it if a portion of its subject-matter existing at the date of the contract has ceased to exist at the time of its performance."
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::6",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.03175,
+      "text": "rest in the property, for the amount of any purchase-money properly paid by the buyer in anticipation of the delivery and for interest on such amount; and, when he properly declines to accept the delivery, also for the earnest (if any) and for the costs (if any) awarded to him of a suit to compel specific performance of the contract or to obtain a decree for its rescission. An omission to make such disclosures as are mentioned in this section, paragraph (1), clause (a), and paragraph (5), clause (a), is fraudulent."
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_12::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 12",
+      "heading": "Specific performance of part of contract",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02985,
+      "text": "12. Specific performance of part of contract.—(1) Except as otherwise hereinafter provided in this section, the court shall not direct the specific performance of a part of a contract. (2) Where a party to a contract is unable to perform the whole of his part of it, but the part which must be left unperformed be a only a small proportion to the whole in value and admits of compensation in money, the court may, at the suit of either party, direct the specific performance of so much of the contract as can be performed, and award compensation in money for the deficiency. (3) Where a party to a contract is unable to perform the whole of his part of it, and the part which must be left unperformed either— (a) forms a considerable part of the whole, though admitting of compensation in money; or (b) does not admit of compensation in money; he is not entitled to obtain a decree for specific performance; but the court may, at the suit of the other party, direct the party in default to perform specifically so much of his part of the contract as he can perform, if the other party— (i) in a case falling under clause (a), pays or has paid the agreed consideration for the whole of the contract reduced by the consideration for the part which must be left unperformed and in a case falling under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any abatement;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::2",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02763,
+      "text": "ty and all documents of title relating thereto which are in his possession as an owner of ordinary prudence would take of such property and documents; (f) to give, on being so required, the buyer, or such person as he directs, such possession of the property as its nature admits; (g) to pay all public charges and rent accrued due in respect of the property up to the date of the sale, the interest on all incumbrances on such property due on such date, and, except where the property is sold subject to incumbrances, to discharge all incumbrances on the property then existing. (2) The seller shall be deemed to contract with the buyer that the interest which the seller professes to transfer to the buyer subsists and that he has power to transfer the same: Provided that, where the sale is made by a person in a fiduciary character, he shall be deemed to contract with the buyer that the seller has done no act whereby the property is incumbered or whereby he is hindered from transferring it. The benefit of the contract mentioned in this rule shall be annexed to, and shall go with, the interest of the transferee as such, and may be enforced by every person in whom that interest is for the whole or any part thereof from time to time vested."
+    }
+  ]
+}

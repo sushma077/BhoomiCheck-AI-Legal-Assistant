@@ -1,0 +1,99 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Is my 3 year rental contract valid if I never took it to the registrar?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "17"
+    ],
+    [
+      "registration_1908",
+      "49"
+    ],
+    [
+      "tpa_1882",
+      "107"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "registration_1908",
+        "49"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "limitation_1963",
+        null
+      ],
+      [
+        "tpa_1882",
+        "106"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.06515,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_49::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 49",
+      "heading": "Effect of non-registration of documents required to be registered",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.05,
+      "text": "49. Effect of non-registration of documents required to be registered.—No document required by section 17 1[or by any provision of the Transfer of Property Act, 1882 (4 of 1882)], to be registered shall— (a) affect any immovable property comprised therein, or (b) confer any power to adopt, or (c) be received as evidence of any transaction affecting such property or conferring such power, unless it has been registered: 1[Provided that an unregistered document affecting immovable property and required by this Act or the Transfer of Property Act, 1882 (4 of 1882), to be registered may be received as evidence of a contract in a suit for specific performance under Chapter II of the Specific Relief Act, 1877 (3 of 1877) 2, 3*** or as evidence of any collateral transaction not required to be effected by registered instrument.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.05,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "limitation_1963::the_schedule::8",
+      "title": "Limitation Act, 1963",
+      "provision": "The Schedule",
+      "heading": "",
+      "page": 12,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Limitation%20Act,%202019.pdf",
+      "score": 0.0281,
+      "text": "the plaintiff which have been wrongfully received by the defendant. Three years. When the profits are received. 52. For arrears of rent. Three years. When the arrears become due. 53. By a vendor of immovable property for personal payment of unpaid purchase-money. Three years. The time fixed for completing the sale, or (where the title is accepted after the time fixed for completion) the date of the acceptance. 54. For specific performance of a contract. Three years. The date fixed for the performance, or, if no such date is fixed, when the plaintiff has notice that performance is refused. 55. For compensation for the breach of any contract, express or implied not herein specially provided for. Three years. When the contract is broken or (where there are successive breaches) when the breach in respect of which the suit is instituted occurs or (where the breach is continuing) when it ceases. Description of suit Period of limitation Time from which period begins to run PART III.—SUITS RELATING TO DECLARATIONS 56. To declare the forgery of an instrument issued or registered. Three years. When the issue or registration becomes known to the plaintiff. 57. To obtain a declaration that an alleged adoption is invalid, or never, in fact, took place. Three years. When the alleged adoption becomes known to the plaintiff. 58. To obtain any other declaration. Three years."
+    },
+    {
+      "chunk_id": "tpa_1882::section_106::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 106",
+      "heading": "Duration of certain leases in absence of written contract or local usage",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02362,
+      "text": "1[106. Duration of certain leases in absence of written contract or local usage.—(1) In the absence of a contract or local law or usage to the contrary, a lease of immovable property for agricultural or manufacturing purposes shall be deemed to be a lease from year to year, terminable, on the part of either lessor or lessee, by six months’ notice; and a lease of immovable property for any other purpose shall be deemed to be a lease from month to month, terminable, on the part of either lessor or lessee, by fifteen days’ notice. (2) Notwithstanding anything contained in any other law for the time being in force, the period mentioned in sub-section (1) shall commence from the date of receipt of notice. (3) A notice under sub-section (1) shall not be deemed to be invalid merely because the period mentioned therein falls short of the period specified under that sub-section, where a suit or proceeding is filed after the expiry of the period mentioned in that sub-section. (4) Every notice under sub-section (1) must be in writing, signed by or on behalf of the person giving it, and either be sent by post to the party who is intended to be bound by it or be tendered or delivered personally to such party, or to one of his family or servants at his residence, or (if such tender or delivery is not practicable) affixed to a conspicuous part of the property.]"
+    }
+  ]
+}

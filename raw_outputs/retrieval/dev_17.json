@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Who is competent to contract? Can a minor contract?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "contract_1872",
+      "11"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "contract_1872",
+        "11"
+      ],
+      [
+        "specific_relief_1963",
+        "17"
+      ],
+      [
+        "contract_1872",
+        "247"
+      ],
+      [
+        "specific_relief_1963",
+        "12"
+      ],
+      [
+        "contract_1872",
+        "248"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "contract_1872::section_11::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 11",
+      "heading": "Who are competent to contract",
+      "page": 13,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03182,
+      "text": "11. Who are competent to contract.—Every person is competent to contract who is of the age of majority according to the law to which he is subject3, and who is of sound mind, and is not disqualified from contracting by any law to which he is subject."
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_17::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 17",
+      "heading": "Contract to sell or let property by one who has no title, not specifically enforceable",
+      "page": 8,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02869,
+      "text": "17. Contract to sell or let property by one who has no title, not specifically enforceable.—(1) A contract to sell or let any immovable property cannot be specifically enforced in favour of a vendor or lessor— (a) who, knowing himself not to have any title to the property, has contracted to sell or let the property; (b) who, though he entered into the contract believing that he had a good title to the property, cannot at the time fixed by the parties or by the court for the completion of the sale or letting, give the purchaser or lessee a title free from reasonable doubt. (2) The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire of movable property."
+    },
+    {
+      "chunk_id": "contract_1872::section_247::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 247",
+      "heading": "Minor partner not personally liable, but his share is.] Rep. by s. 73 and the Second Schedule,",
+      "page": 52,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02781,
+      "text": "247. [Minor partner not personally liable, but his share is.] Rep. by s. 73 and the Second Schedule, ibid."
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_12::2",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 12",
+      "heading": "Specific performance of part of contract",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02736,
+      "text": "be left unperformed and in a case falling under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any abatement; and (ii) in either case, relinquishes all claims to the performance of the remaining part of the contract and all right to compensation, either for the deficiency or for the loss or damage sustained by him through the default of the defendant. (4) When a part of a contract which, taken by itself, can and ought to be specifically performed, stands on a separate and independent footing from another part of the same contract which cannot or ought not to be specifically performed, the court may direct specific performance of the former part. Explanation.—For the purposes of this section, a party to a contract shall be deemed to be unable to perform the whole of his part of it if a portion of its subject-matter existing at the date of the contract has ceased to exist at the time of its performance."
+    },
+    {
+      "chunk_id": "contract_1872::section_248::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 248",
+      "heading": "Liability of minor partner on attaining majority.] Rep. by s. 73 and the Second Schedule, ibid",
+      "page": 52,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02699,
+      "text": "248. [Liability of minor partner on attaining majority.] Rep. by s. 73 and the Second Schedule, ibid"
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Bina will ke marne par virasat kaise milti hai?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "hindu_succession_1956",
+      "8"
+    ],
+    [
+      "hindu_succession_1956",
+      "6"
+    ],
+    [
+      "indian_succession_1925",
+      "32"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "hindu_succession_1956",
+        "8"
+      ],
+      [
+        "hindu_succession_1956",
+        "19"
+      ],
+      [
+        "hindu_succession_1956",
+        "9"
+      ],
+      [
+        "hindu_succession_1956",
+        "16"
+      ],
+      [
+        "hindu_succession_1956",
+        "29"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "hindu_succession_1956::section_8::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 8",
+      "heading": "General rules of succession in the case of males",
+      "page": 8,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.07797,
+      "text": "8. General rules of succession in the case of males.―The property of a male Hindu dying intestate shall devolve according to the provisions of this Chapter:― (a) firstly, upon the heirs, being the relatives specified in class I of the Schedule; (b) secondly, if there is no heir of class I, then upon the heirs, being the relatives specified in class II of the Schedule; (c) thirdly, if there is no heir of any of the two classes, then upon the agnates of the deceased; and (d) lastly, if there is no agnate, then upon the cognates of the deceased."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_19::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 19",
+      "heading": "Mode of succession of two or more heirs",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03254,
+      "text": "19. Mode of succession of two or more heirs.―If two or more heirs succeed together to the property of an intestate, they shall take the property,― (a) save as otherwise expressly provided in this Act, per capita and not per stirpes; and (b) as tenants-in-common and not as joint tenants."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_9::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 9",
+      "heading": "Order of succession among heirs in the Schedule",
+      "page": 8,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03252,
+      "text": "9. Order of succession among heirs in the Schedule.―Among the heirs specified in the Schedule, those in class I shall take simultaneously and to the exclusion of all other heirs; those in the first entry in class II shall be preferred to those in the second entry; those in the second entry shall be preferred to those in the third entry; and so on in succession."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_16::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 16",
+      "heading": "Order of succession and manner of distribution among heirs of a female Hindu",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03101,
+      "text": "16. Order of succession and manner of distribution among heirs of a female Hindu.―The order of succession among the heirs referred to in section 15 shall be, and the distribution of the intestate’s property among those heirs shall take place according to the following rules, namely:― Rule 1.―Among the heirs specified in sub-section (1) of section 15, those in one entry shall be preferred to those in any succeeding entry, and those included in the same entry shall take simultaneously. Rule 2.―If any son or daughter of the intestate had pre-deceased the intestate leaving his or her own children alive at the time of the intestate’s death, the children of such son or daughter shall take between them the share which such son or daughter would have taken if living at the intestate’s death. Rule 3.―The devolution of the property of the intestate on the heirs referred to in clauses (b), (d) and (e) of sub-section (1) and in sub-section (2) of section 15 shall be in the same order and according to the same rules as would have applied if the property had been the father’s or the mother’s or the husband’s as the case may be, and such person had died intestate in respect thereof immediately after the intestate’s death."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_29::4",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 29",
+      "heading": "Failure of heirs",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.02801,
+      "text": "o her if a partition of the property had taken place immediately before her death, irrespective of whether she was entitled to claim partition or not. Explanation II.--Nothing contained in the proviso to this section shall be construed as enabling a person who, before the death of the deceased, had separated himself or herself from the coparcenary or any of his or her heirs to claim on intestacy a share in the interest referred to therein. 29-C. Preferential right to acquire property in certain cases.--(1) Where, after the date of the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989, an interest in any immovable property of an intestate or in any business carried on by him or her, whether solely or in conjunction with others, devolves under section 29-A or section 29-B upon two or more heirs, and any one of such heirs proposes to transfer his or her interest in the property or business, the other heirs shall have a preferential right to acquire the interest proposed to be transferred."
+    }
+  ]
+}

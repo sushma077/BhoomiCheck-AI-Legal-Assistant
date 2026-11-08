@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Specific performance of a contract",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "specific_relief_1963",
+      "10"
+    ]
+  ],
+  "score": {
+    "rank": 2,
+    "top1": false,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "specific_relief_1963",
+        "12"
+      ],
+      [
+        "specific_relief_1963",
+        "10"
+      ],
+      [
+        "specific_relief_1963",
+        "12"
+      ],
+      [
+        "specific_relief_1963",
+        "11"
+      ],
+      [
+        "specific_relief_1963",
+        "20"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "specific_relief_1963::section_12::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 12",
+      "heading": "Specific performance of part of contract",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.03229,
+      "text": "12. Specific performance of part of contract.—(1) Except as otherwise hereinafter provided in this section, the court shall not direct the specific performance of a part of a contract. (2) Where a party to a contract is unable to perform the whole of his part of it, but the part which must be left unperformed be a only a small proportion to the whole in value and admits of compensation in money, the court may, at the suit of either party, direct the specific performance of so much of the contract as can be performed, and award compensation in money for the deficiency. (3) Where a party to a contract is unable to perform the whole of his part of it, and the part which must be left unperformed either— (a) forms a considerable part of the whole, though admitting of compensation in money; or (b) does not admit of compensation in money; he is not entitled to obtain a decree for specific performance; but the court may, at the suit of the other party, direct the party in default to perform specifically so much of his part of the contract as he can perform, if the other party— (i) in a case falling under clause (a), pays or has paid the agreed consideration for the whole of the contract reduced by the consideration for the part which must be left unperformed and in a case falling under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any abatement;"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_10::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 10",
+      "heading": "Specific performance in respect of contracts",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.032,
+      "text": "1[10. Specific performance in respect of contracts.—The specific performance of a contract shall be enforced by the court subject to the provisions contained in sub-section (2) of section 11, section 14 and section 16.]"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_12::2",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 12",
+      "heading": "Specific performance of part of contract",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.03178,
+      "text": "be left unperformed and in a case falling under clause (b) 2[pays or has paid] the consideration for the whole of the contract without any abatement; and (ii) in either case, relinquishes all claims to the performance of the remaining part of the contract and all right to compensation, either for the deficiency or for the loss or damage sustained by him through the default of the defendant. (4) When a part of a contract which, taken by itself, can and ought to be specifically performed, stands on a separate and independent footing from another part of the same contract which cannot or ought not to be specifically performed, the court may direct specific performance of the former part. Explanation.—For the purposes of this section, a party to a contract shall be deemed to be unable to perform the whole of his part of it if a portion of its subject-matter existing at the date of the contract has ceased to exist at the time of its performance."
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_11::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 11",
+      "heading": "Cases in which specific performance of contracts connected with trusts enforceable",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.03062,
+      "text": "11. Cases in which specific performance of contracts connected with trusts enforceable.—(1) Except as otherwise provided in this Act, specific performance of a 1[contract shall], be enforced when the act agreed to be done is in the performance wholly or partly of a trust. (2) A contract made by a trustee in excess of his powers or in breach of trust cannot be specifically enforced."
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_20::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 20",
+      "heading": "Substituted performance of contract",
+      "page": 9,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02996,
+      "text": "3[20. Substituted performance of contract.—(1) Without prejudice to the generality of the provisions contained in the Indian Contract Act, 1872 (9 of 1872), and, except as otherwise agreed upon by the parties, where the contract is broken due to non-performance of promise by any party, the party who suffers by such breach shall have the option of substituted performance through a third party or by his own agency, and, recover the expenses and other costs actually incurred, spent or suffered by him, from the party committing such breach. (2) No substituted performance of contract under sub-section (1) shall be undertaken unless the party who suffers such breach has given a notice in writing, of not less than thirty days, to the party in breach calling upon him to perform the contract within such time as specified in the notice, and on his refusal or failure to do so, he may get the same performed by a third party or by his own agency: Provided that the party who suffers such breach shall not be entitled to recover the expenses and costs under sub-section (1) unless he has got the contract performed through a third party or by his own agency. (3) Where the party suffering breach of contract has got the contract performed through a third party or by his own agency after giving notice under sub-section (1), he shall not be entitled to claim relief of specific performance against the party in breach. (4) Nothing in this section shall prevent the party who has suffered breach of contract from claiming compensation from the party in breach."
+    }
+  ]
+}

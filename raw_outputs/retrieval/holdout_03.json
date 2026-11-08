@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "The father who gave power of attorney has passed away. Can the agent still sell?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "contract_1872",
+      "201"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "contract_1872",
+        "201"
+      ],
+      [
+        "contract_1872",
+        "208"
+      ],
+      [
+        "contract_1872",
+        "215"
+      ],
+      [
+        "poa_1882",
+        "2"
+      ],
+      [
+        "rera_2016",
+        "66"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "contract_1872::section_201::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 201",
+      "heading": "Termination of agency",
+      "page": 45,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.05,
+      "text": "201. Termination of agency.—An agency is terminated by the principal revoking his authority; or by the agent renouncing the business of the agency; or by the business of the agency being completed; or by either the principal or agent dying or becoming of unsound mind; or by the principal being adjudicated an insolvent under the provisions of any Act for the time being in force for the relief of insolvent debtors."
+    },
+    {
+      "chunk_id": "contract_1872::section_208::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 208",
+      "heading": "When termination of agent’s authority takes effect as to agent, and as to third persons",
+      "page": 46,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02633,
+      "text": "208.When termination of agent’s authority takes effect as to agent, and as to third persons.— The termination of the authority of an agent does not, so far as regards the agent, take effect before it becomes known to him, or, so far as regards third persons, before it becomes known to them. Illustrations (a) A directs B to sell goods for him, and agrees to give B five per cent. commission on the price fetched by the goods. A afterwards, by letter, revoke B‟s authority. B, after the letter is sent, but before he receives it, sells the goods for 100 rupees. The sale is binding on A, and B is entitled to five rupees as his commission. (b) A, at Madras, by letter, directs B to sell for him some cotton lying in a warehouse in Bombay, and afterwards, by letter, revokes his authority to sell, and directs B to send the cotton to Madras. B, after receiving the second letter, enters into a contract with C, who knows of the first letter, but not of the second, for the sale to him of the cotton. C pays B the money, with which B absconds. C‟s payment is good as against A. (c) A directs B, his agent, to pay certain money to C. A dies, and D takes out probate to his will. B, after A‟s death, but before hearing of it, pays the money to C. The payment is good as against D, the executor."
+    },
+    {
+      "chunk_id": "contract_1872::section_215::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 215",
+      "heading": "Right of principal when agent deals, on his own account, in business of agency without",
+      "page": 47,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.02552,
+      "text": "215.Right of principal when agent deals, on his own account, in business of agency without principal’s consent.—If an agent deals on his own account in the business of the agency, without first obtaining the consent of his principal and acquainting him with all material circumstances which have come to his own knowledge on the subject, the principal may repudiate the transaction, if the case shows, either that any material fact has been dishonestly concealed from him by the agent, or that the dealings of the agent have been disadvantageous to him. Illustrations (a)A directs B to sell A‟s estate. B buys the estate for himself in the name of C. A, on discovering that B has bought the estate for himself, may repudiate the sale, if he can show that B has dishonestly concealed any material fact, or that the sale has been disadvantageous to him. (b)A directs B to sell A‟s estate B, on looking over the estate before selling it, finds a mine on the estate which is unknown to A. B informs A that he wishes to buy the estate for himself, but conceals the discovery of the mine. A allows B to buy, in ignorance of the existence of the mine. A, on discovering that B knew of the mine at the time he bought the estate, may either repudiate or adopt the sale at his option."
+    },
+    {
+      "chunk_id": "poa_1882::section_2::1",
+      "title": "Powers of Attorney Act, 1882",
+      "provision": "Section 2",
+      "heading": "Execution under power-of-attorney",
+      "page": 2,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/e801bb57-6d01-41fc-a253-fed1f9c47f03/content",
+      "score": 0.0248,
+      "text": "2. Execution under power-of-attorney.—The donee of a power-of-attorney may, if he thinks fit, execute or do any 4*** instrument or thing in and with his own name and signature, and his own seal, where sealing is required, by the authority of the donor of the power; and every 4*** instrument and thing so executed and done, shall be as effectual in law as if it had been executed or done by the donee of the power in the name, and with the signature and seal, of the donor thereof. This section applies to powers-of-attorney created by instruments executed either before or after this Act comes into force."
+    },
+    {
+      "chunk_id": "rera_2016::section_66::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 66",
+      "heading": "If any real estate agent, who fails to comply with, or contravenes any of the orders,",
+      "page": 29,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02343,
+      "text": "66. If any real estate agent, who fails to comply with, or contravenes any of the orders, decisions or directions of the Appellate Tribunal, he shall be punishable with imprisonment for a term which may extend up to one year or with fine for every day during which such default continues, which may cumulatively extend up to ten per cent. of the estimated cost of plot, apartment or building, as the case may be, of the real estate project, for which the sale or purchase has been facilitated, or with both."
+    }
+  ]
+}

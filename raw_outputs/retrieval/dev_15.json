@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Refund and compensation when the promoter fails to give possession on time",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "rera_2016",
+      "18"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "rera_2016",
+        "18"
+      ],
+      [
+        "rera_2016",
+        "40"
+      ],
+      [
+        "rera_2016",
+        "63"
+      ],
+      [
+        "rera_2016",
+        "64"
+      ],
+      [
+        "rera_2016",
+        "13"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "rera_2016::section_18::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 18",
+      "heading": "(1) If the promoter fails to complete or is unable to give possession of an apartment,",
+      "page": 16,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.07778,
+      "text": "18. (1) If the promoter fails to complete or is unable to give possession of an apartment, plot or building,— (a) in accordance with the terms of the agreement for sale or, as the case may be, duly completed by the date specified therein; or (b) due to discontinuance of his business as a developer on account of suspension or revocation of the registration under this Act or for any other reason, he shall be liable on demand to the allottees, in case the allottee wishes to withdraw from the project, without prejudice to any other remedy available, to return the amount received by him in respect of that apartment, plot, building, as the case may be, with interest at such rate as may be prescribed in this behalf including compensation in the manner as provided under this Act: Provided that where an allottee does not intend to withdraw from the project, he shall be paid, by the promoter, interest for every month of delay, till the handing over of the possession, at such rate as may be prescribed. (2) The promoter shall compensate the allottees in case of any loss caused to him due to defective title of the land, on which the project is being developed or has been developed, in the manner as provided under this Act, and the claim for compensation under this sub- section shall not be barred by limitation provided under any law for the time being in force. Transfer of title. Return of amount and compensation. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY (3) If the promoter fails to discharge any other obligations imposed on him under this Act or the rules or regulations made thereunder or in accordance with the terms and conditions of the agreement for sale, he shall be liable to pay such compensation to the allottees, in the manner as provided under this Act. CHAPTER IV RIGHTS AND DUTIES OF ALLOTTEES"
+    },
+    {
+      "chunk_id": "rera_2016::section_40::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 40",
+      "heading": "(1) If a promoter or an allottee or a real estate agent, as the case may be, fails to pay",
+      "page": 22,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03105,
+      "text": "40. (1) If a promoter or an allottee or a real estate agent, as the case may be, fails to pay any interest or penalty or compensation imposed on him, by the adjudicating officer or the Regulatory Authority or the Appellate Authority, as the case may be, under this Act or the rules and regualtions made thereunder, it shall be recoverable from such promoter or allottee or real estate agent, in such manner as may be prescribed as an arrears of land revenue. (2) If any adjudicating officer or the Regulatory Authority or the Appellate Tribunal, as the case may be, issues any order or directs any person to do any act, or refrain from doing any act, which it is empowered to do under this Act or the rules or regulations made thereunder, then in case of failure by any person to comply with such order or direction, the same shall be enforced, in such manner as may be prescribed. 5 of 1908. Power to issue interim orders. Powers of Authority to issue directions. Powers of Authority. Rectification of orders. Recovery of interest or penalty or compensation and enforcement of order, etc. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY CHAPTER VI CENTRAL ADVISORY COUNCIL"
+    },
+    {
+      "chunk_id": "rera_2016::section_63::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 63",
+      "heading": "If any promoter, who fails to comply with, or contravenes any of the orders or",
+      "page": 29,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03077,
+      "text": "63. If any promoter, who fails to comply with, or contravenes any of the orders or directions of the Authority, he shall be liable to a penalty for every day during which such default continues, which may cumulatively extend up to five per cent., of the estimated cost of the real estate project as determined by the Authority."
+    },
+    {
+      "chunk_id": "rera_2016::section_64::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 64",
+      "heading": "If any promoter, who fails to comply with, or contravenes any of the orders, decisions",
+      "page": 29,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02786,
+      "text": "64. If any promoter, who fails to comply with, or contravenes any of the orders, decisions or directions of the Applellate Trinbunal, he shall be punishable with imprisonment for a term which may extend up to three years or with fine for every day during which such default continues, which may cumulatively extend up to ten per cent. of the estimated cost of the real estate project, or with both."
+    },
+    {
+      "chunk_id": "rera_2016::section_13::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 13",
+      "heading": "(1) A promoter shall not accept a sum more than ten per cent of the cost of the",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02738,
+      "text": "13. (1) A promoter shall not accept a sum more than ten per cent of the cost of the apartment, plot, or building as the case may be, as an advance payment or an application fee, from a person without first entering into a written agreement for sale with such person and register the said agreement for sale, under any law for the time being in force. (2) The agreement for sale referred to in sub-section (1) shall be in such form as may be prescribed and shall specify the particulars of development of the project including the construction of building and apartments, along with specifications and internal development works and external development works, the dates and the manner by which payments towards the cost of the apartment, plot or building, as the case may be, are to be made by the allottees and the date on which the possession of the apartment, plot or building is to be handed over, the rates of interest payable by the promoter to the allottee and the allottee to the promoter in case of default, and such other particulars, as may be prescribed."
+    }
+  ]
+}

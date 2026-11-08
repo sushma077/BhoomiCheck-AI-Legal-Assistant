@@ -1,0 +1,99 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Is Khatauni proof that someone owns the land?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "sc_2025_insc_1238",
+      null
+    ],
+    [
+      "sc_2024_insc_1006",
+      null
+    ],
+    [
+      "sc_2023_insc_1009",
+      null
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "sc_2025_insc_1238",
+        null
+      ],
+      [
+        "up_revenue_code_2006",
+        "53"
+      ],
+      [
+        "mh_land_revenue_1966",
+        "148"
+      ],
+      [
+        "mh_land_revenue_1966",
+        "151"
+      ],
+      [
+        "up_revenue_code_2006",
+        "41"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "score": 0.05,
+      "text": "Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 11 of 16 parties. As far as mutation proceedings are concerned, it is well settled that mutation entries do not confer title. They serve a fiscal purpose, that is, to realize tax from the person whose name is recorded in the revenue records8. Besides above, the plaint averments indicated that the mutation proceedings culminated in the year 2017 and the suit in question was instituted within three years thereafter. 17. Apart from above, the suit was not for a mere declaration of the will being null and void but for possession as well. The plaintiff claimed title over the suit land by natural succession and sought possession based on title. Where a suit is for possession of immovable property or any interest therein, based on title, the limitation period is 12 years when the possession of the defendants becomes adverse to the plaintiff (vide Article 65 of the Schedule to the Limitation Act). 18. In Indira v. Arumugam & Anr.9, this court held that when the suit is based on title for possession, once the title 8 See: Balwant Singh v. Daulat Singh, (1997) 7 SCC 137; Suraj Bhan v. Financial Commissioner, (2007) 6 SCC 186 9 (1998) 1 SCC 614"
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_53::1",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 53",
+      "heading": "Presumption as to the entries",
+      "page": 24,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.01735,
+      "text": "53. Presumption as to the entries. - All entries in the record of rights (Khatauni) prepared in accordance with the provisions of this Chapter shall be presumed to be true until the contrary is proved. CHAPTER VII OWNERSHIP OF LAND AND OTHER PROPERTIES"
+    },
+    {
+      "chunk_id": "mh_land_revenue_1966::section_148::1",
+      "title": "Maharashtra Land Revenue Code, 1966",
+      "provision": "Section 148",
+      "heading": "Record of Rights",
+      "page": 62,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/de00ee10-97db-48e2-ba13-f25e652accad/content",
+      "score": 0.0153,
+      "text": "148. Record of Rights.— A record of rights shall be maintained in every village and such record shall include the following particulars :–– (a) the names of all persons (other than tenants) who are holders, occupants, owners or mortagees of the land or assignees of the rent or revenue thereof ; (b) the names of all persons who are holding as Government lessees or tenants including tenants within the meaning of relevant tenancy law ; (c) the nature and extent of the respective interests of such person and the conditions or liabilities, if any, attaching thereto ; (d) the rent or revenue, if any, payable by or to any of such persons ; (e) such other particulars as the State Government may prescribe by rules made in this behalf, either generally or for purposes of any area specified therein."
+    },
+    {
+      "chunk_id": "mh_land_revenue_1966::section_151::2",
+      "title": "Maharashtra Land Revenue Code, 1966",
+      "provision": "Section 151",
+      "heading": "Obligation to furnish information; obligation to furnish entries from record of rights,",
+      "page": 64,
+      "url": "https://indiacode.gov.in/server/api/core/bitstreams/de00ee10-97db-48e2-ba13-f25e652accad/content",
+      "score": 0.01527,
+      "text": "er his signature stating the fact of its production and the date thereof and may return the same immediately after keeping a copy of it, if necessary. (3) Every holder of agricultural land (including a tenant if he is primarily liable to pay land revenue therefor), on making an application in that behalf in writing, may be supplied by the Talathi with a booklet containing a copy of the record of rights pertaining to such land. (4) The booklet shall also contain information regarding the payment of land revenue in respect of land and other Government dues by the holder or, as the case may be, the tenant and also information as respects the cultivation of his land and the areas of crops sown in it as shown in the village accounts and such other matters as may be prescribed. (5) Every such booklet shall be prepared, issued and maintained in accordance with the rules made by the State Government in that behalf. Such rules may provide for fees to be charged for preparing, issuing and maintaining the booklet."
+    },
+    {
+      "chunk_id": "up_revenue_code_2006::section_41::1",
+      "title": "Uttar Pradesh Revenue Code, 2006",
+      "provision": "Section 41",
+      "heading": "Kisan Bahi",
+      "page": 21,
+      "url": "https://www.lbsnaa.gov.in/storage/uploads/pdf_data/1742473203_Uttar%20Pradesh%20Revenue%20Code%202006%20updated%20till%2005.03.2021.pdf",
+      "score": 0.01521,
+      "text": "41. Kisan Bahi. - (1) Every time when a record of rights (Khatauni) is prepared under this Chapter, the Collector shall as soon as may be, cause to be supplied to every tenure-holder, a Kisan Bahi containing such particulars as may be prescribed. (2) The Kisan Bahi shall be a consolidated pass-book for all the holdings held by a tenure-holder in the district. (3) In the case of a joint holding, it shall be sufficient for the purpose of this section if Kisan Bahi is supplied only to such one or more of the recorded co-tenure holders as may apply for it. (4) The tenure holder shall be liable to pay such cost for the Kisan Bahi and in such manner as may be prescribed. (5) Every person holding Kisan Bahi shall, from time to time, be entitled, without any extra payment, to get the amendments made in the record of rights (Khatauni) incorporated in his Kisan Bahi. (6) Whenever a bank or other public financial institution advances loan to a tenure holder on the basis of a representation of the tenure holder that he is a holder of the holdings recorded in the Kisan Bahi, it shall endorse the details of the loan so advanced in the Kisan Bahi. (7) The tenure holder shall also submit to such bank or other financial institution an affidavit declaring that he has not taken any other loan (which remains wholly or partly unpaid) on the security of the holdings comprised in the Kisan Bahi nor has he transferred the holding or any share therein to any person in any other manner whatsoever. (8) Any tenure holder who in such an affidavit makes any statement which is false and which he either knows or believes to be false or does not believe to be true, shall be punished with imprisonment of either description for a term which may extent to three years and shall also be liable to fine. (9) Such bank or other financial institution shall also endorse the final repayment of the loan on the Kisan Bahi."
+    }
+  ]
+}

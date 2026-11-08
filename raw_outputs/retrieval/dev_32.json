@@ -1,0 +1,107 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "क्या दाखिल खारिज से मालिकाना हक मिलता है?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "sc_2025_insc_1238",
+      null
+    ],
+    [
+      "sc_2024_insc_1006",
+      null
+    ],
+    [
+      "sc_2023_insc_1009",
+      null
+    ],
+    [
+      "up_revenue_code_2006",
+      "33"
+    ],
+    [
+      "up_revenue_code_2006",
+      "34"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "sc_2025_insc_1238",
+        null
+      ],
+      [
+        "specific_relief_1963",
+        "13"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "tpa_1882",
+        "59A"
+      ],
+      [
+        "sc_2023_insc_1009",
+        null
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "score": 0.07509,
+      "text": "Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 11 of 16 parties. As far as mutation proceedings are concerned, it is well settled that mutation entries do not confer title. They serve a fiscal purpose, that is, to realize tax from the person whose name is recorded in the revenue records8. Besides above, the plaint averments indicated that the mutation proceedings culminated in the year 2017 and the suit in question was instituted within three years thereafter. 17. Apart from above, the suit was not for a mere declaration of the will being null and void but for possession as well. The plaintiff claimed title over the suit land by natural succession and sought possession based on title. Where a suit is for possession of immovable property or any interest therein, based on title, the limitation period is 12 years when the possession of the defendants becomes adverse to the plaintiff (vide Article 65 of the Schedule to the Limitation Act). 18. In Indira v. Arumugam & Anr.9, this court held that when the suit is based on title for possession, once the title 8 See: Balwant Singh v. Daulat Singh, (1997) 7 SCC 137; Suraj Bhan v. Financial Commissioner, (2007) 6 SCC 186 9 (1998) 1 SCC 614"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_13::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 13",
+      "heading": "Rights of purchaser or lessee against person with no title or imperfect title",
+      "page": 6,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02677,
+      "text": "13. Rights of purchaser or lessee against person with no title or imperfect title.—(1) Where a person contracts to sell or let certain immovable property having no title or only an imperfect title, the purchaser or lessee (subject to the other provisions of this Chapter), has the following rights, namely:— (a) if the vendor or lessor has subsequently to the contract acquired any interest in the property, the purchaser or lessee may compel him to make good the contract out of such interest; (b) where the concurrence of other person is necessary for validating the title, and they are bound to concur at the request of the vendor or lessor, the purchaser or lessee may compel him to procure such concurrence, and when a conveyance by other persons is necessary to validate the title and they are bound to convey at the request of the vendor or lessor, the purchaser or lessee may compel him to procure such conveyance; (c) where the vendor professes to sell unencumbered property, but the property is mortgaged for an amount not exceeding the purchase money and the vendor has in fact only a right to redeem it, the purchaser may compel him to redeem the mortgage and to obtain a valid discharge, and, where necessary, also a conveyance from the mortgagee; (d) where the vendor or lessor sues for specific performance of the contract and the suit is dismissed on the ground of his want of title or imperfect title, the defendant has a right to a return of his deposit, if any, with interest thereon, to his costs of the suit, and to a lien for such deposit, interest and costs on the interest, if any, of the vendor or lesser in the property which is the subject-matter of the contract. (2) The provisions of sub-section (1) shall also apply, as far as may be, to contracts for the sale or hire of movable property. CONTRACTS WHICH CANNOT BE SPECIFICALLY ENFORCED"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02545,
+      "text": "55. Rights and liabilities of buyer and seller.—In the absence of a contract to the contrary, the buyer and the seller of immoveable property respectively are subject to the liabilities, and have the rights, mentioned in the rules next following, or such of them as are applicable to the property sold: (1) The seller is bound— (a) to disclose to the buyer any material defect in the property 3[or in the seller’s title thereto] of which the seller is, and the buyer is not, aware, and which the buyer could not with ordinary care discover; 24-9-2001). (b) to produce to the buyer on his request for examination all documents of title relating to the property which are in the seller's possession or power; (c) to answer to the best of his information all relevant questions put to him by the buyer in respect to the property or the title thereto; (d) on payment or tender of the amount due in respect of the price, to execute a proper conveyance of the property when the buyer tenders it to him for execution at a proper time and place; (e) between the date of the contract of sale and the delivery of the property, to take as much care of the property and all documents of title relating thereto which are in his possession as an owner of ordinary prudence would take of such property and documents;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_59a::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 59A",
+      "heading": "References to mortgagors and mortgagees to include persons deriving title from",
+      "page": 24,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02287,
+      "text": "8[59A. References to mortgagors and mortgagees to include persons deriving title from them.—Unless otherwise expressly provided, references in this Chapter to mortgagors and mortgagees shall be deemed to include references to persons deriving title from them respectively.] Rights and Liabilities of Mortgagor"
+    },
+    {
+      "chunk_id": "sc_2023_insc_1009::judgment,_page_11::1",
+      "title": "P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2011/10304/10304_2011_5_1501_48291_Judgement_20-Nov-2023.pdf",
+      "score": 0.02234,
+      "text": "11 13. This was further affirmed in Balwant Singh & Ors vs. Daulat Singh (Dead) by LRs and Ors.3 wherein this Court held that mere mutation of records would not divest the owners of a land of their right, title and interest in the land. 14. In Jitendra Singh vs. State of Madhya Pradesh and Ors.4, this Court after considering a catena of judgments, reiterated the principle of law as follows: “6. ***mutation entry does not confer any right, title or interest in favour of the person and the mutation entry in the revenue record is only for the fiscal purpose.” 15. We may also profitably refer to the decision of this Court in Sita Ram Bhau Patil vs. Ramchandra Nago Patil (Dead) by LRs. and Ors.5 wherein it was held that there exists no universal principle that whatever will appear in the record of rights will be presumed to be correct, when there exists evidence to the contrary. 16. In the present case, the Commissioner’s order distinctly denying the rights of occupancy to the plaintiff’s vendor is evidence that renders these revenue entries unworthy of acceptance. 17. An examination of the sale deed executed in favour of the plaintiff, also tilts the balance against him. The deed simply states that the plaintiff’s vendor traces her title not to a grant in her favour by the government, but through a sale deed executed in her favour. Further, there is a categorical recital in 3 (1997) 7 SCC 137 4 2021 SCC OnLine SC 802 5 (1977) 2 SCC 49"
+    }
+  ]
+}

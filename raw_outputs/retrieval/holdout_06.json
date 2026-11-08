@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Someone bought land while a civil case on it was running. Does the case bind the buyer?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "52"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "52"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ],
+      [
+        "tpa_1882",
+        "54"
+      ],
+      [
+        "tpa_1882",
+        "55"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_52::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 52",
+      "heading": "Transfer of property pending suit relating thereto",
+      "page": 19,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.05,
+      "text": "52. Transfer of property pending suit relating thereto.—During the 1[pendency] in any Court having authority 2[3[within the limits of India excluding the State of Jammu and Kashmir] or established beyond such limits] by 4 [the Central Government 5 ***], of 6 [any] suit or proceeding 7[which is not collusive and] in. which any right to immoveable property is directly and specifically in question, the property cannot be transferred or otherwise dealt with by any party to the suit or proceeding so as to affect the rights of any other party thereto under any decree or order which may be made therein, except under the authority of the Court and on such terms as it may impose. 7[Explanation.—For the purposes of this section, the pendency of a suit or proceeding shall be deemed to commence from the date of the presentation of the plaint or the institution of the proceeding in a Court of competent jurisdiction, and to continue until the suit or proceeding has been disposed of by a final decree or order and complete satisfaction or discharge of such decree or order, has been obtained, or has become unobtainable by reason of the expiration of any period of limitation prescribed for the execution thereof by any law for the time being in force.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::4",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02721,
+      "text": "or other inevitable accident. (4) The seller is entitled— (a) to the rents and profits of the property till the ownership thereof passes to the buyer; (b) where the ownership of the property has passed to the buyer before payment of the whole of the purchase-money, to a charge upon the property in the hands of the buyer, 1[any transferee without consideration or any transferee with notice of the non-payment,] for the amount of the purchase-money, or any part thereof remaining unpaid, and for interest on such amount or part 1[from the date on which possession has been delivered]. (5) The buyer is bound— (a) to disclose to the seller any fact as to the nature or extent of the seller’s interest in the property of which the buyer is aware, but of which he has reason to believe that the seller is not aware, and which materially increases the value of such interest; (b) to pay or tender, at the time and place of completing the sale, the purchase-money to the seller or such person, as he directs: provided that, where the property is sold free from incumbrances, the buyer may retain out of the purchase-money the amount of any incumbrances on the property existing at the date of the sale, and shall pay the amount so retained to the persons entitled thereto;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::3",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02681,
+      "text": "st of the transferee as such, and may be enforced by every person in whom that interest is for the whole or any part thereof from time to time vested. (3) Where the whole of the purchase-money has been paid to the seller, he is also bound to deliver to the buyer all documents of title relating to the property which are in the seller’s possession or power: Provided that, (a) where the seller retains any part of the property comprised in such documents, he is entitled to retain them all, and, (b) where the whole of such property is sold to different buyers the buyers, of the lot of greatest value is entitled to such documents. But in case (a) the seller, and in case (b) the buyer, of the lot of greatest value, is bound, upon every reasonable request by the buyer, or by any of the other buyers, as the case may be, and at the cost of the person making the request, to produce the said documents and furnish such true copies thereof or extracts therefrom as he may require; and in the meantime, the seller, or the buyer of the lot of greatest value, as the case may be, shall keep the said documents safe, uncancelled and undefaced, unless prevented from so doing by fire or other inevitable accident. (4) The seller is entitled— (a) to the rents and profits of the property till the ownership thereof passes to the buyer;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_54::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 54",
+      "heading": "Sale” defined",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02633,
+      "text": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered instrument. In the case of tangible immoveable property of a value less than one hundred rupees, such transfer may be made either by a registered instrument or by delivery of the property. Delivery of tangible immoveable property takes place when the seller places the buyer, or such person as he directs, in possession of the property. Contract for sale.—A contract for the sale of immoveable property is a contract that a sale of such property shall take place on terms settled between the parties. It does not, of itself, create any interest in or charge on such property. STATE AMENDMENTS Assam. Amendment of section 54 of the Central Act 4 of 1882.—In Section 54 of the principal Act, in para 2, for the expression “by a registered instrument” the following expression shall be substituted, namely: — “by an instrument registered in the State of Assam, notwithstanding anything contained in the India Registration Act, 1908 (Act 16 of 1908) to the contrary.” [Vide Assam Act 10 of 1976, s. 2.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_55::6",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 55",
+      "heading": "Rights and liabilities of buyer and seller",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02556,
+      "text": "rest in the property, for the amount of any purchase-money properly paid by the buyer in anticipation of the delivery and for interest on such amount; and, when he properly declines to accept the delivery, also for the earnest (if any) and for the costs (if any) awarded to him of a suit to compel specific performance of the contract or to obtain a decree for its rescission. An omission to make such disclosures as are mentioned in this section, paragraph (1), clause (a), and paragraph (5), clause (a), is fraudulent."
+    }
+  ]
+}

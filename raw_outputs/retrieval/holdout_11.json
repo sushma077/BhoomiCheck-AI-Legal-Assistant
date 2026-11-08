@@ -1,0 +1,95 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "किराये का समझौता एक साल से ज्यादा का हो तो क्या रजिस्ट्रेशन जरूरी है?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "17"
+    ],
+    [
+      "tpa_1882",
+      "107"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "tpa_1882",
+        "65A"
+      ],
+      [
+        "tpa_1882",
+        "111"
+      ],
+      [
+        "tpa_1882",
+        "50"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.07623,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.06124,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_65a::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 65A",
+      "heading": "Mortgagor’s power to lease",
+      "page": 27,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.0311,
+      "text": "2[65A. Mortgagor’s power to lease.—(1) Subject to the provisions of sub-section (2), a mortgagor, while lawfully in possession of the mortgaged property, shall have power to make leases thereof which shall be binding on the mortgagee. (2) (a) Every such lease shall be such as would be made in the ordinary course of management of the property concerned, and in accordance with any local law, custom or usage. (b) Every such lease shall reserve the best rent that can reasonably be obtained, and no premium shall be paid or promised and no rent shall be payable in advance. (c) No such lease shall contain a covenant for renewal. (d) Every such lease shall take effect from a date not later than six months from the date on which it is made. (e) In the case of a lease of buildings, whether leased it or without the land on which they stand, the duration of the lease shall in no case exceed three years, and the lease shall contain a covenant for payment of the rent and a condition of re-entry on the rent not being paid within a time therein specified. (3) The provisions of sub-section (1) apply only if and as far as a contrary intention is not expressed in the mortgage-deed; and the provisions of sub-section (2) may be varied or extended by the mortgage-deed and, as so varied and extended, shall, as far as may be, operate in like manner and with all like incidents, effects and consequences, as if such variations or extensions were contained in that sub-section.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_111::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 111",
+      "heading": "Determination of lease",
+      "page": 40,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02576,
+      "text": "111. Determination of lease.—A lease of immoveable property determines— (a) by efflux of the time limited thereby: (b) where such time is limited conditionally on the happening of some event—by the happening of such event: (c) where the interest of the lessor in the property terminates on, or his power to dispose of the same extends only to, the happening of any event—by the happening of such event: (d) in case the interests of the lessee and the lessor in the whole of the property become vested at the same time in one person in the same right: (e) by express surrender; that is to say, in case the lessee yields up his interest under the lease to the lessor, by mutual agreement between them: (f) by implied surrender: (g) by forfeiture; that is to say, (1) in case the lessee breaks an express condition which provides that, on breach thereof, the lessor may re-enter 1***; or (2) in case the lessee renounces his character as such by setting up a title in a third person or by claiming title in himself; 2[or (3) the lessee is adjudicated an insolvent and the lease provides that the lessor may re-enter on the happening of such event]; and in 1[any of these cases] the lessor or his transferee 2[gives notice in writing to the lessee of] his intention to determine the lease: (h) on the expiration of a notice to determine the lease, or to quit, or of intention to quit, the property leased, duly given by one party to the other. Illustration to clause (f) A lessee accepts from his lessor a new lease of the property leased, to take effect during the continuance of the existing lease. This is an implied surrender of the former lease, and such lease determines thereupon."
+    },
+    {
+      "chunk_id": "tpa_1882::section_50::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 50",
+      "heading": "Rent bona fide paid to holder under defective title",
+      "page": 18,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02067,
+      "text": "50. Rent bona fide paid to holder under defective title.—No person shall be chargeable with any rents or profits of any immoveable property, which he has in good faith paid or delivered to any person of whom he in good faith held such property, notwithstanding it may afterwards appear that the person to whom such payment or delivery was made had no right to receive such rents or profits. Illustration A lets a field to B at a rent of Rs. 50, and then transfers the field to C. B, having no notice of the transfer, in good faith pays the rent to A. B is not chargeable with the rent so paid."
+    }
+  ]
+}

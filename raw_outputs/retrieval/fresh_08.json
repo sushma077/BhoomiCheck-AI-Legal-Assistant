@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "बिना स्टाम्प के दस्तावेज़ को कोर्ट में सबूत माना जाएगा?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "stamp_1899",
+      "35"
+    ]
+  ],
+  "score": {
+    "rank": null,
+    "top1": false,
+    "top3": false,
+    "top5": false,
+    "retrieved": [
+      [
+        "stamp_1899",
+        "14"
+      ],
+      [
+        "stamp_1899",
+        "52"
+      ],
+      [
+        "stamp_1899",
+        "47"
+      ],
+      [
+        "stamp_1899",
+        "29"
+      ],
+      [
+        "stamp_1899",
+        "37"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "stamp_1899::section_14::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 14",
+      "heading": "Only one instrument to be on same stamp",
+      "page": 18,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.02949,
+      "text": "14. Only one instrument to be on same stamp.-No second instrument chargeable with duty shall be written upon a piece of stamped paper upon which an instrument chargeable with duty has already been written: Provided that nothing in this section shall prevent any endorsement which is duly stamped or is not chargeable with duty being made upon any instrument for the purpose of transferring any right created or evidenced thereby, or of acknowledging the receipt of any money or goods the payment or delivery of which is secured thereby."
+    },
+    {
+      "chunk_id": "stamp_1899::section_52::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 52",
+      "heading": "Allowance for misused stamps",
+      "page": 34,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.02703,
+      "text": "52. Allowance for misused stamps.-(a) When any person has inadvertently used for an instrument chargeable with duty, a stamp of a description other than that prescribed for such instrument by the rules made under this Act, or a stamp of greater value than was necessary, or has inadvertently used any stamp for an instrument not chargeable with any duty; or (b) When any stamp used for an instrument has been inadvertently rendered useless under section IS, owing to such instrument having been written in contravention of the provisions of section 13, the Collector may, on application made within six months after the date of the instrument, or, if it is not dated, within six months after the execution thereof by the person by whom it was first or alone executed, and upon the instrument, if chargeable with duty, being re-stamped with the proper duty, cancel and allow as spoiled the stamp so misused or rendered useless. Ins. by Act 4 of 1914, sec. 2 and Sch., Pt. I.3. Ins. by Act 5 of 1906, sec. 6. [Sec. 53 The Indian Stamp Act, 1899"
+    },
+    {
+      "chunk_id": "stamp_1899::section_47::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 47",
+      "heading": "Power of payer to stamp bills and promissory notes received b~ him",
+      "page": 31,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.0264,
+      "text": "47. Power of payer to stamp bills and promissory notes received b~ him unstamped.-When anybill of exchange l[or promissory note] chargeable [with a duty not exceeding ten naye paise] is presented for payment unstamped, the person to whom it is so presented, may affix thereto the necessary adhesive stamp, and, upon cancelling the same in manner hereinbefore provided, may pay the sum payable upon such bil13[or note], and may charge the duty against the person who ougJ1t to have paid the same, or deduct it from the sum payable as aforesaid, and suchbil13[or note] shall, so far as respects the duty, be deemed good and valid: 1-10-1958). Subs. by Act 19 of 1958, sec. 7, for \"with the duty of one anna\" (w.e..3. Subs. by Act 5 of 1927, sec. 5, for \"note or cheque\". Sec. 49] The Indian Stamp Act, 1899 Provided that nothing herein contained shall relieve any person from any penalty or proceeding to which he may be liable in relation to such billl[or note]."
+    },
+    {
+      "chunk_id": "stamp_1899::section_29::3",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 29",
+      "heading": "Duties by whom payable",
+      "page": 23,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.02623,
+      "text": "that the vendee was not ready and willing to perform his part of the contract; Baruna v. Rajakishore, AIR 1983 Ori 107. Obligation to pay stamp duty: On whom Section 29(c) clearly lays down that in the case of a conveyance in absence of any agreement to the contrary, the expenses for providing ~roper stamps shall be borne by The Indian Stamp Act, 1899 [Sec. 29 the grantee. The language used in the section is very clear and this provision makes it obligatory upon the vendee to pay the stamp duty. This section casts no obligation upon the vendor to pay the stamp duty; Kunwarpal Sharma v. State of Uttar Pradesh, AIR 2003 All 7."
+    },
+    {
+      "chunk_id": "stamp_1899::section_37::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 37",
+      "heading": "Admission",
+      "page": 29,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.02615,
+      "text": "37. Admission of improperly stamped instruments.-1[The 2[State Government]] may make rules providing that, where an instrument bears a stamp of sufficient amount but of improper description, it may, on payment of the duty with which the same is chargeable be certified to be duly stamped, and any instrument so certified shall then be deemed to have been duly stamped as from the date of its execution."
+    }
+  ]
+}

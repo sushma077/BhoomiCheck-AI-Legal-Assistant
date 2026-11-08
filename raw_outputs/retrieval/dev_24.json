@@ -1,0 +1,99 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Does a mutation entry confer title to land?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "sc_2025_insc_1238",
+      null
+    ],
+    [
+      "sc_2024_insc_1006",
+      null
+    ],
+    [
+      "sc_2023_insc_1009",
+      null
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "sc_2025_insc_1238",
+        null
+      ],
+      [
+        "dilrmp_guidelines",
+        null
+      ],
+      [
+        "sc_2023_insc_1009",
+        null
+      ],
+      [
+        "dilrmp_guidelines",
+        null
+      ],
+      [
+        "sc_2024_insc_1006",
+        null
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "sc_2025_insc_1238::judgment,_page_11::1",
+      "title": "Karam Singh v. Amarjit Singh, 2025 INSC 1238 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "score": 0.07788,
+      "text": "Civil Appeals @ SLP (C) Nos. 3560-3561/2023 Page 11 of 16 parties. As far as mutation proceedings are concerned, it is well settled that mutation entries do not confer title. They serve a fiscal purpose, that is, to realize tax from the person whose name is recorded in the revenue records8. Besides above, the plaint averments indicated that the mutation proceedings culminated in the year 2017 and the suit in question was instituted within three years thereafter. 17. Apart from above, the suit was not for a mere declaration of the will being null and void but for possession as well. The plaintiff claimed title over the suit land by natural succession and sought possession based on title. Where a suit is for possession of immovable property or any interest therein, based on title, the limitation period is 12 years when the possession of the defendants becomes adverse to the plaintiff (vide Article 65 of the Schedule to the Limitation Act). 18. In Indira v. Arumugam & Anr.9, this court held that when the suit is based on title for possession, once the title 8 See: Balwant Singh v. Daulat Singh, (1997) 7 SCC 137; Suraj Bhan v. Financial Commissioner, (2007) 6 SCC 186 9 (1998) 1 SCC 614"
+    },
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_174::1",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 174",
+      "heading": "",
+      "page": 174,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf",
+      "score": 0.02585,
+      "text": "________________________________________________________________________________ Guidelines of DILRMP (2021-2026) Page 174 of 260 Department of Land Resources, MoRD, GOI the Registry Clerk, who will deliver it to the concerned party within the specified time period. In case of areas having land records integrated with the registration process, mutations will be entered in the software immediately after the deed is signed by the SR and a hard copy of this mutation can be given to the buyers for their reference. This entire process of computerized Registration should be completed within half-an-hour to one hour. 2.3 Post-Registration activities include deed scanning and the mutation process (mutation notice generation, data entry, verification, sanction and incorporation of the mutation in the RoR). 2.3.1 Deed scanning will be a background operation, which is required in order to provide copies of the registered deeds to the buyer(s). In the process of deed scanning, digital index will be created for locating the scanned deeds in the computerized registration record maintenance system."
+    },
+    {
+      "chunk_id": "sc_2023_insc_1009::judgment,_page_11::1",
+      "title": "P. Kishore Kumar v. Vittal K. Patkar, 2023 INSC 1009 (Supreme Court of India)",
+      "provision": "Judgment, page 11",
+      "heading": "",
+      "page": 11,
+      "url": "https://api.sci.gov.in/supremecourt/2011/10304/10304_2011_5_1501_48291_Judgement_20-Nov-2023.pdf",
+      "score": 0.02527,
+      "text": "11 13. This was further affirmed in Balwant Singh & Ors vs. Daulat Singh (Dead) by LRs and Ors.3 wherein this Court held that mere mutation of records would not divest the owners of a land of their right, title and interest in the land. 14. In Jitendra Singh vs. State of Madhya Pradesh and Ors.4, this Court after considering a catena of judgments, reiterated the principle of law as follows: “6. ***mutation entry does not confer any right, title or interest in favour of the person and the mutation entry in the revenue record is only for the fiscal purpose.” 15. We may also profitably refer to the decision of this Court in Sita Ram Bhau Patil vs. Ramchandra Nago Patil (Dead) by LRs. and Ors.5 wherein it was held that there exists no universal principle that whatever will appear in the record of rights will be presumed to be correct, when there exists evidence to the contrary. 16. In the present case, the Commissioner’s order distinctly denying the rights of occupancy to the plaintiff’s vendor is evidence that renders these revenue entries unworthy of acceptance. 17. An examination of the sale deed executed in favour of the plaintiff, also tilts the balance against him. The deed simply states that the plaintiff’s vendor traces her title not to a grant in her favour by the government, but through a sale deed executed in her favour. Further, there is a categorical recital in 3 (1997) 7 SCC 137 4 2021 SCC OnLine SC 802 5 (1977) 2 SCC 49"
+    },
+    {
+      "chunk_id": "dilrmp_guidelines::guidelines,_page_175::1",
+      "title": "DILRMP Guidelines (Department of Land Resources, MoRD)",
+      "provision": "Guidelines, page 175",
+      "heading": "",
+      "page": 175,
+      "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/04/20240425160100930.pdf",
+      "score": 0.02338,
+      "text": "________________________________________________________________________________ Guidelines of DILRMP (2021-2026) Page 175 of 260 Department of Land Resources, MoRD, GOI the mutation on the grounds mentioned below. After the mutation is sanctioned, the color of the remarks in the Parat Patwar of Jamabandi will automatically change to red, by the software, in the RoR in place of the pencil remarks. 2.3.5 Grounds for rejection a) Non-payment of fee. b) Absence of buyer. c) Legal heirs not confirmed by the Nambardar/designated official in case of inheritance. d) Land mortgaged to bank. e) Registration is not in confirmation with Jamabandi/village-level land record. 2.3.6 Procedure to be followed after rejection a) Mutation fee will be refunded to the concerned party. b) Party can appeal within 30 days to District Revenue Officer (DRO) or Sub- Divisional Magistrate as per the location of the property. If decided in the favour of party a mutation will be sanctioned otherwise party can further appeal to Collector. Appeal of collector will go to Divisional Commissioner and appeal of Divisional Commissioner will go to Financial Commissioner Revenue (Principal Secretary). If the party is not satisfied with the decision of Financial Commissioner they can go to civil court. c) If the rejection was because of absence of buyer or due to some mistake in the earlier mutation then a fresh mutation will be written. 2.3.7 Mutation incorporation and scanning – All the sanctioned mutations will be incorporated in the RoR by the designated officer. Red remarks for the sanctioned mutations will be converted to black remarks in the next Jamabandi/updation of village- level land records. The Tehsildar records his order on the mutation register generated by the software. The detailed order of the Tehsildar is scanned so that copies can be issued to the concerned parties. 2.4 Citizen Services The following services will be available to the citizens due to integration of registration and land records system:"
+    },
+    {
+      "chunk_id": "sc_2024_insc_1006::judgment,_page_20::1",
+      "title": "Mansoor Saheb v. Salima, 2024 INSC 1006 (Supreme Court of India)",
+      "provision": "Judgment, page 20",
+      "heading": "",
+      "page": 20,
+      "url": "https://api.sci.gov.in/supremecourt/2006/12193/12193_2006_9_1506_58088_Judgement_19-Dec-2024.pdf",
+      "score": 0.02321,
+      "text": "20-CIVIL APPEAL NO.4211 OF 2009 34. A perusal of the Mutation Entry No.8258 (Ex.P1) shows that Sultan Saheb got the ‘partition’ done in favour of his sons. The words “partition of the property done by Sultan Abdul Khader Shek” clearly indicate his intention to divide the property into three parts without any indication of his intent to gift the property to his sons. Had Sultan Saheb intended to gift the property, it ought to have been recorded as a gift in the Mutation Entry. 35. Additionally, the purpose of mutation entry, as is well settled is only limited to revenue records. They do not, in any way, translate to or confer any title in regard to the subject matter property. Some decisions reflecting this position of law are as follows: In Sawarni v. Inder Kaur26 - “7. … Mutation of a property in the revenue record does not create or extinguish title nor has it any presumptive value on title. It only enables the person in whose favour mutation is ordered to pay the land revenue in question. ...” In Jitendra Singh v. State of M.P. & Ors.27 – “7. Right from 1997, the law is very clear. In the case of Balwant Singh v. Daulat Singh (D) By Lrs., reported in (1997) 7 SCC 137, this Court had an occasion to consider the effect of mutation and it is observed and held that mutation of property in revenue records neither creates nor extinguishes title to the property nor has it any presumptive value on title. Such entries are relevant only for the purpose of collecting land revenue. Similar view has been expressed in the series of decisions thereafter.” 26 (1996) 6 SCC 223 27 2021 SCC OnLine SC 802"
+    }
+  ]
+}

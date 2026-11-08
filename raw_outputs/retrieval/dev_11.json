@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Which powers of attorney are recognised for presenting a document for registration?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "33"
+    ]
+  ],
+  "score": {
+    "rank": 5,
+    "top1": false,
+    "top3": false,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "52"
+      ],
+      [
+        "registration_1908",
+        "32"
+      ],
+      [
+        "registration_1908",
+        "62"
+      ],
+      [
+        "registration_1908",
+        "74"
+      ],
+      [
+        "registration_1908",
+        "33"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_52::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 52",
+      "heading": "Duties of registering officers when document presented",
+      "page": 16,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.03132,
+      "text": "52. Duties of registering officers when document presented.—(1) (a) The day, hour and place of presentation, 1[the photographs and finger prints affixed under section 32A,] and the signature of every person presenting a document for registration, shall be endorsed on every such document at the time of presenting it; (b) a receipt for such document shall be given by the registering officer to the person presenting the same; and (c) subject to the, provisions contained in section 62, every document admitted to registration shall without unnecessary delay be copied in the book appropriated therefore according to the order of its admission. (2) All such books shall be authenticated at such intervals and in such manner as is from time to time prescribed by the Inspector-General."
+    },
+    {
+      "chunk_id": "registration_1908::section_32::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 32",
+      "heading": "Persons to present documents for registration",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02976,
+      "text": "32. Persons to present documents for registration.—Except in the cases mentioned in 5[sections 31, 88 and 89], every document to be registered under this Act, whether such registration be compulsory or optional, shall be presented at the proper registration-office,— (a) by some person executing or claiming under the same, or, in the case of a copy of a decree or order, claiming under the decree or order, or (b) by the representive or assign of such a person, or (c) by the agent of such a person, representative or assign, duly authorised by power-of- attorney executed and authenticated in manner hereinafter mentioned."
+    },
+    {
+      "chunk_id": "registration_1908::section_62::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 62",
+      "heading": "Procedure on presenting document in language unknown to registering officer",
+      "page": 18,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02814,
+      "text": "62. Procedure on presenting document in language unknown to registering officer.—(1) When a document is presented for registration under section 19, the translation shall be transcribed in the register of documents of the nature of the original, and, together with the copy referred to in section 19, shall be filed in the registration office. (2) The endorsements and certificate respectively mentioned in sections 59 and 60 shall be made on the original, and, for the purpose of making the copies and memoranda required by sections 57, 64, 65 and 66, the translation shall be treated as if it were the original."
+    },
+    {
+      "chunk_id": "registration_1908::section_74::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 74",
+      "heading": "Procedure of Registrar on such application",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02715,
+      "text": "74. Procedure of Registrar on such application.—In such case, and also where such denial as aforesaid is made before a Registrar in respect of a document presented for registration to him, the Registrar shall, as soon as conveniently may be, enquire.— (a) whether the document has been executed; (b) whether the requirements of the law for the time being in force have been complied with on the part of the applicant or person presenting the document for registration, as the case may be, so as to entitle the document to registration."
+    },
+    {
+      "chunk_id": "registration_1908::section_33::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 33",
+      "heading": "Power-of-attorney recognisable for purposes of section 32",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02675,
+      "text": "33. Power-of-attorney recognisable for purposes of section 32.—(1) For the purposes of section 32, the following powers-of-attorney shall alone be recognized, namely:— (a) if the principal at the time of executing the power-of-attorney resides in any part of 1[India] in which this Act is for the time being in force, a power-of-attorney executed before and authenticated by the Registrar or Sub-Registrar within whose district or sub-district the principal resides; (b) if the principal at the time aforesaid 2[resides in any part of India in which this Act is not in force], a power-of-attorney executed before and authenticated by any Magistrate; (c) if the principal at the time aforesaid does not reside in 1[India], a power-of-attorney executed before and authenticated by a Notary Public, or any Court, Judge, Magistrate, 3[Indian] Consul or Vice-Consul, or representative 4*** of the Central Government: Provided that the following persons shall not be required to attend at any registration-office or Court for the purpose of executing any such power-of-attorney as is mentioned in clauses (a) and (b) of this section, namely:— (i) persons who by reason of bodily infirmity are unable without risk or serious inconvenience so to attend; (ii) persons who are in jail under civil or criminal process; and (iii) persons exempt by law from personal appearance in court."
+    }
+  ]
+}

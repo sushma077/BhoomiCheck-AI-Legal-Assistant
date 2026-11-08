@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "What is the time limit for presenting a document for registration?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "23"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "23"
+      ],
+      [
+        "registration_1908",
+        "47"
+      ],
+      [
+        "registration_1908",
+        "23A"
+      ],
+      [
+        "registration_1908",
+        "52"
+      ],
+      [
+        "registration_1908",
+        "62"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_23::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 23",
+      "heading": "Time for presenting documents",
+      "page": 9,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.08137,
+      "text": "23. Time for presenting documents.—Subject to the provisions contained in sections 24, 25 and 26, no document other than a will shall be accepted for registration unless presented for that purpose to the proper officer within four months from the date of its execution: Provided that a copy a of a decree or order may be presented within four months from the day on which the decree or order was made, or, where it is appealable, within four months from the day on which it becomes final."
+    },
+    {
+      "chunk_id": "registration_1908::section_47::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 47",
+      "heading": "Time from which registered document operates",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.03175,
+      "text": "47. Time from which registered document operates.—A registered document shall operate from the time which it would have commenced to operate if no registration thereof had been required or made, and not from the time of its registration."
+    },
+    {
+      "chunk_id": "registration_1908::section_23a::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 23A",
+      "heading": "Re-registration of certain documents",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02822,
+      "text": "1[23A. Re-registration of certain documents.—Notwithstanding anything to the contrary contained in this Act, if in any case a document requiring registration has been accepted for registration by a Registrar or Sub-Registrar from a person not duly empowered to present the same, and has been registered, any person claiming under such document may, within four months form his first becoming aware that the registration of such document is invalid, present such document or cause the same to be presented, in accordance with the provisions of Part VI for re-registration in the office of the Registrar of the district in which the document was originally registered; and upon the Registrar being satisfied that the document was so accepted for registration from a person not duly empowered to present the same, he shall proceed to the re-registration of the document as if it has not been previously registered, and as if such presentation for re-registration was a presentation for registration made within the time allowed therefore under Part IV, and all the provisions of this Act, as to registration of documents, shall apply to such re-registration; and such document, if duly re-registered in accordance with the provisions of this section, shall be deemed to have been duly registered for all purposes from the date of its original registration: Provided that, within three months from the twelfth day of September, 1917, any person claiming under a document to which this section applies may present the same or cause the same to be presented for re-registration in accordance with this section, whatever may have been the time when he first became aware that the registration of the document was invalid."
+    },
+    {
+      "chunk_id": "registration_1908::section_52::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 52",
+      "heading": "Duties of registering officers when document presented",
+      "page": 16,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02726,
+      "text": "52. Duties of registering officers when document presented.—(1) (a) The day, hour and place of presentation, 1[the photographs and finger prints affixed under section 32A,] and the signature of every person presenting a document for registration, shall be endorsed on every such document at the time of presenting it; (b) a receipt for such document shall be given by the registering officer to the person presenting the same; and (c) subject to the, provisions contained in section 62, every document admitted to registration shall without unnecessary delay be copied in the book appropriated therefore according to the order of its admission. (2) All such books shall be authenticated at such intervals and in such manner as is from time to time prescribed by the Inspector-General."
+    },
+    {
+      "chunk_id": "registration_1908::section_62::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 62",
+      "heading": "Procedure on presenting document in language unknown to registering officer",
+      "page": 18,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02705,
+      "text": "62. Procedure on presenting document in language unknown to registering officer.—(1) When a document is presented for registration under section 19, the translation shall be transcribed in the register of documents of the nature of the original, and, together with the copy referred to in section 19, shall be filed in the registration office. (2) The endorsements and certificate respectively mentioned in sections 59 and 60 shall be made on the original, and, for the purpose of making the copies and memoranda required by sections 57, 64, 65 and 66, the translation shall be treated as if it were the original."
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "What is a sale of immovable property and how is it made?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "54"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "54"
+      ],
+      [
+        "specific_relief_1963",
+        "28"
+      ],
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "specific_relief_1963",
+        "28"
+      ],
+      [
+        "tpa_1882",
+        "123"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_54::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 54",
+      "heading": "Sale” defined",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.07967,
+      "text": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered instrument. In the case of tangible immoveable property of a value less than one hundred rupees, such transfer may be made either by a registered instrument or by delivery of the property. Delivery of tangible immoveable property takes place when the seller places the buyer, or such person as he directs, in possession of the property. Contract for sale.—A contract for the sale of immoveable property is a contract that a sale of such property shall take place on terms settled between the parties. It does not, of itself, create any interest in or charge on such property. STATE AMENDMENTS Assam. Amendment of section 54 of the Central Act 4 of 1882.—In Section 54 of the principal Act, in para 2, for the expression “by a registered instrument” the following expression shall be substituted, namely: — “by an instrument registered in the State of Assam, notwithstanding anything contained in the India Registration Act, 1908 (Act 16 of 1908) to the contrary.” [Vide Assam Act 10 of 1976, s. 2.]"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_28::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 28",
+      "heading": "Rescission in certain circumstances of contracts for the sale or lease of immovable property,",
+      "page": 12,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.03154,
+      "text": "28. Rescission in certain circumstances of contracts for the sale or lease of immovable property, the specific performance of which has been decreed.—(1) Where in any suit a decree for specific performance of a contract for the sale or lease of immovable property has been made and the purchaser or lessee does not, within the period allowed by the decree or such further period as the court may allow, pay the purchase money or other sum which the court has ordered him to pay, the vendor or lessor may apply in the same suit in which the decree is made, to have the contract rescinded and on such application the court may, by order, rescind the contract either so far as regards the party in default or altogether, as the justice of the case may require."
+    },
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02905,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_28::3",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 28",
+      "heading": "Rescission in certain circumstances of contracts for the sale or lease of immovable property,",
+      "page": 12,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02548,
+      "text": "vendor or lessor; (b) the delivery of possession, or partition and separate possession, of the property on the execution of such conveyance or lease. (4) No separate suit in respect of any relief which may be claimed under this section shall lie at the instance of a vendor, purchaser, lessor or lessee, as the case may be. (5) The costs of any proceedings under this section shall be in the discretion of the court."
+    },
+    {
+      "chunk_id": "tpa_1882::section_123::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 123",
+      "heading": "Transfer how effected",
+      "page": 43,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02386,
+      "text": "123. Transfer how effected.—For the purpose of making a gift of immoveable property, the transfer must be effected by a registered instrument signed by or on behalf of the donor, and attested by at least two witnesses. For the purpose of making a gift of moveable property, the transfer may be effected either by a registered instrument signed as aforesaid or by delivery. Such delivery may be made in the same way as goods sold may be delivered."
+    }
+  ]
+}

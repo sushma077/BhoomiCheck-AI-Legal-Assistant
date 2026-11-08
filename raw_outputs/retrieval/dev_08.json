@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Which documents must be compulsorily registered?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "registration_1908",
+      "17"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "registration_1908",
+        "29"
+      ],
+      [
+        "registration_1908",
+        "48"
+      ],
+      [
+        "registration_1908",
+        "18"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.07531,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "registration_1908::section_29::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 29",
+      "heading": "Place for registering other documents",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02789,
+      "text": "29. Place for registering other documents.—(1) Every document 2[not being a document referred to in section 28 or a copy of a decree or order], may be presented for registration either in the office of the Sub-Registrar in whose sub-district the document was executed, or in the office of any other Sub-Registrar under the 3[State Government] at which all the persons executing and claiming under the document desire the same to be registered. (2) A copy of a decree or order may be presented for registration in the office of the Sub-Registrar in whose sub-district the original decree or order was made, or, where the decree or order does not affect immovable property, in the office of any the Sub-Registrar under the 2[State Government] at which all the persons claiming under the decree or order desire the copy to be registered."
+    },
+    {
+      "chunk_id": "registration_1908::section_48::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 48",
+      "heading": "Registered documents relating to property when to take effect against oral",
+      "page": 15,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02781,
+      "text": "48. Registered documents relating to property when to take effect against oral agreements.— All non-testamentary documents duly registered under this Act, and relating to any property, whether movable or immovable, shall take effect against any order agreement or declaration relating to such property, unless where the agreement or declaration has been accompanied or followed by delivery of possession 1[and the same constitutes a valid transfer under any law for the time being in force: Provided that a mortgage as defined in section 58 of the Transfer of Property Act, 1882 (4 of 1882), shall take effect against any mortgage-deed subsequently executed and registered which relates to the same property.]"
+    },
+    {
+      "chunk_id": "registration_1908::section_18::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 18",
+      "heading": "Documents of which registration is optional",
+      "page": 8,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.0275,
+      "text": "18. Documents of which registration is optional.—Any of the following documents may be registered under this Act, namely:— (a) Instruments (other than instruments of gift and wills) which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of a value less then one hundred rupees, to or in immovable property; (b) instruments acknowledging the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; (c) leases of immovable property for any term not exceeding one year, and leases exempted under section 17; 6[(cc) instruments transferring or assigning any decree or order of a Court or any award when such decree or order or award purports or operates to create, declare, assign, limit or extinguish, 5. Ins by Act 2 of 1927, s. 2. whether in present or in future, any right, title or interest, whether vested or contingent, of a value less than one hundred rupees, to or in immovable property;] (d) instruments (other than wills) which purport or operate to create, declare, assign, limit or extinguish any right, title or interest to or in movable property; (e) wills; and (f) all other documents not required by section 17 to be registered."
+    },
+    {
+      "chunk_id": "registration_1908::section_17::3",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02706,
+      "text": "istrict, or part of a district, the terms granted by which do not exceed five years and the annual rents reserved by which do not exceed fifty rupees. 4[(1A) The documents containing contracts to transfer for consideration, any immovable property for the purpose of section 53A of the Transfer of Property Act, 1882 (4 of 1882) shall be registered if they have been executed on or after the commencement of the Registration and Other Related laws (Amendment) Act, 2001 (48 of 2001) and if such documents are not registered on or after such commencement, then, they shall have no effect for the purposes of the said section 53A.] (2) Nothing in clauses (b) and (c) of sub-section (1) applies to— (i) any composition deed; or (ii) any instrument relating to shares in a joint stock Company, notwithstanding that the assets of such Company consist in whole or in part of immovable property; or (iii) any debenture issued by any such Company and not creating, declaring, assigning, limiting or extinguishing any right, title or interest, to or in immovable property except in so far as it entitles the holder to the security afforded by a registered instrument whereby the Company has mortgaged, conveyed or otherwise transferred the whole or part of its immovable property or any interest therein to trustees upon trust for the benefit of the holders of such debentures;"
+    }
+  ]
+}

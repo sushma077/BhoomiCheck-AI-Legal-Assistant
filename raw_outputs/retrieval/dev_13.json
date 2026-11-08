@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Does a builder need to register a real estate project before selling flats?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "rera_2016",
+      "3"
+    ]
+  ],
+  "score": {
+    "rank": 2,
+    "top1": false,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "rera_2016",
+        "3"
+      ],
+      [
+        "tpa_1882",
+        "54"
+      ],
+      [
+        "rera_2016",
+        "3"
+      ],
+      [
+        "rera_2016",
+        "14"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.1,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "rera_2016::section_3::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 3",
+      "heading": "(1) No promoter shall advertise, market, book, sell or offer for sale, or invite persons",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.08083,
+      "text": "3. (1) No promoter shall advertise, market, book, sell or offer for sale, or invite persons to purchase in any manner any plot, apartment or building, as the case may be, in any real estate project or part of it, in any planning area, without registering the real estate project with the Real Estate Regulatory Authority established under this Act: Provided that projects that are ongoing on the date of commencement of this Act and for which the completion certificate has not been issued, the promoter shall make an application to the Authority for registration of the said project within a period of three months from the date of commencement of this Act: Provided further that if the Authority thinks necessary, in the interest of allottees, for projects which are developed beyond the planning area but with the requisite permission of the local authority, it may, by order, direct the promoter of such project to register with the Authority, and the provisions of this Act or the rules and regulations made thereunder, shall apply to such projects from that stage of registration."
+    },
+    {
+      "chunk_id": "tpa_1882::section_54::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 54",
+      "heading": "Sale” defined",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.05,
+      "text": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered instrument. In the case of tangible immoveable property of a value less than one hundred rupees, such transfer may be made either by a registered instrument or by delivery of the property. Delivery of tangible immoveable property takes place when the seller places the buyer, or such person as he directs, in possession of the property. Contract for sale.—A contract for the sale of immoveable property is a contract that a sale of such property shall take place on terms settled between the parties. It does not, of itself, create any interest in or charge on such property. STATE AMENDMENTS Assam. Amendment of section 54 of the Central Act 4 of 1882.—In Section 54 of the principal Act, in para 2, for the expression “by a registered instrument” the following expression shall be substituted, namely: — “by an instrument registered in the State of Assam, notwithstanding anything contained in the India Registration Act, 1908 (Act 16 of 1908) to the contrary.” [Vide Assam Act 10 of 1976, s. 2.]"
+    },
+    {
+      "chunk_id": "rera_2016::section_3::2",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 3",
+      "heading": "(1) No promoter shall advertise, market, book, sell or offer for sale, or invite persons",
+      "page": 7,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.0328,
+      "text": "Authority, and the provisions of this Act or the rules and regulations made thereunder, shall apply to such projects from that stage of registration. (2) Notwithstanding anything contained in sub-section (1), no registration of the real estate project shall be required— (a) where the area of land proposed to be developed does not exceed five hundred square meters or the number of apartments proposed to be developed does not exceed eight inclusive of all phases: Provided that, if the appropriate Government considers it necessary, it may, reduce the threshold below five hundred square meters or eight apartments, as the case may be, inclusive of all phases, for exemption from registration under this Act; (b) where the promoter has received completion certificate for a real estate project prior to commencement of this Act; (c) for the purpose of renovation or repair or re-development which does not involve marketing, advertising selling or new allotment of any apartment, plot or building, as the case may be, under the real estate project. Explanation.—For the purpose of this section, where the real estate project is to be developed in phases, every such phase shall be considered a stand alone real estate project, and the promoter shall obtain registration under this Act for each phase separately."
+    },
+    {
+      "chunk_id": "rera_2016::section_14::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 14",
+      "heading": "(1) The proposed project shall be developed and completed by the promoter in",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03031,
+      "text": "14. (1) The proposed project shall be developed and completed by the promoter in accordance with the sanctioned plans, layout plans and specifications as approved by the competent authorities. (2) Notwithstanding anything contained in any law, contract or agreement, after the sanctioned plans, layout plans and specifications and the nature of the fixtures, fittings, amenities and common areas, of the apartment, plot or building, as the case may be, as approved by the competent authority, are disclosed or furnished to the person who agree to take one or more of the said apartment, plot or building, as the case may be, the promoter shall not make— (i) any additions and alterations in the sanctioned plans, layout plans and specifications and the nature of fixtures, fittings and amenities described therein in respect of the apartment, plot or building, as the case may be, which are agreed to be taken, without the previous consent of that person: Provided that the promoter may make such minor additions or alterations as may be required by the allottee, or such minor changes or alterations as may be necessary due to architectural and structural reasons duly recommended and verified by an authorised Architect or Engineer after proper declaration and intimation to the allottee. Obligations of promoter regarding veracity of the advertisement or prospectus."
+    }
+  ]
+}

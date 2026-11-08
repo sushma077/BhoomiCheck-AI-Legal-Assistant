@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "How must a will be executed and attested?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "indian_succession_1925",
+      "63"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "indian_succession_1925",
+        "63"
+      ],
+      [
+        "indian_succession_1925",
+        "91"
+      ],
+      [
+        "indian_succession_1925",
+        "66"
+      ],
+      [
+        "indian_succession_1925",
+        "64"
+      ],
+      [
+        "indian_succession_1925",
+        "89"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "indian_succession_1925::section_63::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 63",
+      "heading": "Execution of unprivileged wills",
+      "page": 27,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.07778,
+      "text": "63. Execution of unprivileged wills.—Every testator, not being a soldier employed in an expedition or engaged in actual warfare, 1[or an airman so employed or engaged,] or a mariner at sea, shall execute his will according to the following rules:— (a) The testator shall sign or shall affix his mark to the will, or it shall be signed by some other person in his presence and by his direction. (b) The signature or mark of the testator, or the signature of the person signing for him, shall be so placed that it shall appear that it was intended thereby to give effect to the writing as a will. (c) The will shall be attested by two or more witnesses, each of whom has seen the testator sign or affix his mark to the will or has seen some other person sign the will, in the presence and by the direction of the testator, or has received from the testator a personal acknowledgment of his signature or mark, or of the signature of such other person; and each of the witnesses shall sign the will in the presence of the testator, but it shall not be necessary that more than one witness be present at the same time, and no particular form of attestation shall be necessary."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_91::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 91",
+      "heading": "Power of appointment executed by general bequest",
+      "page": 33,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02914,
+      "text": "91. Power of appointment executed by general bequest.—Unless a contrary intention appears by the will, a bequest of the estate of the testator shall be construed to include any property which he may have -power to appoint by will to any object he may think proper, and shall operate as an execution of such power; and a bequest of property described in a general manner shall be construed to include any property to which such description may extend, which he may have power to appoint by will to any object he may think proper, and shall operate as an execution of such power."
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_66::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 66",
+      "heading": "Mode of making, and rules for executing, privileged wills",
+      "page": 28,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02878,
+      "text": "66. Mode of making, and rules for executing, privileged wills.—(1) Privileged wills may be in writing, or may be made by word of mouth. (2) The execution of privileged wills shall be governed by the following rules:— (a) The will may be written wholly by the testator, with his own hand. In such case it need not be signed or attested. (b) It may be written wholly or in part by another person, and signed by the testator. In such case it need not be attested. (c) If the instrument purporting to be a will is written wholly or in part by another person and is not signed by the testator, it shall be deemed to be his will, if it is shown that it was written by the testator's directions or that he recognised it as his will. (d) If it appears on the face of the instrument that the execution of it in the manner intended by the testator was not completed, the instrument shall not, by reason of that circumstance, be invalid, provided that his non-execution of it can be reasonably ascribed to some cause other than the abandonment of the testamentary intentions expressed in the instrument. (e) If the soldier, 1[airman] or mariner has written instructions for the preparation of his will, but has died before it could be prepared and executed, such instructions shall be considered to constitute his will. (f) If the soldier, 1[airman] or mariner has, in the presence of two witnesses, given verbal instructions for the preparation of his will, and they have been reduced into writing in his lifetime, but he has died before the instrument could be prepared and executed, such instructions shall be considered to constitute his will, although they may not have been reduced into writing in his presence, nor read over to him. (g) The soldier, 1[airman] or mariner may make a will by word of mouth by declaring his intentions before two witnesses present at the same time. (h) A will made by word of mouth shall be null at the expiration of one month after the testator, being still alive, has ceased to be entitled to make a privileged will. CHAPTER V.—Of the Attestation, Revocation, Alteration and Revival of Wills"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_64::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 64",
+      "heading": "Incorporation of papers by reference",
+      "page": 27,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02844,
+      "text": "64. Incorporation of papers by reference.—If a testator, in a will or codicil duly attested, refers to any other document then actually written as expressing any part of his intentions, such document shall be deemed to form a part of the will or codicil in which it is referred to. CHAPTER IV.—Of privileged Wills"
+    },
+    {
+      "chunk_id": "indian_succession_1925::section_89::1",
+      "title": "Indian Succession Act, 1925",
+      "provision": "Section 89",
+      "heading": "Will or bequest void for uncertainty",
+      "page": 33,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Succession%20Act,%201925.pdf",
+      "score": 0.02769,
+      "text": "89. Will or bequest void for uncertainty.—A will or bequest not expressive of any definite intention is void for uncertainty. Illustration If a testator says “I bequeath goods to A,” or “I bequeath to A,” or “I leave to A all the goods mentioned in the Schedule” and no Schedule is found, or “I bequeath ‘money,’ ‘wheat,’ ‘oil,’ ” or the like, without saying how much, this is void."
+    }
+  ]
+}

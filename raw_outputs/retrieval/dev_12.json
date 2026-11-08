@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Can an instrument which is not duly stamped be used as evidence?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "stamp_1899",
+      "35"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "stamp_1899",
+        "35"
+      ],
+      [
+        "stamp_1899",
+        "35"
+      ],
+      [
+        "stamp_1899",
+        "37"
+      ],
+      [
+        "stamp_1899",
+        "14"
+      ],
+      [
+        "stamp_1899",
+        "41"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "stamp_1899::section_35::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 35",
+      "heading": "Instruments not duly stamped inadmissible in evidence, etc",
+      "page": 27,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.08333,
+      "text": "35. Instruments not duly stamped inadmissible in evidence, etc.-No instrument chargeable with duty shall be admitted in evidence for any purpose by any person having by law or consent of parties authority to receive evidence, or shall be acted upon, registered or authenticated by any such person or by any public officer, unless such instrument is duly stamped: Provided that- (a) any such instrument 4[shall], be admitted in evidence on payment of the duty with which the same is chargeable, or, in the case of an instrument insufficiently stamped, of the amount required to make up such duty, together with a penalty of five rupees, or, when ten times the amount of the proper duty or deficient portion thereof exceeds five rupees, of a sum equal to ten times such duty or portion; (b) where any person from whom a stamped receipt could have been demanded, has given an unstamped receipt and such receipt, if stamped, would be admissible in evidence against him, then such receipt shall be admitted in evidence against him, then such receipt shall be admitted in evidence against him on payment of a penalty of one rupee by the person tendering it; (c) where a contract or agreement of any kind is effected by correspondence consisting of two or more letters and anyone of the - in Council\". Sec."
+    },
+    {
+      "chunk_id": "stamp_1899::section_35::3",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 35",
+      "heading": "Instruments not duly stamped inadmissible in evidence, etc",
+      "page": 27,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.03175,
+      "text": "ument having been lost from the records of the court would raise a presumption of the said instrument having been properly stamped; Hari Jiwan Sahu v. Jairam Sahu, AIR 1989 Pat 96. When promissory note insufficiently stamped An insufficiently stamped promissory note executed as collateral security cannot be accepted in evidence whereas some other evidence can be adduced to prove oral agreement in respect of the debt; Khitish Chandra v. Raj Kishore Sahu, AIR 1980 Ori 10."
+    },
+    {
+      "chunk_id": "stamp_1899::section_37::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 37",
+      "heading": "Admission",
+      "page": 29,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.03132,
+      "text": "37. Admission of improperly stamped instruments.-1[The 2[State Government]] may make rules providing that, where an instrument bears a stamp of sufficient amount but of improper description, it may, on payment of the duty with which the same is chargeable be certified to be duly stamped, and any instrument so certified shall then be deemed to have been duly stamped as from the date of its execution."
+    },
+    {
+      "chunk_id": "stamp_1899::section_14::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 14",
+      "heading": "Only one instrument to be on same stamp",
+      "page": 18,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.03126,
+      "text": "14. Only one instrument to be on same stamp.-No second instrument chargeable with duty shall be written upon a piece of stamped paper upon which an instrument chargeable with duty has already been written: Provided that nothing in this section shall prevent any endorsement which is duly stamped or is not chargeable with duty being made upon any instrument for the purpose of transferring any right created or evidenced thereby, or of acknowledging the receipt of any money or goods the payment or delivery of which is secured thereby."
+    },
+    {
+      "chunk_id": "stamp_1899::section_41::1",
+      "title": "Indian Stamp Act, 1899",
+      "provision": "Section 41",
+      "heading": "Instruments unduly stamped by accident",
+      "page": 30,
+      "url": "https://revenue.py.gov.in/downloads/actsandrules/Indian%20StampAct1899.pdf",
+      "score": 0.03126,
+      "text": "41. Instruments unduly stamped by accident.-If any instrument chargeable with duty and not duly stamped, not being an instrument chargeable 2[with a duty not exceeding ten naye paise] only or a bill of exchange or promissory note, is produced by any person of his own motion before the Collector within one year from the date of its execution or first execution, and such person brings to the notice of the Collector the fact that such instrument is not duly stamped and offers to pay the Collecto~rthe amount of the proper duty, or the amount required to make up the same, and e Collector is satisfied that the omission to duly stamp such instrument has be n occasioned by accident, mistake or urgent necessity, he may, instead of proceeding under sections 33 and 40, receive such amount and proceed as next hereinafter prescribed."
+    }
+  ]
+}

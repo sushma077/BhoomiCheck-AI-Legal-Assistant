@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "How is a lease of immovable property made? When is a registered instrument needed?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "107"
+    ]
+  ],
+  "score": {
+    "rank": 2,
+    "top1": false,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "tpa_1882",
+        "107"
+      ],
+      [
+        "specific_relief_1963",
+        "28"
+      ],
+      [
+        "registration_1908",
+        "17"
+      ],
+      [
+        "specific_relief_1963",
+        "28"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "registration_1908::section_17::1",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.1,
+      "text": "17. Documents of which registration is compulsory.—(1) The following documents shall be registered, if the property to which they relate is situate in a district in which, and if they have been executed on or after the date on which, Act No. XVI of 1864, or the Indian Registration Act, 1866, or the Indian Registration Act, 1871, or the Indian Registration Act, 1877, or this Act came or comes into force, namely:— (a) instruments of gift of immovable property; (b) other non-testamentary instruments which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property; (c) non-testamentary instruments which acknowledge the receipt or payment of any consideration on account of the creation, declaration, assignment, limitation or extinction of any such right, title or interest; and (d) leases of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent;"
+    },
+    {
+      "chunk_id": "tpa_1882::section_107::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 107",
+      "heading": "Leases how made",
+      "page": 38,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.08333,
+      "text": "107. Leases how made.—A lease of immoveable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument. 2[All other leases of immoveable property may be made either by a registered instrument or by oral agreement accompanied by delivery of possession. 3 [Where a lease of immoveable property is made by a registered instrument, such instrument or, where there are more instruments than one, each such instrument shall be executed by both the lessor and the lessee:] Provided that the State Government may, 4*** from time to time, by notification in the Official Gazette, direct that leases of immoveable property, other than leases from year to year, or for any term exceeding one year, or reserving a yearly rent, or any class of such leases, may be made by unregistered instrument or by oral agreement without delivery of possession.]"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_28::1",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 28",
+      "heading": "Rescission in certain circumstances of contracts for the sale or lease of immovable property,",
+      "page": 12,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02996,
+      "text": "28. Rescission in certain circumstances of contracts for the sale or lease of immovable property, the specific performance of which has been decreed.—(1) Where in any suit a decree for specific performance of a contract for the sale or lease of immovable property has been made and the purchaser or lessee does not, within the period allowed by the decree or such further period as the court may allow, pay the purchase money or other sum which the court has ordered him to pay, the vendor or lessor may apply in the same suit in which the decree is made, to have the contract rescinded and on such application the court may, by order, rescind the contract either so far as regards the party in default or altogether, as the justice of the case may require."
+    },
+    {
+      "chunk_id": "registration_1908::section_17::3",
+      "title": "Registration Act, 1908",
+      "provision": "Section 17",
+      "heading": "Documents of which registration is compulsory",
+      "page": 7,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/15937/1/the_registration_act%2C1908.pdf",
+      "score": 0.02727,
+      "text": "istrict, or part of a district, the terms granted by which do not exceed five years and the annual rents reserved by which do not exceed fifty rupees. 4[(1A) The documents containing contracts to transfer for consideration, any immovable property for the purpose of section 53A of the Transfer of Property Act, 1882 (4 of 1882) shall be registered if they have been executed on or after the commencement of the Registration and Other Related laws (Amendment) Act, 2001 (48 of 2001) and if such documents are not registered on or after such commencement, then, they shall have no effect for the purposes of the said section 53A.] (2) Nothing in clauses (b) and (c) of sub-section (1) applies to— (i) any composition deed; or (ii) any instrument relating to shares in a joint stock Company, notwithstanding that the assets of such Company consist in whole or in part of immovable property; or (iii) any debenture issued by any such Company and not creating, declaring, assigning, limiting or extinguishing any right, title or interest, to or in immovable property except in so far as it entitles the holder to the security afforded by a registered instrument whereby the Company has mortgaged, conveyed or otherwise transferred the whole or part of its immovable property or any interest therein to trustees upon trust for the benefit of the holders of such debentures;"
+    },
+    {
+      "chunk_id": "specific_relief_1963::section_28::2",
+      "title": "Specific Relief Act, 1963",
+      "provision": "Section 28",
+      "heading": "Rescission in certain circumstances of contracts for the sale or lease of immovable property,",
+      "page": 12,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1583/7/A1963-47.pdf",
+      "score": 0.02626,
+      "text": "ion the court may, by order, rescind the contract either so far as regards the party in default or altogether, as the justice of the case may require. (2) Where a contract is rescinded under sub-section (1), the court— (a) shall direct the purchaser or the lessee, if he has obtained possession of the property under the contract, to restore such possession to the vendor or lessor, and (b) may direct payment to the vendor or lessor of all the rents and profits which have accrued in respect of the property from the date on which possession was so obtained by the purchaser or lessee until restoration of possession to the vendor or lessor, and, if the justice of the case so requires, the refund of any sum paid by the vendee or the lessee as earnest money or deposit in connection with the contract. (3) If the purchase or lessee pays the purchase money or other sum which he is ordered to pay under the decree within the period referred to in sub-section (1), the court may, on application made in the same suit, award the purchaser or lessee such further relief as he may be entitled to, including in appropriate cases all or any of the following reliefs, namely:— (a) the execution of a proper conveyance or lease by the vendor or lessor; (b) the delivery of possession, or partition and separate possession, of the property on the execution of such conveyance or lease."
+    }
+  ]
+}

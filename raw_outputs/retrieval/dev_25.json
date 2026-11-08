@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "section 54 of the Transfer of Property Act",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "54"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "54"
+      ],
+      [
+        "tpa_1882",
+        "44"
+      ],
+      [
+        "tpa_1882",
+        "5"
+      ],
+      [
+        "tpa_1882",
+        "43"
+      ],
+      [
+        "tpa_1882",
+        "18"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_54::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 54",
+      "heading": "Sale” defined",
+      "page": 20,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02667,
+      "text": "54. “Sale” defined.—“Sale” is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised. Sale how made.—Such transfer, in the case of tangible immoveable property of the value of one hundred rupees and upwards, or in the case of a reversion or other intangible thing, can be made only by a registered instrument. In the case of tangible immoveable property of a value less than one hundred rupees, such transfer may be made either by a registered instrument or by delivery of the property. Delivery of tangible immoveable property takes place when the seller places the buyer, or such person as he directs, in possession of the property. Contract for sale.—A contract for the sale of immoveable property is a contract that a sale of such property shall take place on terms settled between the parties. It does not, of itself, create any interest in or charge on such property. STATE AMENDMENTS Assam. Amendment of section 54 of the Central Act 4 of 1882.—In Section 54 of the principal Act, in para 2, for the expression “by a registered instrument” the following expression shall be substituted, namely: — “by an instrument registered in the State of Assam, notwithstanding anything contained in the India Registration Act, 1908 (Act 16 of 1908) to the contrary.” [Vide Assam Act 10 of 1976, s. 2.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_44::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 44",
+      "heading": "Transfer by one co-owner",
+      "page": 17,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.04674,
+      "text": "44. Transfer by one co-owner.—Where one of two or more co-owners of immoveable property legally competent in that behalf transfers his share of such property or any interest therein, the transferee acquires as to such share or interest, and so far as is necessary to give effect to the transfer, the transferor's 1. The Illustrations omitted by Act 20 of 1929, s. 11. right to joint possession or other common or part enjoyment of the property, and to enforce a partition of the same, but subject to the conditions and liabilities affecting, at the date of the transfer, the share or interest so transferred. Where the transferee of a share of a dwelling-house belonging to an undivided family is not a member of the family, nothing in this section shall be deemed to entitle him to joint possession or other common or part enjoyment of the house."
+    },
+    {
+      "chunk_id": "tpa_1882::section_5::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 5",
+      "heading": "Transfer of property” defined",
+      "page": 10,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.04633,
+      "text": "5. “Transfer of property” defined.—In the following sections “transfer of property” means an act by which a living person conveys property, in present or in future, to one or more other living persons, or to himself, 2[or to himself] and one or more other living persons; and “to transfer property” is to perform such act. 3[In this section “living person” includes a company or association or body of individuals, whether incorporated or not, but nothing herein contained shall affect any law for the time being in force relating to transfer of property to or by companies, associations or bodies of individuals.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_43::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 43",
+      "heading": "Transfer by unauthorised person who subsequently acquires interest in property",
+      "page": 17,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.04283,
+      "text": "43. Transfer by unauthorised person who subsequently acquires interest in property transferred.—Where a person 3[fraudulently or] erroneously represents that he is authorised to transfer certain immovable property and professes to transfer such property for consideration, such transfer shall, at the option of the transferee, operate on any interest which the transferor may acquire in such property at any time during which the contract of transfer subsists. Nothing in this section shall impair the right of transferees in good faith for consideration without notice of the existence of the said option. Illustration A, a Hindu who has separated from his father B, sells to C three fields, X, Y and Z, representing that A is authorised to transfer the same. Of these fields Z does not belong to A, it having been retained by B on the partition; but on B's dying A as heir obtains Z.C, not having rescinded the contract of sale, may require A to deliver Z to him ."
+    },
+    {
+      "chunk_id": "tpa_1882::section_18::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 18",
+      "heading": "Transfer in perpetuity for benefit of public",
+      "page": 12,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.04183,
+      "text": "18. Transfer in perpetuity for benefit of public.—The restrictions in sections 14, 16 and 17 shall not apply in the case of a transfer of property for the benefit of the public in the advancement of religion, knowledge, commerce, health, safety, or any other object beneficial to mankind.]"
+    }
+  ]
+}

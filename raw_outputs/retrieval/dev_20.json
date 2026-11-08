@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Daughter's rights in coparcenary property",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "hindu_succession_1956",
+      "6"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "hindu_succession_1956",
+        "6"
+      ],
+      [
+        "hindu_succession_1956",
+        "6"
+      ],
+      [
+        "hindu_succession_1956",
+        "29"
+      ],
+      [
+        "hindu_succession_1956",
+        "6"
+      ],
+      [
+        "tpa_1882",
+        "109"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "hindu_succession_1956::section_6::1",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 6",
+      "heading": "Devolution of interest in coparcenary property",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.07522,
+      "text": "2[6. Devolution of interest in coparcenary property.―(1) On and from the commencement of the Hindu Succession (Amendment) Act, 2005 (39 of 2005), in a Joint Hindu family governed by the Mitakshara law, the daughter of a coparcener shall,― (a) by birth become a coparcener in her own right the same manner as the son; (b) have the same rights in the coparcenery property as she would have had if she had been a son; (c) be subject to the same liabilities in respect of the said coparcenery property as that of a son, and any reference to a Hindu Mitakshara coparcener shall be deemed to include a reference to a daughter of a coparcener: Provided that nothing contained in this sub-section shall affect or invalidate any disposition or alienation including any partition or testamentary disposition of property which had taken place before the 20th day of December, 2004. (2) Any property to which a female Hindu becomes entitled by virtue of sub-section (1) shall be held by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything contained in this Act or any other law for the time being in force, as property capable of being disposed of by her by testamentary disposition."
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_6::5",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 6",
+      "heading": "Devolution of interest in coparcenary property",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.03089,
+      "text": "al Act 30 of 1956.―In the Hindu Succession Act, 1956 (Central Act 30 of 1956) after section 6, the following sections shall be inserted, namely:― “6A. Equal rights to daughter in co-parcenary property.―Notwithstanding anything contained in section 6 of this Act,― (a) in a joint Hindu family governed by Mitakshara law, the daughter of a co-parcener shall by birth become a co-parcener in her own right in the same manner as the son and have the same rights in the co-parcenary property as she would have had if she had been a son inclusive of the right to claim by survivorship and shall be subject to the same liabilities and disabilities in respect thereto as the son; (b) at a partition in such Joint Hindu Family the co-parcenary property shall be so divided as to allot to a daughter the same share as is allotable to a son: Provided that the share which a predeceased son or a predeceased daughter would have got at the partition if he or she had been alive at the time of the partition, shall be allotted to the surviving child of such predeceased son or of such predeceased daughter:"
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_29::2",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 29",
+      "heading": "Failure of heirs",
+      "page": 11,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.02878,
+      "text": "partition in such a Joint Hindu Family the coparcenary property shall be so divided as to allot to a daughter the same share as is allotable to a son: Provided that the share which a pre-deceased son or a pre-deceased daughter would have got at the partition if he or she had been alive at the time of the partition shall be allotted to the surviving child of such pre-deceased son or of such pre-deceased daughter: Provided further that the share allotable to the pre-deceased child of a predeceased son or of a pre-deceased daughter, if such child had been alive at the time of the partition, shall be allotted to the child of such pre-deceased child of the predeceased son or of the pre-deceased daughter, as the case may be; (iii) any property to which a female Hindu becomes entitled by virtue of the provisions of clause (i) shall be held by her with the incidents of coparcenary ownership and shall be regarded, notwithstanding anything contained in this Act or any other law for the time being in force, as property capable of being disposed of by her by will or other testamentary disposition; (iv) nothing in this Chapter shall apply to a daughter married before the date of the commencement of the Hindu Succession (Tamil Nadu Amendment) Act, 1989;"
+    },
+    {
+      "chunk_id": "hindu_succession_1956::section_6::6",
+      "title": "Hindu Succession Act, 1956",
+      "provision": "Section 6",
+      "heading": "Devolution of interest in coparcenary property",
+      "page": 5,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/1713/1/AAA1956suc___30.pdf",
+      "score": 0.02792,
+      "text": "or she had been alive at the time of the partition, shall be allotted to the surviving child of such predeceased son or of such predeceased daughter: Provided further that the share allotable to the predeceased child of the predeceased son or of a predeceased daughter, if such child had been alive at the time of the partition, shall be allotted to the child of such predeceased child of the predeceased son or of such predeceased daughter, as the case may be; (c) any property to which a female Hindu becomes entitled by virtue of the provisions of clause (a) shall be held by her with the incidents of co-parcenary ownership and shall be regarded, notwithstanding anything contained in this Act or any other law for the time being in force, as property capable of being disposed of by her by will or other testamentary disposition; (d) nothing in clause (b) shall apply to a daughter married prior to or to a partition which had been effected before the commencement of Hindu Succession (Karnataka Amendment) Act, 1990."
+    },
+    {
+      "chunk_id": "tpa_1882::section_109::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 109",
+      "heading": "Rights of lessor’s transferee",
+      "page": 40,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.02764,
+      "text": "109. Rights of lessor’s transferee.—If the lessor transfers the property leased, or any part thereof, or any part of his interest therein, the transferee, in the absence of a contract to the contrary, shall possess all the rights and, if the lessee so elects, be subject to all the liabilities of the lessor as to the property or part transferred so long as he is the owner of it; but the lessor shall not, by reason only of such transfer, cease to be subject to any of the liabilities imposed upon him by the lease, unless the lessee elects to treat the transferee as the person liable to him: Provided that the transferee is not entitled to arrears of rent due before the transfer, and that, if the lessee, not having reason to believe that such transfer has been made, pays rent to the lessor, the lessee shall not be liable to pay such rent over again to the transferee. The lessor, the transferee and the lessee may determine what proportion of the premium or rent reserved by the lease is payable in respect of the part so transferred, and, in case they disagree, such determination may be made by any Court having jurisdiction to entertain a suit for the possession of the property leased."
+    }
+  ]
+}

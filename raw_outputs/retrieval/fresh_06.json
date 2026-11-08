@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Mortgage ke baad redeem karne ka adhikar kya hai?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "tpa_1882",
+      "60"
+    ]
+  ],
+  "score": {
+    "rank": 3,
+    "top1": false,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "tpa_1882",
+        "58"
+      ],
+      [
+        "tpa_1882",
+        "61"
+      ],
+      [
+        "tpa_1882",
+        "60"
+      ],
+      [
+        "tpa_1882",
+        "91"
+      ],
+      [
+        "tpa_1882",
+        "67"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "tpa_1882::section_58::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 58",
+      "heading": "Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed",
+      "page": 23,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.06449,
+      "text": "58. “Mortgage”, “mortgagor”, “mortgagee”, “mortgage-money” and “mortgage-deed” defined.—(a) A mortgage is the transfer of an interest in specific immoveable property for the purpose of securing the payment of money advanced or to be advanced by way of loan, an existing or future debt, or the performance of an engagement which may give rise to a pecuniary liability. The transferor is called a mortgagor, the transferee a mortgagee; the principal money and interest of which payment is secured for the time being arc called the mortgage-money, and the instrument (if any) by which the transfer is effected is called a mortgage-deed. (b) Simple mortgage.—Where, without delivering possession of the mortgaged property, the mortgagor binds himself personally to pay the mortgage-money, and agrees, expressly or impliedly, that, in the event of his failing to pay according to his contract, the mortgagee shall have a right to cause the mortgaged property to be sold and the proceeds of sale to be applied, so far as may be necessary, in payment of the mortgage-money, the transaction is called a simple mortgage and the mortgagee a simple mortgagee."
+    },
+    {
+      "chunk_id": "tpa_1882::section_61::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 61",
+      "heading": "Right to redeem separately or simultaneously",
+      "page": 25,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.01667,
+      "text": "3[61. Right to redeem separately or simultaneously.—A mortgagor who has executed two or more mortgages in favour of the same mortgagee shall, in the absence of a contract to the contrary, when the principal money of any two or more of the mortgages has become due, be entitled to redeem any one such mortgage separately, or any two or more of such mortgages together.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_60::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 60",
+      "heading": "Right of mortgagor to redeem",
+      "page": 24,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.01639,
+      "text": "60. Right of mortgagor to redeem.—At any time after the principal money has become 9[due], the mortgagor has a right, on payment or tender, at a proper time and place, of the mortgage- money, to require the mortgagee (a) to deliver 10[to the mortgagor the mortgage-deed and all documents relating to the mortgaged property which are in the possession or power of the mortgagee], (b) where the mortgagee is in possession of the mortgaged property, to deliver possession thereof to the mortgagor, and (c) at the cost of the mortgagor either to re-transfer the mortgaged property to him or to such third person as he may direct, or to execute and (where the mortgage has been effected by a registered instrument) to have registered an acknowledgement in writing that any right in derogation of his interest transferred to the mortgagee has been extinguished: Provided that the right conferred by this section has not been extinguished by act of the parties or by 11[decree] of a Court. The right conferred by this section is called a right to redeem and a suit to enforce it is called a suit for redemption. Nothing in this section shall be deemed to render invalid any provision to the effect that, if the time fixed for payment of the principal money has been allowed to pass or no such time has been fixed, the mortgagee shall be entitled to reasonable notice before payment or tender of such money. above. 7. Third paragraph omitted by Act 20 of 1929, s. 20. Redemption of portion of mortgaged property.—Nothing in this section shall entitle a person interested in a share only of the mortgaged property to redeem his own share only, on payment of a proportionate part of the amount remaining due on the mortgage, except 1[only] where a mortgagee, or, if there are more mortgagees than one, all such mortgagees, has or have acquired, in whole or in part, the share of a mortgager."
+    },
+    {
+      "chunk_id": "tpa_1882::section_91::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 91",
+      "heading": "Persons who may sue for redemption",
+      "page": 35,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.01613,
+      "text": "5[91. Persons who may sue for redemption.—Besides the mortgagor, any of the following persons may redeem, or institute a suit for redemption of, the mortgaged property, namely:— (a) any person (other than the mortgagee of the interest sought to be redeemed) who has any interest in, or charge upon, the property mortgaged or in or upon the right to redeem the same; (b) any surety for the payment of the mortgage-debt or any part thereof; or (c) any creditor of the mortgagor who has in a suit for the administration of his estate obtained a decree for sale of the mortgaged property.]"
+    },
+    {
+      "chunk_id": "tpa_1882::section_67::1",
+      "title": "Transfer of Property Act, 1882",
+      "provision": "Section 67",
+      "heading": "Right to foreclosure or sale",
+      "page": 27,
+      "url": "https://www.indiacode.nic.in/bitstream/123456789/2338/1/A1882-04.pdf",
+      "score": 0.01587,
+      "text": "67. Right to foreclosure or sale.—In the absence of a contract to the contrary, the mortgagee has, at any time after the mortgage-money has become 3[due] to him, and before a decree has been made for the redemption of the mortgaged property, or the mortgage-money has been paid or deposited as hereinafter provided, a right to obtain from the Court 4[a decree] that the mortgagor shall be absolutely debarred of his right to redeem the property, or 4[a decree] that the property be sold. A suit to obtain 4[a decree] that a mortgagor shall be absolutely debarred of his right to redeem the mortgaged property is called a suit for foreclosure. Nothing in this section shall be deemed— 1 [(a) to authorise any mortgagee other than a mortgagee by conditional sale or a mortgagee under an anomalous mortgage by the terms of which he is entitled to foreclose, to institute a suit for foreclosure, or an usufructuary mortgagee as such or a mortgagee by conditional sale as such to institute a suit for sale; or] (b) to authorise a mortgagor who holds the mortgagee's rights as his trustee or legal representative, and who may sue for a sale of the property, to institute a suit for foreclosure; or (c) to authorise the mortgagee of a railway, canal or other work in the maintenance of which the public are interested, to institute a suit for foreclosure or sale; or (d) to authorise a person interested in part only of the mortgage-money to-institute a suit relating only to a corresponding part of the mortgaged property, unless the mortgagees have, with the consent of the mortgagor, severed their interests under the mortgage."
+    }
+  ]
+}

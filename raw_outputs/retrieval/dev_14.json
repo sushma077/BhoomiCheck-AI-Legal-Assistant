@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "Can a promoter take more than ten percent advance before a written agreement for sale?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "rera_2016",
+      "13"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "rera_2016",
+        "13"
+      ],
+      [
+        "rera_2016",
+        "15"
+      ],
+      [
+        "rera_2016",
+        "11"
+      ],
+      [
+        "rera_2016",
+        "14"
+      ],
+      [
+        "rera_2016",
+        "14"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "rera_2016::section_13::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 13",
+      "heading": "(1) A promoter shall not accept a sum more than ten per cent of the cost of the",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.08333,
+      "text": "13. (1) A promoter shall not accept a sum more than ten per cent of the cost of the apartment, plot, or building as the case may be, as an advance payment or an application fee, from a person without first entering into a written agreement for sale with such person and register the said agreement for sale, under any law for the time being in force. (2) The agreement for sale referred to in sub-section (1) shall be in such form as may be prescribed and shall specify the particulars of development of the project including the construction of building and apartments, along with specifications and internal development works and external development works, the dates and the manner by which payments towards the cost of the apartment, plot or building, as the case may be, are to be made by the allottees and the date on which the possession of the apartment, plot or building is to be handed over, the rates of interest payable by the promoter to the allottee and the allottee to the promoter in case of default, and such other particulars, as may be prescribed."
+    },
+    {
+      "chunk_id": "rera_2016::section_15::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 15",
+      "heading": "(1) The promoter shall not transfer or assign his majority rights and liabilities in",
+      "page": 15,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03078,
+      "text": "15. (1) The promoter shall not transfer or assign his majority rights and liabilities in respect of a real estate project to a third party without obtaining prior written consent from two-third allottees, except the promoter, and without the prior written approval of the Authority: Provided that such transfer or assignment shall not affect the allotment or sale of the apartments, plots or buildings as the case may be, in the real estate project made by the erstwhile promoter. Explanation.—For the purpose of this sub-section, the allottee, irrespective of the number of apartments or plots, as the case may be, booked by him or booked in the name of his family, or in the case of other persons such as companies or firms or any association of individuals, by whatever name called, booked in its name or booked in the name of its associated entities or related enterprises, shall be considered as one allottee only. (2) On the transfer or assignment being permitted by the allottees and the Authority under sub-section (1), the intending promoter shall be required to independently comply with all the pending obligations under the provisions of this Act or the rules and regulations made thereunder, and the pending obligations as per the agreement for sale entered into by the erstwhile promoter with the allottees: Provided that any transfer or assignment permitted under provisions of this section shall not result in extension of time to the intending promoter to complete the real estate project and he shall be required to comply with all the pending obligations of the erstwhile promoter, and in case of default, such intending promoter shall be liable to the consequences of breach or delay, as the case may be, as provided under this Act or the rules and regulations made thereunder."
+    },
+    {
+      "chunk_id": "rera_2016::section_11::6",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 11",
+      "heading": "(1) The promoter shall, upon receiving his Login Id and password under clause (a)",
+      "page": 12,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.03058,
+      "text": "hority or person to whom they are payable and be liable for the cost of any legal proceedings which may be taken therefor by such authority or person; (h) after he executes an agreement for sale for any apartment, plot or building, as the case may be, not mortgage or create a charge on such apartment, plot or building, as the case may be, and if any such mortgage or charge is made or created then THE GAZETTE OF INDIA EXTRAORDINARY [PART II— notwithstanding anything contained in any other law for the time being in force, it shall not affect the right and interest of the allottee who has taken or agreed to take such apartment, plot or building, as the case may be; (5) The promoter may cancel the allotment only in terms of the agreement for sale: Provided that the allottee may approach the Authority for relief, if he is aggrieved by such cancellation and such cancellation is not in accordance with the terms of the agreement for sale, unilateral and without any sufficient cause. (6) The promoter shall prepare and maintain all such other details as may be specified, from time to time, by regulations made by the Authority."
+    },
+    {
+      "chunk_id": "rera_2016::section_14::3",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 14",
+      "heading": "(1) The proposed project shall be developed and completed by the promoter in",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02983,
+      "text": "ut the previous written consent of at least two-thirds of the allottees, other than the promoter, who have agreed to take apartments in such building. Explanation.—For the purpose of this clause, the allottees, irrespective of the number of apartments or plots, as the case may be, booked by him or booked in the name of his family, or in the case of other persons such as companies or firms or any association of individuals, etc., by whatever name called, booked in its name or booked in the name of its associated entities or related enterprises, shall be considered as one allottee only. (3) In case any structural defect or any other defect in workmanship, quality or provision of services or any other obligations of the promoter as per the agreement for sale relating to such development is brought to the notice of the promoter within a period of five years by the allottee from the date of handing over possession, it shall be the duty of the promoter to rectify such defects without further charge, within thirty days, and in the event of promoter's failure to rectify such defects within such time, the aggrieved allottees shall be entitled to receive appropriate compensation in the manner as provided under this Act."
+    },
+    {
+      "chunk_id": "rera_2016::section_14::2",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 14",
+      "heading": "(1) The proposed project shall be developed and completed by the promoter in",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02921,
+      "text": "ct or Engineer after proper declaration and intimation to the allottee. Obligations of promoter regarding veracity of the advertisement or prospectus. No deposit or advance to be taken by promoter without first entering into agreement for sale. Adherence to sanctioned plans and project specifications by the promoter. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY Explanation.—For the purpose of this clause, \"minor additions or alterations\" excludes structural change including an addition to the area or change in height, or the removal of part of a building, or any change to the structure, such as the construction or removal or cutting into of any wall or a part of a wall, partition, column, beam, joist, floor including a mezzanine floor or other support, or a change to or closing of any required means of access ingress or egress or a change to the fixtures or equipment, etc. (ii) any other alterations or additions in the sanctioned plans, layout plans and specifications of the buildings or the common areas within the project without the previous written consent of at least two-thirds of the allottees, other than the promoter, who have agreed to take apartments in such building."
+    }
+  ]
+}

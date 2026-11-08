@@ -1,0 +1,91 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "question": "The developer is taking 25% booking amount without any written agreement. Is that allowed?",
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "expected": [
+    [
+      "rera_2016",
+      "13"
+    ]
+  ],
+  "score": {
+    "rank": 1,
+    "top1": true,
+    "top3": true,
+    "top5": true,
+    "retrieved": [
+      [
+        "rera_2016",
+        "13"
+      ],
+      [
+        "contract_1872",
+        "25"
+      ],
+      [
+        "contract_1872",
+        "25"
+      ],
+      [
+        "rera_2016",
+        "18"
+      ],
+      [
+        "rera_2016",
+        "11"
+      ]
+    ]
+  },
+  "retrieved_legal_sources": [
+    {
+      "chunk_id": "rera_2016::section_13::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 13",
+      "heading": "(1) A promoter shall not accept a sum more than ten per cent of the cost of the",
+      "page": 14,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.08132,
+      "text": "13. (1) A promoter shall not accept a sum more than ten per cent of the cost of the apartment, plot, or building as the case may be, as an advance payment or an application fee, from a person without first entering into a written agreement for sale with such person and register the said agreement for sale, under any law for the time being in force. (2) The agreement for sale referred to in sub-section (1) shall be in such form as may be prescribed and shall specify the particulars of development of the project including the construction of building and apartments, along with specifications and internal development works and external development works, the dates and the manner by which payments towards the cost of the apartment, plot or building, as the case may be, are to be made by the allottees and the date on which the possession of the apartment, plot or building is to be handed over, the rates of interest payable by the promoter to the allottee and the allottee to the promoter in case of default, and such other particulars, as may be prescribed."
+    },
+    {
+      "chunk_id": "contract_1872::section_25::2",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 25",
+      "heading": "Agreement without consideration, void, unless it is in writing and registered,or is a promise",
+      "page": 17,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03306,
+      "text": "lly made. Explanation 2.—An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate; but the inadequacy of the consideration may be taken into account by the Court in determining the question whether the consent of the promisor was freely given. Illustrations (a) A promises, for no consideration, to give to B Rs. 1,000. This is a void agreement. (b) A, for natural love and affection, promises to give his son, B, Rs. 1,000. A puts his promise to B into writing and registers it. This is a contract. (c) A finds B‟s purse and gives it to him. B promises to give A Rs. 50. This is a contract. (d) A supports B‟s infant son. B promises to pay A‟s expenses in so doing. This is a contract. (e) A owes B Rs. 1,000, but the debt is barred by the Limitation Act. A signs a written promise to pay B Rs. 500 on account of the debt. This is a contract. (f) A agrees to sell a horse worth Rs. 1,000 for Rs. 10. A‟s consent to the agreement was freely given. The agreement is a contract notwithstanding the inadequacy of the consideration. (g) A agrees to sell a horse worth Rs. 1,000 for Rs. 10. A denies that his consent to the agreement was freely given. The inadequacy of the consideration is a fact which the Court should take into account in considering whether or not A‟s consent was freely given."
+    },
+    {
+      "chunk_id": "contract_1872::section_25::1",
+      "title": "Indian Contract Act, 1872",
+      "provision": "Section 25",
+      "heading": "Agreement without consideration, void, unless it is in writing and registered,or is a promise",
+      "page": 17,
+      "url": "https://www.thc.nic.in/Central%20Governmental%20Acts/Indian%20Contract%20Act,%201872.pdf",
+      "score": 0.03205,
+      "text": "25. Agreement without consideration, void, unless it is in writing and registered,or is a promise to compensate for something done or is a promise to pay a debt barred by limitation law.—An agreement made without consideration is void, unless— (1) it is expressed in writing and registered under the law for the time being in force for the registration of 1[documents], and is made on account of natural love and affection between parties standing in a near relation to each other ; or unless (2) it is a promise to compensate, wholly or in part, a person who has already voluntarily done something for the promisor, or something which the promisor was legally compellable to do; or unless; (3) it is a promise, made in writing and signed by the person to be charged therewith, or by his agent generally or specially authorized in that behalf, to pay wholly or in part a debt of which the creditor might have enforced payment but for the law for the limitation of suits. In any of these cases, such an agreement is a contract. Explanation 1.—Nothing in this section shall affect the validity, as between the donor and donee, of any gift actually made. Explanation 2.—An agreement to which the consent of the promisor is freely given is not void merely because the consideration is inadequate;"
+    },
+    {
+      "chunk_id": "rera_2016::section_18::1",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 18",
+      "heading": "(1) If the promoter fails to complete or is unable to give possession of an apartment,",
+      "page": 16,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02996,
+      "text": "18. (1) If the promoter fails to complete or is unable to give possession of an apartment, plot or building,— (a) in accordance with the terms of the agreement for sale or, as the case may be, duly completed by the date specified therein; or (b) due to discontinuance of his business as a developer on account of suspension or revocation of the registration under this Act or for any other reason, he shall be liable on demand to the allottees, in case the allottee wishes to withdraw from the project, without prejudice to any other remedy available, to return the amount received by him in respect of that apartment, plot, building, as the case may be, with interest at such rate as may be prescribed in this behalf including compensation in the manner as provided under this Act: Provided that where an allottee does not intend to withdraw from the project, he shall be paid, by the promoter, interest for every month of delay, till the handing over of the possession, at such rate as may be prescribed. (2) The promoter shall compensate the allottees in case of any loss caused to him due to defective title of the land, on which the project is being developed or has been developed, in the manner as provided under this Act, and the claim for compensation under this sub- section shall not be barred by limitation provided under any law for the time being in force. Transfer of title. Return of amount and compensation. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY (3) If the promoter fails to discharge any other obligations imposed on him under this Act or the rules or regulations made thereunder or in accordance with the terms and conditions of the agreement for sale, he shall be liable to pay such compensation to the allottees, in the manner as provided under this Act. CHAPTER IV RIGHTS AND DUTIES OF ALLOTTEES"
+    },
+    {
+      "chunk_id": "rera_2016::section_11::2",
+      "title": "Real Estate (Regulation and Development) Act, 2016",
+      "provision": "Section 11",
+      "heading": "(1) The promoter shall, upon receiving his Login Id and password under clause (a)",
+      "page": 12,
+      "url": "https://www.up-rera.in/pdf/reraact.pdf",
+      "score": 0.02727,
+      "text": "of the registered project have been entered and include the registration number obtained from the Authority and such other matters incidental thereto. (3) The promoter at the time of the booking and issue of allotment letter shall be responsible to make available to the allottee, the following information, namely:— (a) sanctioned plans, layout plans, along with specifications, approved by the competent authority, by display at the site or such other place as may be specified by the regulations made by the Authority; (b) the stage wise time schedule of completion of the project, including the provisions for civic infrastructure like water, sanitation and electricity. Functions and duties of promoter. SEC. 1] THE GAZETTE OF INDIA EXTRAORDINARY (4) The promoter shall— (a) be responsible for all obligations, responsibilties and functions under the provisions of this Act or the rules and regulations made thereunder or to the allottees as per the agreement for sale, or to the association of allottees, as the case may be, till the conveyance of all the apartments, plots or buildings, as the case may be, to the allottees, or the common areas to the association of allottees or the competent authority, as the case may be:"
+    }
+  ]
+}
