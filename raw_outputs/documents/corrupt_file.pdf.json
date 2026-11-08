@@ -1,0 +1,25 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/corrupt_file.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "error",
+  "error": null,
+  "original_extracted_text": [],
+  "classification": {},
+  "structured_fields": {
+    "extraction_skipped": "Document could not be read."
+  },
+  "warnings": [
+    "This file could not be opened (FileDataError). It may be damaged."
+  ],
+  "score": {
+    "checks": [
+      {
+        "field": "status",
+        "expected": "error",
+        "actual": "error",
+        "ok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/tax_receipt_2025.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nPROPERTY TAX RECEIPT\nHarinagar Nagar Nigam (Municipal Corporation)\nReceipt No. HN/PT/45821/2025. Receipt Date: 15/07/2025\nAssessment Year: 2025-26\nName of Owner: Anita Sharma\nProperty Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar\nPlot area: 200 sq. yards\nAmount Paid: Rs. 8,450/-"
+    }
+  ],
+  "classification": {
+    "type": "property_tax_receipt",
+    "label": "Property Tax Receipt",
+    "confidence": 1.0,
+    "evidence": [
+      "property tax",
+      "receipt",
+      "assessment year",
+      "nagar nigam"
+    ],
+    "scores": {
+      "property_tax_receipt": 49.29
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Anita Sharma",
+        "page": 1,
+        "evidence": "HN/PT/45821/2025. Receipt Date: 15/07/2025 Assessment Year: 2025-26 Name of Owner: Anita Sharma Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension,",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": {
+      "value": "Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar Plot",
+      "page": 1,
+      "evidence": "15/07/2025 Assessment Year: 2025-26 Name of Owner: Anita Sharma Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar Plot area: 200 sq. yards Amount Paid: Rs. 8,450/-",
+      "method": "rule"
+    },
+    "survey_numbers": [],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "Year: 2025-26 Name of Owner: Anita Sharma Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar Plot area: 200",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 200.0,
+        "unit": "sq. yd",
+        "sq_m": 167.23,
+        "text": "200 sq. yards"
+      },
+      "page": 1,
+      "evidence": "No. 17, Block C, Lakshmi Nagar Extension, Harinagar Plot area: 200 sq. yards Amount Paid: Rs. 8,450/-",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "tax_paid": {
+      "value": {
+        "amount": 8450,
+        "display": "Rs. 8,450"
+      },
+      "page": 1,
+      "evidence": "Lakshmi Nagar Extension, Harinagar Plot area: 200 sq. yards Amount Paid: Rs. 8,450/-",
+      "method": "rule"
+    },
+    "assessment_year": {
+      "value": "2025-26",
+      "page": 1,
+      "evidence": "Corporation) Receipt No. HN/PT/45821/2025. Receipt Date: 15/07/2025 Assessment Year: 2025-26 Name of Owner: Anita Sharma Property Address: Plot No. 17, Block",
+      "method": "rule"
+    },
+    "receipt_date": {
+      "value": "2025-07-15",
+      "page": 1,
+      "evidence": "Nigam (Municipal Corporation) Receipt No. HN/PT/45821/2025. Receipt Date: 15/07/2025 Assessment Year: 2025-26 Name of Owner: Anita Sharma Property",
+      "method": "rule"
+    },
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "property_tax_receipt",
+        "actual": "property_tax_receipt",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Anita Sharma"
+        ],
+        "actual": [
+          "Anita Sharma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 167.22,
+        "actual": 167.23,
+        "ok": true
+      },
+      {
+        "field": "assessment_year",
+        "expected": "2025-26",
+        "actual": "2025-26",
+        "ok": true
+      }
+    ]
+  }
+}

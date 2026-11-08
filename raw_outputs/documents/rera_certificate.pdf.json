@@ -1,0 +1,93 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/rera_certificate.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nRERA REGISTRATION CERTIFICATE OF PROJECT\nReal Estate Regulatory Authority. Registration No. UPRERAPRJ-FICT-0042.\nPromoter: Nirmaan Vihar Developers\nProject: Lakshmi Heights, Block D, Harinagar. Apartment units: 120.\nRegistration valid until 31/12/2027."
+    }
+  ],
+  "classification": {
+    "type": "rera_document",
+    "label": "RERA Document",
+    "confidence": 1.0,
+    "evidence": [
+      "rera",
+      "real estate regulatory authority",
+      "registration certificate of project"
+    ],
+    "scores": {
+      "rera_document": 92.0
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Nirmaan Vihar Developers",
+        "page": 1,
+        "evidence": "Regulatory Authority. Registration No. UPRERAPRJ-FICT-0042. Promoter: Nirmaan Vihar Developers Project: Lakshmi Heights, Block D, Harinagar. Apartment units:",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {
+      "document_no": {
+        "value": "UPRERAPRJ-FICT-0042",
+        "page": 1,
+        "evidence": "REGISTRATION CERTIFICATE OF PROJECT Real Estate Regulatory Authority. Registration No. UPRERAPRJ-FICT-0042. Promoter: Nirmaan Vihar Developers Project: Lakshmi Heights,",
+        "method": "rule"
+      }
+    },
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": [
+      {
+        "value": "RERA REGISTRATION CERTIFICATE OF PROJECT",
+        "page": 1,
+        "evidence": "RERA REGISTRATION CERTIFICATE OF PROJECT",
+        "method": "rule"
+      }
+    ]
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "rera_document",
+        "actual": "rera_document",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Nirmaan Vihar Developers"
+        ],
+        "actual": [
+          "Nirmaan Vihar Developers"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

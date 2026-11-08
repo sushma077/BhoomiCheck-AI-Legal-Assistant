@@ -1,0 +1,137 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/hindi_khatauni_scan.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "tesseract:eng+hin",
+      "ocr_confidence": 94.8,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nखतौनी\nग्राम लक्ष्मी नगर, तहसील सदर, जिला हरिनगर\nखाता संख्या 118\nखसरा संख्या 245/2\nक्षेत्रफल 167.22 वर्ग मीटर\nखातेदार: श्रीमती अनीता शर्मा पत्नी विनोद शर्मा निवासी हरिनगर\nभूमि का प्रकार: आवासीय"
+    }
+  ],
+  "classification": {
+    "type": "land_record",
+    "label": "Khasra / Khatauni / Jamabandi",
+    "confidence": 1.0,
+    "evidence": [
+      "खतौनी",
+      "खसरा",
+      "खातेदार"
+    ],
+    "scores": {
+      "land_record": 37.0
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "अनीता शर्मा",
+        "page": 1,
+        "evidence": "खाता संख्या 118 खसरा संख्या 245/2 क्षेत्रफल 167.22 वर्ग मीटर खातेदार: श्रीमती अनीता शर्मा पत्नी विनोद शर्मा निवासी हरिनगर भूमि का प्रकार: आवासीय",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "खतौनी ग्राम लक्ष्मी नगर, तहसील सदर, जिला हरिनगर खाता संख्या 118 खसरा संख्या 245/2 क्षेत्रफल 167.22 वर्ग मीटर खातेदार: श्रीमती अनीता शर्मा पत्नी",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [
+      {
+        "value": "118",
+        "page": 1,
+        "evidence": "legal record. खतौनी ग्राम लक्ष्मी नगर, तहसील सदर, जिला हरिनगर खाता संख्या 118 खसरा संख्या 245/2 क्षेत्रफल 167.22 वर्ग मीटर खातेदार: श्रीमती",
+        "method": "rule"
+      }
+    ],
+    "area": {
+      "value": {
+        "amount": 167.22,
+        "unit": "sq. m",
+        "sq_m": 167.22,
+        "text": "167.22 वर्ग मीटर"
+      },
+      "page": 1,
+      "evidence": "सदर, जिला हरिनगर खाता संख्या 118 खसरा संख्या 245/2 क्षेत्रफल 167.22 वर्ग मीटर खातेदार: श्रीमती अनीता शर्मा पत्नी विनोद शर्मा निवासी हरिनगर",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "land_record",
+        "actual": "land_record",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "अनीता शर्मा"
+        ],
+        "actual": [
+          "अनीता शर्मा"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "245/2"
+        ],
+        "actual": [
+          "245/2"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "118"
+        ],
+        "actual": [
+          "118"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 167.22,
+        "actual": 167.22,
+        "ok": true
+      },
+      {
+        "field": "ocr_used",
+        "expected": true,
+        "actual": [
+          "tesseract:eng+hin"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

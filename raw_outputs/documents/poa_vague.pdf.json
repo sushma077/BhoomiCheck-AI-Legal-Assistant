@@ -1,0 +1,112 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/poa_vague.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nSPECIAL POWER OF ATTORNEY\nPrincipal: Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar.\nAttorney: Naresh Kumar Bansal, S/o Om Prakash Bansal, R/o 5 Mall Road, Harinagar.\nProperty: Plot No. 17, Block C, Lakshmi Nagar Extension, Khasra No. 245/2.\nI appoint the Attorney to act on my behalf for the following purposes:\nTo collect rent, pay taxes and represent me before the municipal office about this property.\nSigned before a notary public at Harinagar on 02/01/2023."
+    }
+  ],
+  "classification": {
+    "type": "power_of_attorney",
+    "label": "Power of Attorney",
+    "confidence": 0.95,
+    "evidence": [
+      "power of attorney",
+      "principal"
+    ],
+    "scores": {
+      "land_record": 2.0,
+      "power_of_attorney": 36.0
+    }
+  },
+  "structured_fields": {
+    "poa_principal": [
+      {
+        "value": "Ramesh Chandra Verma",
+        "page": 1,
+        "evidence": "are fictional. Not a legal record. SPECIAL POWER OF ATTORNEY Principal: Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar. Attorney: Naresh Kumar Bansal, S/o Om Prakash Bansal, R/o 5",
+        "method": "rule"
+      }
+    ],
+    "poa_attorney": [
+      {
+        "value": "Naresh Kumar Bansal",
+        "page": 1,
+        "evidence": "Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar. Attorney: Naresh Kumar Bansal, S/o Om Prakash Bansal, R/o 5 Mall Road, Harinagar. Property: Plot No. 17, Block C, Lakshmi Nagar Extension, Khasra",
+        "method": "rule"
+      }
+    ],
+    "poa_kind": "special",
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "Harinagar. Property: Plot No. 17, Block C, Lakshmi Nagar Extension, Khasra No. 245/2. I appoint the Attorney to act on my behalf for the following",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "S/o Om Prakash Bansal, R/o 5 Mall Road, Harinagar. Property: Plot No. 17, Block C, Lakshmi Nagar Extension, Khasra No. 245/2. I appoint",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "power_of_attorney",
+        "actual": "power_of_attorney",
+        "ok": true
+      },
+      {
+        "field": "poa_principal",
+        "expected": [
+          "Ramesh Chandra Verma"
+        ],
+        "actual": [
+          "Ramesh Chandra Verma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "poa_attorney",
+        "expected": [
+          "Naresh Kumar Bansal"
+        ],
+        "actual": [
+          "Naresh Kumar Bansal"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

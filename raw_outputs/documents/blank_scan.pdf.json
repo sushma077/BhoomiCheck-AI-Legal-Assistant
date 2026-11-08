@@ -1,0 +1,32 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/blank_scan.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "unreadable",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "tesseract:eng+hin",
+      "ocr_confidence": 0.0,
+      "text": ""
+    }
+  ],
+  "classification": {},
+  "structured_fields": {
+    "extraction_skipped": "Document could not be read."
+  },
+  "warnings": [
+    "The text in this file could not be read reliably. Upload a clearer scan. Nothing should be concluded about this document from BhoomiCheck's output."
+  ],
+  "score": {
+    "checks": [
+      {
+        "field": "status",
+        "expected": "unreadable",
+        "actual": "unreadable",
+        "ok": true
+      }
+    ]
+  }
+}

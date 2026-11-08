@@ -1,0 +1,102 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/holdout_mukhtarnama.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nमुýतारनामा आम / General Power of Attorney\nI, Dinesh Yadav, son of Ramnath Yadav (the Executant), appoint my brother Mukesh Yadav as\nmy lawful attorney to look after my land at Khasra 310, and to deal with revenue officers for\nme.\nExecuted on 19 July 2021 before a notary."
+    }
+  ],
+  "classification": {
+    "type": "power_of_attorney",
+    "label": "Power of Attorney",
+    "confidence": 0.8,
+    "evidence": [
+      "power of attorney"
+    ],
+    "scores": {
+      "land_record": 8.0,
+      "power_of_attorney": 32.0
+    }
+  },
+  "structured_fields": {
+    "poa_principal": [
+      {
+        "value": "Ramnath Yadav",
+        "page": 1,
+        "evidence": "record. मुýतारनामा आम / General Power of Attorney I, Dinesh Yadav, son of Ramnath Yadav (the Executant), appoint my brother Mukesh Yadav as my lawful attorney to look",
+        "method": "rule"
+      }
+    ],
+    "poa_attorney": [
+      {
+        "value": "Mukesh Yadav",
+        "page": 1,
+        "evidence": "Attorney I, Dinesh Yadav, son of Ramnath Yadav (the Executant), appoint my brother Mukesh Yadav as my lawful attorney to look after my land at Khasra 310, and",
+        "method": "rule"
+      }
+    ],
+    "poa_kind": "general",
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": {
+      "value": "2021-07-19",
+      "page": 1,
+      "evidence": "land at Khasra 310, and to deal with revenue officers for me. Executed on 19 July 2021 before a notary.",
+      "method": "rule"
+    },
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "power_of_attorney",
+        "actual": "power_of_attorney",
+        "ok": true
+      },
+      {
+        "field": "poa_principal",
+        "expected": [
+          "Dinesh Yadav"
+        ],
+        "actual": [
+          "Ramnath Yadav"
+        ],
+        "ok": false
+      },
+      {
+        "field": "poa_attorney",
+        "expected": [
+          "Mukesh Yadav"
+        ],
+        "actual": [
+          "Mukesh Yadav"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

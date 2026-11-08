@@ -1,0 +1,178 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/agreement_to_sell.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nAGREEMENT TO SELL\nThis Agreement to Sell is executed on 10/01/2023 at Harinagar.\nSeller: Ramesh Chandra Verma, S/o Late Shyam Lal Verma.\nBuyer: Anita Sharma, W/o Vinod Sharma.\nProperty Address: Plot No. 17, Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area\n200 sq. yards.\nTotal sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The\nbalance shall be paid at registration of the sale deed."
+    }
+  ],
+  "classification": {
+    "type": "agreement_to_sell",
+    "label": "Agreement to Sell",
+    "confidence": 0.79,
+    "evidence": [
+      "agreement to sell",
+      "earnest money"
+    ],
+    "scores": {
+      "sale_deed": 8.0,
+      "agreement_to_sell": 38.31,
+      "land_record": 2.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Ramesh Chandra Verma",
+        "page": 1,
+        "evidence": "This Agreement to Sell is executed on 10/01/2023 at Harinagar. Seller: Ramesh Chandra Verma, S/o Late Shyam Lal Verma. Buyer: Anita Sharma, W/o Vinod Sharma. Property Address: Plot",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Anita Sharma",
+        "page": 1,
+        "evidence": "Harinagar. Seller: Ramesh Chandra Verma, S/o Late Shyam Lal Verma. Buyer: Anita Sharma, W/o Vinod Sharma. Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension.",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": {
+      "value": "Plot No. 17, Block C, Lakshmi Nagar Extension",
+      "page": 1,
+      "evidence": "Late Shyam Lal Verma. Buyer: Anita Sharma, W/o Vinod Sharma. Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration",
+      "method": "rule"
+    },
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-.",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "Verma. Buyer: Anita Sharma, W/o Vinod Sharma. Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 200.0,
+        "unit": "sq. yd",
+        "sq_m": 167.23,
+        "text": "200 sq. yards"
+      },
+      "page": 1,
+      "evidence": "Block C, Lakshmi Nagar Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "transaction_amount": {
+      "value": {
+        "amount": 4200000,
+        "display": "Rs. 42,00,000"
+      },
+      "page": 1,
+      "evidence": "Extension. Khasra No. 245/2, total area 200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The balance",
+      "method": "rule"
+    },
+    "earnest_money": {
+      "value": {
+        "amount": 200000,
+        "display": "Rs. 2,00,000"
+      },
+      "page": 1,
+      "evidence": "200 sq. yards. Total sale consideration of Rs. 42,00,000/-. Earnest money of Rs. 2,00,000/- has been paid. The balance shall be paid at registration of",
+      "method": "rule"
+    },
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": {
+      "value": "2023-01-10",
+      "page": 1,
+      "evidence": "a legal record. AGREEMENT TO SELL This Agreement to Sell is executed on 10/01/2023 at Harinagar. Seller: Ramesh Chandra Verma, S/o Late Shyam Lal",
+      "method": "rule"
+    },
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "agreement_to_sell",
+        "actual": "agreement_to_sell",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Ramesh Chandra Verma"
+        ],
+        "actual": [
+          "Ramesh Chandra Verma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Anita Sharma"
+        ],
+        "actual": [
+          "Anita Sharma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "245/2"
+        ],
+        "actual": [
+          "245/2"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 167.22,
+        "actual": 167.23,
+        "ok": true
+      },
+      {
+        "field": "amount",
+        "expected": 4200000,
+        "actual": 4200000,
+        "ok": true
+      },
+      {
+        "field": "execution_date",
+        "expected": "2023-01-10",
+        "actual": "2023-01-10",
+        "ok": true
+      }
+    ]
+  }
+}

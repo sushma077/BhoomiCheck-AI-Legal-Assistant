@@ -1,0 +1,193 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/gift_deed.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nGIFT DEED\nDate of Execution: 09/09/2019.\nDonor: Kamala Devi, W/o Late Ram Prasad, R/o 3 Temple Road, Harinagar.\nDonee: Sunita Rani, D/o Late Ram Prasad, R/o 3 Temple Road, Harinagar.\nThe Donor out of natural love and affection gives the property to the Donee, who accepts it.\nProperty Address: House No. 3, Temple Road, Harinagar. Khasra No. 88, area 100 sq. m.\nRegistered at the Office of the Sub-Registrar Harinagar-I. Document No. 5512/2019. Date of\nRegistration: 10/09/2019. Stamp duty of Rs. 20,000/- paid."
+    }
+  ],
+  "classification": {
+    "type": "gift_deed",
+    "label": "Gift Deed",
+    "confidence": 0.96,
+    "evidence": [
+      "gift deed",
+      "donor",
+      "donee"
+    ],
+    "scores": {
+      "gift_deed": 49.49,
+      "land_record": 2.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Kamala Devi",
+        "page": 1,
+        "evidence": "Not a legal record. GIFT DEED Date of Execution: 09/09/2019. Donor: Kamala Devi, W/o Late Ram Prasad, R/o 3 Temple Road, Harinagar. Donee: Sunita Rani, D/o Late Ram Prasad, R/o 3 Temple Road,",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Sunita Rani",
+        "page": 1,
+        "evidence": "Kamala Devi, W/o Late Ram Prasad, R/o 3 Temple Road, Harinagar. Donee: Sunita Rani, D/o Late Ram Prasad, R/o 3 Temple Road, Harinagar. The Donor out of natural love and affection gives the property",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": {
+      "value": "House No. 3, Temple Road, Harinagar",
+      "page": 1,
+      "evidence": "and affection gives the property to the Donee, who accepts it. Property Address: House No. 3, Temple Road, Harinagar. Khasra No. 88, area 100 sq. m. Registered at the Office of",
+      "method": "rule"
+    },
+    "survey_numbers": [
+      {
+        "value": "88",
+        "page": 1,
+        "evidence": "accepts it. Property Address: House No. 3, Temple Road, Harinagar. Khasra No. 88, area 100 sq. m. Registered at the Office of the Sub-Registrar",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [
+      {
+        "value": "3",
+        "page": 1,
+        "evidence": "the property to the Donee, who accepts it. Property Address: House No. 3, Temple Road, Harinagar. Khasra No. 88, area 100 sq. m. Registered",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 100.0,
+        "unit": "sq. m",
+        "sq_m": 100.0,
+        "text": "100 sq. m"
+      },
+      "page": 1,
+      "evidence": "Address: House No. 3, Temple Road, Harinagar. Khasra No. 88, area 100 sq. m. Registered at the Office of the Sub-Registrar Harinagar-I. Document",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "transaction_amount": null,
+    "stamp_duty": {
+      "value": {
+        "amount": 20000,
+        "display": "Rs. 20,000"
+      },
+      "page": 1,
+      "evidence": "Harinagar-I. Document No. 5512/2019. Date of Registration: 10/09/2019. Stamp duty of Rs. 20,000/- paid.",
+      "method": "rule"
+    },
+    "registration": {
+      "document_no": {
+        "value": "5512/2019",
+        "page": 1,
+        "evidence": "m. Registered at the Office of the Sub-Registrar Harinagar-I. Document No. 5512/2019. Date of Registration: 10/09/2019. Stamp duty of Rs. 20,000/-",
+        "method": "rule"
+      }
+    },
+    "execution_date": {
+      "value": "2019-09-09",
+      "page": 1,
+      "evidence": "people and places are fictional. Not a legal record. GIFT DEED Date of Execution: 09/09/2019. Donor: Kamala Devi, W/o Late Ram Prasad, R/o 3 Temple Road,",
+      "method": "rule"
+    },
+    "registration_date": {
+      "value": "2019-09-10",
+      "page": 1,
+      "evidence": "Office of the Sub-Registrar Harinagar-I. Document No. 5512/2019. Date of Registration: 10/09/2019. Stamp duty of Rs. 20,000/- paid.",
+      "method": "rule"
+    },
+    "sub_registrar": {
+      "value": "Harinagar-I",
+      "page": 1,
+      "evidence": "Khasra No. 88, area 100 sq. m. Registered at the Office of the Sub-Registrar Harinagar-I. Document No. 5512/2019. Date of Registration: 10/09/2019. Stamp",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "gift_deed",
+        "actual": "gift_deed",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Kamala Devi"
+        ],
+        "actual": [
+          "Kamala Devi"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Sunita Rani"
+        ],
+        "actual": [
+          "Sunita Rani"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "88"
+        ],
+        "actual": [
+          "88"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 100.0,
+        "actual": 100.0,
+        "ok": true
+      },
+      {
+        "field": "execution_date",
+        "expected": "2019-09-09",
+        "actual": "2019-09-09",
+        "ok": true
+      },
+      {
+        "field": "registration_date",
+        "expected": "2019-09-10",
+        "actual": "2019-09-10",
+        "ok": true
+      },
+      {
+        "field": "document_no",
+        "expected": "5512/2019",
+        "actual": "5512/2019",
+        "ok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/agricultural_jamabandi.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nJAMABANDI (RECORD OF RIGHTS)\nVillage Rampur Khas, Tehsil Sadar, District Harinagar.\nKhewat No. 77. Khasra No. 512. Total area 1.25 acres.\nRecorded Owner: Baldev Singh\nNature of land: agricultural land, irrigated."
+    }
+  ],
+  "classification": {
+    "type": "land_record",
+    "label": "Khasra / Khatauni / Jamabandi",
+    "confidence": 1.0,
+    "evidence": [
+      "jamabandi",
+      "khasra",
+      "record of rights",
+      "khewat"
+    ],
+    "scores": {
+      "land_record": 72.0
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Baldev Singh",
+        "page": 1,
+        "evidence": "Harinagar. Khewat No. 77. Khasra No. 512. Total area 1.25 acres. Recorded Owner: Baldev Singh Nature of land: agricultural land, irrigated.",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "512",
+        "page": 1,
+        "evidence": "Rampur Khas, Tehsil Sadar, District Harinagar. Khewat No. 77. Khasra No. 512. Total area 1.25 acres. Recorded Owner: Baldev Singh Nature",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [
+      {
+        "value": "77",
+        "page": 1,
+        "evidence": "RIGHTS) Village Rampur Khas, Tehsil Sadar, District Harinagar. Khewat No. 77. Khasra No. 512. Total area 1.25 acres. Recorded Owner: Baldev",
+        "method": "rule"
+      }
+    ],
+    "area": {
+      "value": {
+        "amount": 1.25,
+        "unit": "acre",
+        "sq_m": 5058.57,
+        "text": "1.25 acres"
+      },
+      "page": 1,
+      "evidence": "District Harinagar. Khewat No. 77. Khasra No. 512. Total area 1.25 acres. Recorded Owner: Baldev Singh Nature of land: agricultural land,",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [
+      {
+        "value": "Nature of land: agricultural land, irrigated.",
+        "page": 1,
+        "evidence": "Nature of land: agricultural land, irrigated.",
+        "method": "rule"
+      }
+    ],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "land_record",
+        "actual": "land_record",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Baldev Singh"
+        ],
+        "actual": [
+          "Baldev Singh"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "512"
+        ],
+        "actual": [
+          "512"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "77"
+        ],
+        "actual": [
+          "77"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 5058.57,
+        "actual": 5058.57,
+        "ok": true
+      }
+    ]
+  }
+}

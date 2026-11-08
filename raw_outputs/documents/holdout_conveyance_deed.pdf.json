@@ -1,0 +1,251 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/holdout_conveyance_deed.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nDEED OF ABSOLUTE SALE\nTHIS DEED OF ABSOLUTE SALE is made at Harinagar on this the 7th day of June, 2022 by Mr.\nGopal Krishna Iyer, son of K. Narayana Iyer, aged about 61 years, residing at 8 Lake View Road,\nHarinagar, hereinafter referred to as the SELLER, in favour of Mrs. Farida Khan, wife of Imran\nKhan, aged about 38 years, residing at 77 Park Street, Harinagar, hereinafter referred to as the\nPURCHASER.\nWHEREAS the Seller is the absolute owner of the land bearing Survey No. 91/3B situated at\nGreenfield Layout, Harinagar, having acquired it under a registered gift deed dated 14 February\n2005.\nIn consideration of a sum of Rs.30,50,000 paid by the Purchaser, the Seller hereby conveys the\nsaid land measuring 2400 sq. ft. to the Purchaser.\nThe land is bounded on the North by a 40 ft road, on the South by the property of Lata Menon,\non the East by Site No. 12, and on the West by Site No. 14.\nPresented for registration on 9 June 2022 before the Sub-Registrar, Greenfield and registered as\nSerial No. 7781 of 2022 in Book I."
+    }
+  ],
+  "classification": {
+    "type": "sale_deed",
+    "label": "Sale Deed",
+    "confidence": 0.79,
+    "evidence": [
+      "deed of absolute sale",
+      "hereby convey"
+    ],
+    "scores": {
+      "sale_deed": 29.49,
+      "gift_deed": 8.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Mr. Gopal Krishna Iyer",
+        "page": 1,
+        "evidence": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record. DEED OF ABSOLUTE SALE THIS DEED OF ABSOLUTE SALE is made at Harinagar on this the 7th day of June, 2022 by Mr. Gopal Krishna Iyer, son of K. Narayana Iyer, aged about 61 years, residing at 8 Lake View Road, Harinagar, hereinafter referred to as the SELLER, in favour of Mrs. Farida Khan, wife of Imran Khan, aged about",
+        "method": "rule"
+      },
+      {
+        "value": "Mrs. Farida Khan",
+        "page": 1,
+        "evidence": "legal record. DEED OF ABSOLUTE SALE THIS DEED OF ABSOLUTE SALE is made at Harinagar on this the 7th day of June, 2022 by Mr. Gopal Krishna Iyer, son of K. Narayana Iyer, aged about 61 years, residing at 8 Lake View Road, Harinagar, hereinafter referred to as the SELLER, in favour of Mrs. Farida Khan, wife of Imran Khan, aged about 38 years, residing at 77 Park Street, Harinagar, hereinafter referred to as the PURCHASER. WHEREAS the Seller is the absolute owner of the land bearing Survey No. 91/3B situated",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Mrs. Farida Khan",
+        "page": 1,
+        "evidence": "legal record. DEED OF ABSOLUTE SALE THIS DEED OF ABSOLUTE SALE is made at Harinagar on this the 7th day of June, 2022 by Mr. Gopal Krishna Iyer, son of K. Narayana Iyer, aged about 61 years, residing at 8 Lake View Road, Harinagar, hereinafter referred to as the SELLER, in favour of Mrs. Farida Khan, wife of Imran Khan, aged about 38 years, residing at 77 Park Street, Harinagar, hereinafter referred to as the PURCHASER. WHEREAS the Seller is the absolute owner of the land bearing",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [
+      {
+        "deed_type": "gift deed",
+        "date": "2005-02-14",
+        "from": null,
+        "document_no": null,
+        "page": 1,
+        "evidence": "Harinagar, having acquired it under a registered gift deed dated 14 February 2005. In consideration of",
+        "method": "rule"
+      }
+    ],
+    "previous_owners": [],
+    "property_address": {
+      "value": "Greenfield Layout, Harinagar",
+      "page": 1,
+      "evidence": "Seller is the absolute owner of the land bearing Survey No. 91/3B situated at Greenfield Layout, Harinagar, having acquired it under a registered gift deed dated 14 February",
+      "method": "rule"
+    },
+    "survey_numbers": [
+      {
+        "value": "91/3B",
+        "page": 1,
+        "evidence": "WHEREAS the Seller is the absolute owner of the land bearing Survey No. 91/3B situated at Greenfield Layout, Harinagar, having acquired it",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 2400.0,
+        "unit": "sq. ft",
+        "sq_m": 222.97,
+        "text": "2400 sq. ft"
+      },
+      "page": 1,
+      "evidence": "Purchaser, the Seller hereby conveys the said land measuring 2400 sq. ft. to the Purchaser. The land is bounded on the North by a 40 ft",
+      "method": "rule"
+    },
+    "boundaries": {
+      "north": {
+        "value": "a 40 ft road",
+        "page": 1,
+        "evidence": "measuring 2400 sq. ft. to the Purchaser. The land is bounded on the North by a 40 ft road, on the South by the property of Lata Menon, on the East by",
+        "method": "rule"
+      },
+      "south": {
+        "value": "the property of Lata Menon",
+        "page": 1,
+        "evidence": "Purchaser. The land is bounded on the North by a 40 ft road, on the South by the property of Lata Menon, on the East by Site No. 12, and on the West by Site No. 14.",
+        "method": "rule"
+      },
+      "east": {
+        "value": "Site No. 12",
+        "page": 1,
+        "evidence": "by a 40 ft road, on the South by the property of Lata Menon, on the East by Site No. 12, and on the West by Site No. 14. Presented for registration",
+        "method": "rule"
+      },
+      "west": {
+        "value": "Site No. 14",
+        "page": 1,
+        "evidence": "the property of Lata Menon, on the East by Site No. 12, and on the West by Site No. 14. Presented for registration on 9 June 2022 before the Sub-Registrar,",
+        "method": "rule"
+      }
+    },
+    "transaction_amount": {
+      "value": {
+        "amount": 3050000,
+        "display": "Rs. 30,50,000"
+      },
+      "page": 1,
+      "evidence": "acquired it under a registered gift deed dated 14 February 2005. In consideration of a sum of Rs.30,50,000 paid by the Purchaser, the Seller hereby conveys the said land",
+      "method": "rule"
+    },
+    "stamp_duty": null,
+    "registration": {
+      "document_no": {
+        "value": "7781/2022",
+        "page": 1,
+        "evidence": "2022 before the Sub-Registrar, Greenfield and registered as Serial No. 7781 of 2022 in Book I.",
+        "method": "rule"
+      },
+      "book_no": {
+        "value": "I",
+        "page": 1,
+        "evidence": "Sub-Registrar, Greenfield and registered as Serial No. 7781 of 2022 in Book I.",
+        "method": "rule"
+      }
+    },
+    "execution_date": {
+      "value": "2022-06-07",
+      "page": 1,
+      "evidence": "record. DEED OF ABSOLUTE SALE THIS DEED OF ABSOLUTE SALE is made at Harinagar on this the 7th day of June, 2022 by Mr. Gopal Krishna Iyer, son of K. Narayana Iyer, aged about",
+      "method": "rule"
+    },
+    "registration_date": {
+      "value": "2022-06-09",
+      "page": 1,
+      "evidence": "on the East by Site No. 12, and on the West by Site No. 14. Presented for registration on 9 June 2022 before the Sub-Registrar, Greenfield and registered as Serial",
+      "method": "rule"
+    },
+    "sub_registrar": {
+      "value": "Greenfield",
+      "page": 1,
+      "evidence": "No. 14. Presented for registration on 9 June 2022 before the Sub-Registrar, Greenfield and registered as Serial No. 7781 of 2022 in Book I.",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "sale_deed",
+        "actual": "sale_deed",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Gopal Krishna Iyer"
+        ],
+        "actual": [
+          "Mr. Gopal Krishna Iyer",
+          "Mrs. Farida Khan"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [
+          "Mrs. Farida Khan"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "91/3B"
+        ],
+        "actual": [
+          "91/3B"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 222.97,
+        "actual": 222.97,
+        "ok": true
+      },
+      {
+        "field": "amount",
+        "expected": 3050000,
+        "actual": 3050000,
+        "ok": true
+      },
+      {
+        "field": "execution_date",
+        "expected": "2022-06-07",
+        "actual": "2022-06-07",
+        "ok": true
+      },
+      {
+        "field": "registration_date",
+        "expected": "2022-06-09",
+        "actual": "2022-06-09",
+        "ok": true
+      },
+      {
+        "field": "sub_registrar",
+        "expected": "Greenfield",
+        "actual": "Greenfield",
+        "ok": true
+      },
+      {
+        "field": "boundary_north",
+        "expected": "40 ft road",
+        "actual": "a 40 ft road",
+        "ok": true
+      },
+      {
+        "field": "boundary_west",
+        "expected": "Site No. 14",
+        "actual": "Site No. 14",
+        "ok": true
+      }
+    ]
+  }
+}

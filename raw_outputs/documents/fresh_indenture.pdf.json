@@ -1,0 +1,232 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/fresh_indenture.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nINDENTURE OF SALE\nThis Indenture dated the 21st day of January, 2021 is entered into by Dr. Vikram Sethi, son of\nHarpal Sethi, of 14 Ring Road, Harinagar, the party of the first part (hereinafter the Transferor),\nand Ms. Neha Kulkarni, daughter of Anil Kulkarni, of 6 Hill View, Harinagar (hereinafter the\nTransferee).\nThe Transferor became owner by way of a registered deed of conveyance dated 3 March 2011\nfrom Latika Sethi.\nFor a price of INR 62,75,000 the Transferor hereby transfers all that piece of land, R.S. No.\n402/1, Khata No. 56, admeasuring 0.08 hectare, in Sunrise Colony, Harinagar.\nEast - Service lane; West - House of A. Rao; North - Open plot; South - Nala.\nRegistered with the Sub-Registrar, Sunrise on 25/01/2021 as Document No. 1190/2021. Stamp\nduty Rs. 4,39,000 paid."
+    }
+  ],
+  "classification": {
+    "type": "sale_deed",
+    "label": "Sale Deed",
+    "confidence": 0.61,
+    "evidence": [
+      "deed of conveyance",
+      "hereby transfer"
+    ],
+    "scores": {
+      "sale_deed": 9.0,
+      "mutation_record": 5.73
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Dr. Vikram Sethi",
+        "page": 1,
+        "evidence": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record. INDENTURE OF SALE This Indenture dated the 21st day of January, 2021 is entered into by Dr. Vikram Sethi, son of Harpal Sethi, of 14 Ring Road, Harinagar, the party of the first part (hereinafter the Transferor), and Ms. Neha Kulkarni, daughter of Anil Kulkarni, of 6 Hill",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Ms. Neha Kulkarni",
+        "page": 1,
+        "evidence": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record. INDENTURE OF SALE This Indenture dated the 21st day of January, 2021 is entered into by Dr. Vikram Sethi, son of Harpal Sethi, of 14 Ring Road, Harinagar, the party of the first part (hereinafter the Transferor), and Ms. Neha Kulkarni, daughter of Anil Kulkarni, of 6 Hill View, Harinagar (hereinafter the Transferee). The Transferor became owner by way of a registered deed of",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "402/1",
+        "page": 1,
+        "evidence": "62,75,000 the Transferor hereby transfers all that piece of land, R.S. No. 402/1, Khata No. 56, admeasuring 0.08 hectare, in Sunrise Colony,",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [
+      {
+        "value": "56",
+        "page": 1,
+        "evidence": "Transferor hereby transfers all that piece of land, R.S. No. 402/1, Khata No. 56, admeasuring 0.08 hectare, in Sunrise Colony, Harinagar. East",
+        "method": "rule"
+      }
+    ],
+    "area": {
+      "value": {
+        "amount": 0.08,
+        "unit": "hectare",
+        "sq_m": 800.0,
+        "text": "0.08 hectare"
+      },
+      "page": 1,
+      "evidence": "that piece of land, R.S. No. 402/1, Khata No. 56, admeasuring 0.08 hectare, in Sunrise Colony, Harinagar. East - Service lane; West - House",
+      "method": "rule"
+    },
+    "boundaries": {
+      "east": {
+        "value": "Service lane; West - House of A. Rao; North - Open plot; South - Nala",
+        "page": 1,
+        "evidence": "56, admeasuring 0.08 hectare, in Sunrise Colony, Harinagar. East - Service lane; West - House of A. Rao; North - Open plot; South - Nala. Registered with the Sub-Registrar, Sunrise on 25/01/2021 as",
+        "method": "rule"
+      },
+      "north": {
+        "value": "Open plot",
+        "page": 1,
+        "evidence": "Colony, Harinagar. East - Service lane; West - House of A. Rao; North - Open plot; South - Nala. Registered with the Sub-Registrar, Sunrise on",
+        "method": "rule"
+      },
+      "south": {
+        "value": "Nala",
+        "page": 1,
+        "evidence": "East - Service lane; West - House of A. Rao; North - Open plot; South - Nala. Registered with the Sub-Registrar, Sunrise on 25/01/2021 as",
+        "method": "rule"
+      },
+      "west": {
+        "value": "House of A",
+        "page": 1,
+        "evidence": "hectare, in Sunrise Colony, Harinagar. East - Service lane; West - House of A. Rao; North - Open plot; South - Nala. Registered with the Sub-Registrar,",
+        "method": "rule"
+      }
+    },
+    "transaction_amount": {
+      "value": {
+        "amount": 6275000,
+        "display": "Rs. 62,75,000"
+      },
+      "page": 1,
+      "evidence": "deed of conveyance dated 3 March 2011 from Latika Sethi. For a price of INR 62,75,000 the Transferor hereby transfers all that piece of land, R.S.",
+      "method": "rule"
+    },
+    "stamp_duty": {
+      "value": {
+        "amount": 439000,
+        "display": "Rs. 4,39,000"
+      },
+      "page": 1,
+      "evidence": "Sub-Registrar, Sunrise on 25/01/2021 as Document No. 1190/2021. Stamp duty Rs. 4,39,000 paid.",
+      "method": "rule"
+    },
+    "registration": {
+      "document_no": {
+        "value": "1190/2021",
+        "page": 1,
+        "evidence": "Registered with the Sub-Registrar, Sunrise on 25/01/2021 as Document No. 1190/2021. Stamp duty Rs. 4,39,000 paid.",
+        "method": "rule"
+      }
+    },
+    "execution_date": null,
+    "registration_date": null,
+    "sub_registrar": {
+      "value": "Sunrise",
+      "page": 1,
+      "evidence": "A. Rao; North - Open plot; South - Nala. Registered with the Sub-Registrar, Sunrise on 25/01/2021 as Document No. 1190/2021. Stamp duty Rs. 4,39,000",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "sale_deed",
+        "actual": "sale_deed",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Vikram Sethi"
+        ],
+        "actual": [
+          "Dr. Vikram Sethi"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Neha Kulkarni"
+        ],
+        "actual": [
+          "Ms. Neha Kulkarni"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "402/1"
+        ],
+        "actual": [
+          "402/1"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "56"
+        ],
+        "actual": [
+          "56"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 800.0,
+        "actual": 800.0,
+        "ok": true
+      },
+      {
+        "field": "amount",
+        "expected": 6275000,
+        "actual": 6275000,
+        "ok": true
+      },
+      {
+        "field": "registration_date",
+        "expected": "2021-01-25",
+        "actual": null,
+        "ok": false
+      },
+      {
+        "field": "document_no",
+        "expected": "1190/2021",
+        "actual": "1190/2021",
+        "ok": true
+      },
+      {
+        "field": "sub_registrar",
+        "expected": "Sunrise",
+        "actual": "Sunrise",
+        "ok": true
+      },
+      {
+        "field": "boundary_west",
+        "expected": "House of A. Rao",
+        "actual": "House of A",
+        "ok": false
+      }
+    ]
+  }
+}

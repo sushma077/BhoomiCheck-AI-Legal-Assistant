@@ -1,0 +1,300 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/sale_deed_no_stamp.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nSALE DEED\nThis Sale Deed is executed on 12/03/2023 at Harinagar, Uttar Pradesh.\nDate of Execution: 12/03/2023\nBETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg,\nHarinagar (hereinafter called the \"VENDOR\")\nAND Smt. Anita Sharma, W/o Vinod Sharma, R/o 12 Civil Lines, Harinagar (hereinafter called\nthe \"VENDEE\").\nRECITALS\nThe Vendor purchased the said property from Suresh Prasad Gupta by a registered sale deed\ndated 05/08/2009, registered as Document No. 3341/2009, and has been in peaceful possession\nsince.\nThe Vendor has agreed to sell the property described below for a total sale consideration of Rs.\n45,00,000/- (Rupees in full), received by bank transfer.\nSCHEDULE OF PROPERTY\nProperty Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Tehsil Sadar, District\nHarinagar.\nKhasra No. 245/2, Khata No. 118, total area 200 sq. yards.\nBoundaries of the property:\nNorth: 30 feet wide road\nSouth: Plot No. 18 of Mohan Lal\nEast: Plot No. 16\nWest: Community Park\nCOVENANTS\nThe Vendor has this day delivered vacant possession of the property to the Vendee.\nThe Vendor declares the property is free from all encumbrances, charges and mortgages.\nREGISTRATION DETAILS\nRegistered at the Office of the Sub-Registrar Harinagar-II. Document No. 2217/2023, Book No.\n1, Volume No. 4512, Pages 101 to 118.\nDate of Registration: 14/03/2023\nSigned by the Vendor and the Vendee in the presence of witnesses."
+    }
+  ],
+  "classification": {
+    "type": "sale_deed",
+    "label": "Sale Deed",
+    "confidence": 0.94,
+    "evidence": [
+      "sale deed",
+      "vendor",
+      "sale consideration"
+    ],
+    "scores": {
+      "sale_deed": 33.86,
+      "land_record": 2.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Shri Ramesh Chandra Verma",
+        "page": 1,
+        "evidence": "Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma, R/o 44 Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma, R/o 12 Civil Lines,",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Smt. Anita Sharma",
+        "page": 1,
+        "evidence": "Gandhi Marg, Harinagar (hereinafter called the \"VENDOR\") AND Smt. Anita Sharma, W/o Vinod Sharma, R/o 12 Civil Lines, Harinagar (hereinafter called the \"VENDEE\"). RECITALS The Vendor purchased the said property from Suresh",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [
+      {
+        "deed_type": "sale deed",
+        "date": "2009-08-05",
+        "from": null,
+        "document_no": null,
+        "page": 1,
+        "evidence": "Suresh Prasad Gupta by a registered sale deed dated 05/08/2009, registered as Document No. 3341/2009, and has",
+        "method": "rule"
+      }
+    ],
+    "previous_owners": [],
+    "property_address": {
+      "value": "Plot No. 17, Block C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar",
+      "page": 1,
+      "evidence": "(Rupees in full), received by bank transfer. SCHEDULE OF PROPERTY Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards.",
+      "method": "rule"
+    },
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "received by bank transfer. SCHEDULE OF PROPERTY Property Address: Plot No. 17, Block C, Lakshmi Nagar Extension, Tehsil Sadar, District Harinagar.",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [
+      {
+        "value": "118",
+        "page": 1,
+        "evidence": "Extension, Tehsil Sadar, District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the property: North:",
+        "method": "rule"
+      }
+    ],
+    "area": {
+      "value": {
+        "amount": 200.0,
+        "unit": "sq. yd",
+        "sq_m": 167.23,
+        "text": "200 sq. yards"
+      },
+      "page": 1,
+      "evidence": "District Harinagar. Khasra No. 245/2, Khata No. 118, total area 200 sq. yards. Boundaries of the property: North: 30 feet wide road South:",
+      "method": "rule"
+    },
+    "boundaries": {
+      "north": {
+        "value": "30 feet wide road",
+        "page": 1,
+        "evidence": "No. 118, total area 200 sq. yards. Boundaries of the property: North: 30 feet wide road South: Plot No. 18 of Mohan Lal East: Plot No. 16 West: Community",
+        "method": "rule"
+      },
+      "south": {
+        "value": "Plot No. 18 of Mohan Lal",
+        "page": 1,
+        "evidence": "yards. Boundaries of the property: North: 30 feet wide road South: Plot No. 18 of Mohan Lal East: Plot No. 16 West: Community Park COVENANTS The Vendor",
+        "method": "rule"
+      },
+      "east": {
+        "value": "Plot No. 16",
+        "page": 1,
+        "evidence": "property: North: 30 feet wide road South: Plot No. 18 of Mohan Lal East: Plot No. 16 West: Community Park COVENANTS The Vendor has this day delivered",
+        "method": "rule"
+      },
+      "west": {
+        "value": "Community Park",
+        "page": 1,
+        "evidence": "wide road South: Plot No. 18 of Mohan Lal East: Plot No. 16 West: Community Park COVENANTS The Vendor has this day delivered vacant possession",
+        "method": "rule"
+      }
+    },
+    "transaction_amount": {
+      "value": {
+        "amount": 4500000,
+        "display": "Rs. 45,00,000"
+      },
+      "page": 1,
+      "evidence": "has agreed to sell the property described below for a total sale consideration of Rs. 45,00,000/- (Rupees in full), received by bank transfer. SCHEDULE OF PROPERTY",
+      "method": "rule"
+    },
+    "stamp_duty": null,
+    "registration": {
+      "document_no": {
+        "value": "2217/2023",
+        "page": 1,
+        "evidence": "Registered at the Office of the Sub-Registrar Harinagar-II. Document No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration:",
+        "method": "rule"
+      },
+      "book_no": {
+        "value": "1",
+        "page": 1,
+        "evidence": "Office of the Sub-Registrar Harinagar-II. Document No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 14/03/2023",
+        "method": "rule"
+      },
+      "volume_no": {
+        "value": "4512",
+        "page": 1,
+        "evidence": "Sub-Registrar Harinagar-II. Document No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 14/03/2023 Signed by",
+        "method": "rule"
+      },
+      "pages": {
+        "value": "101 to 118",
+        "page": 1,
+        "evidence": "Harinagar-II. Document No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 14/03/2023 Signed by the Vendor and the",
+        "method": "rule"
+      }
+    },
+    "execution_date": {
+      "value": "2023-03-12",
+      "page": 1,
+      "evidence": "Deed is executed on 12/03/2023 at Harinagar, Uttar Pradesh. Date of Execution: 12/03/2023 BETWEEN Shri Ramesh Chandra Verma, S/o Late Shyam Lal Verma,",
+      "method": "rule"
+    },
+    "registration_date": {
+      "value": "2023-03-14",
+      "page": 1,
+      "evidence": "No. 2217/2023, Book No. 1, Volume No. 4512, Pages 101 to 118. Date of Registration: 14/03/2023 Signed by the Vendor and the Vendee in the presence of witnesses.",
+      "method": "rule"
+    },
+    "sub_registrar": {
+      "value": "Harinagar-II",
+      "page": 1,
+      "evidence": "mortgages. REGISTRATION DETAILS Registered at the Office of the Sub-Registrar Harinagar-II. Document No. 2217/2023, Book No. 1, Volume No. 4512, Pages",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [
+      {
+        "value": "3341/2009, and has been in peaceful possession",
+        "page": 1,
+        "evidence": "3341/2009, and has been in peaceful possession",
+        "method": "rule"
+      },
+      {
+        "value": "The Vendor has this day delivered vacant possession of the property to the Vendee.",
+        "page": 1,
+        "evidence": "The Vendor has this day delivered vacant possession of the property to the Vendee.",
+        "method": "rule"
+      }
+    ],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "sale_deed",
+        "actual": "sale_deed",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Ramesh Chandra Verma"
+        ],
+        "actual": [
+          "Shri Ramesh Chandra Verma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Anita Sharma"
+        ],
+        "actual": [
+          "Smt. Anita Sharma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "245/2"
+        ],
+        "actual": [
+          "245/2"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "118"
+        ],
+        "actual": [
+          "118"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 167.22,
+        "actual": 167.23,
+        "ok": true
+      },
+      {
+        "field": "amount",
+        "expected": 4500000,
+        "actual": 4500000,
+        "ok": true
+      },
+      {
+        "field": "execution_date",
+        "expected": "2023-03-12",
+        "actual": "2023-03-12",
+        "ok": true
+      },
+      {
+        "field": "registration_date",
+        "expected": "2023-03-14",
+        "actual": "2023-03-14",
+        "ok": true
+      },
+      {
+        "field": "document_no",
+        "expected": "2217/2023",
+        "actual": "2217/2023",
+        "ok": true
+      },
+      {
+        "field": "sub_registrar",
+        "expected": "Harinagar-II",
+        "actual": "Harinagar-II",
+        "ok": true
+      },
+      {
+        "field": "boundary_north",
+        "expected": "30 feet wide road",
+        "actual": "30 feet wide road",
+        "ok": true
+      },
+      {
+        "field": "boundary_west",
+        "expected": "Community Park",
+        "actual": "Community Park",
+        "ok": true
+      }
+    ]
+  }
+}

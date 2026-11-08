@@ -1,0 +1,98 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/noc_society.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nNO OBJECTION CERTIFICATE\nLakshmi Nagar Residents Welfare Society, Harinagar. Date: 01/02/2023\nApplicant: Ramesh Chandra Verma\nThe society has no objection to the transfer of Plot No. 17, Block C, on payment of dues."
+    }
+  ],
+  "classification": {
+    "type": "noc",
+    "label": "No Objection Certificate",
+    "confidence": 1.0,
+    "evidence": [
+      "no objection certificate",
+      "no objection"
+    ],
+    "scores": {
+      "noc": 57.66
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Ramesh Chandra Verma",
+        "page": 1,
+        "evidence": "Nagar Residents Welfare Society, Harinagar. Date: 01/02/2023 Applicant: Ramesh Chandra Verma The society has no objection to the transfer of Plot No. 17,",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "Chandra Verma The society has no objection to the transfer of Plot No. 17, Block C, on payment of dues.",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": [
+      {
+        "value": "NO OBJECTION CERTIFICATE",
+        "page": 1,
+        "evidence": "NO OBJECTION CERTIFICATE",
+        "method": "rule"
+      },
+      {
+        "value": "The society has no objection to the transfer of Plot No.",
+        "page": 1,
+        "evidence": "The society has no objection to the transfer of Plot No.",
+        "method": "rule"
+      }
+    ]
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "noc",
+        "actual": "noc",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Ramesh Chandra Verma"
+        ],
+        "actual": [
+          "Ramesh Chandra Verma"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

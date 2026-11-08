@@ -1,0 +1,172 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/rent_wrong_landlord.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nRENT AGREEMENT\nThis Rent Agreement is made on 25/03/2024 at Harinagar.\nLandlord: Pooja Bhatia, W/o Vinod Sharma, R/o 12 Civil Lines, Harinagar.\nTenant: Deepak Joshi, S/o Harish Joshi, R/o 9 Station Road, Harinagar.\nPremises: Property Address: House on Plot No. 17, Block C, Lakshmi Nagar Extension,\nHarinagar.\n1. The period of this agreement is 11 months, commencing from 01/04/2024.\n2. The tenant shall pay a monthly rent of Rs. 18,000/- on or before the 7th of each month.\n3. The tenant has paid a security deposit of Rs. 36,000/-, refundable on vacating.\n4. Either party may end this agreement by giving one month's written notice."
+    }
+  ],
+  "classification": {
+    "type": "rent_agreement",
+    "label": "Rent Agreement",
+    "confidence": 1.0,
+    "evidence": [
+      "rent agreement",
+      "landlord",
+      "tenant",
+      "monthly rent",
+      "security deposit"
+    ],
+    "scores": {
+      "rent_agreement": 56.51
+    }
+  },
+  "structured_fields": {
+    "landlord": [
+      {
+        "value": "Pooja Bhatia",
+        "page": 1,
+        "evidence": "AGREEMENT This Rent Agreement is made on 25/03/2024 at Harinagar. Landlord: Pooja Bhatia, W/o Vinod Sharma, R/o 12 Civil Lines, Harinagar. Tenant: Deepak Joshi, S/o Harish Joshi, R/o 9 Station Road,",
+        "method": "rule"
+      }
+    ],
+    "tenant": [
+      {
+        "value": "Deepak Joshi",
+        "page": 1,
+        "evidence": "Pooja Bhatia, W/o Vinod Sharma, R/o 12 Civil Lines, Harinagar. Tenant: Deepak Joshi, S/o Harish Joshi, R/o 9 Station Road, Harinagar. Premises: Property Address: House on Plot No. 17, Block C, Lakshmi",
+        "method": "rule"
+      }
+    ],
+    "lease": {
+      "monthly_rent": {
+        "value": {
+          "amount": 18000,
+          "display": "Rs. 18,000"
+        },
+        "page": 1,
+        "evidence": "months, commencing from 01/04/2024. 2. The tenant shall pay a monthly rent of Rs. 18,000/- on or before the 7th of each month. 3. The tenant has paid",
+        "method": "rule"
+      },
+      "security_deposit": {
+        "value": {
+          "amount": 36000,
+          "display": "Rs. 36,000"
+        },
+        "page": 1,
+        "evidence": "on or before the 7th of each month. 3. The tenant has paid a security deposit of Rs. 36,000/-, refundable on vacating. 4. Either party may end this agreement",
+        "method": "rule"
+      },
+      "term_months": {
+        "value": 11,
+        "page": 1,
+        "evidence": "No. 17, Block C, Lakshmi Nagar Extension, Harinagar. 1. The period of this agreement is 11 months, commencing from 01/04/2024. 2. The tenant shall pay a monthly",
+        "method": "rule"
+      },
+      "start_date": {
+        "value": "2024-04-01",
+        "page": 1,
+        "evidence": "Extension, Harinagar. 1. The period of this agreement is 11 months, commencing from 01/04/2024. 2. The tenant shall pay a monthly rent of Rs. 18,000/- on or",
+        "method": "rule"
+      }
+    },
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": {
+      "value": "Property Address: House on Plot No",
+      "page": 1,
+      "evidence": "Deepak Joshi, S/o Harish Joshi, R/o 9 Station Road, Harinagar. Premises: Property Address: House on Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar. 1. The period",
+      "method": "rule"
+    },
+    "survey_numbers": [],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "Station Road, Harinagar. Premises: Property Address: House on Plot No. 17, Block C, Lakshmi Nagar Extension, Harinagar. 1. The period",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": {
+      "value": "2024-03-25",
+      "page": 1,
+      "evidence": "fictional. Not a legal record. RENT AGREEMENT This Rent Agreement is made on 25/03/2024 at Harinagar. Landlord: Pooja Bhatia, W/o Vinod Sharma, R/o",
+      "method": "rule"
+    },
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "rent_agreement",
+        "actual": "rent_agreement",
+        "ok": true
+      },
+      {
+        "field": "landlord",
+        "expected": [
+          "Pooja Bhatia"
+        ],
+        "actual": [
+          "Pooja Bhatia"
+        ],
+        "ok": true
+      },
+      {
+        "field": "tenant",
+        "expected": [
+          "Deepak Joshi"
+        ],
+        "actual": [
+          "Deepak Joshi"
+        ],
+        "ok": true
+      },
+      {
+        "field": "rent",
+        "expected": 18000,
+        "actual": 18000,
+        "ok": true
+      },
+      {
+        "field": "deposit",
+        "expected": 36000,
+        "actual": 36000,
+        "ok": true
+      },
+      {
+        "field": "term_months",
+        "expected": 11,
+        "actual": 11,
+        "ok": true
+      },
+      {
+        "field": "start_date",
+        "expected": "2024-04-01",
+        "actual": "2024-04-01",
+        "ok": true
+      }
+    ]
+  }
+}

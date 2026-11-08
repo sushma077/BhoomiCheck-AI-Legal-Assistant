@@ -1,0 +1,109 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/fresh_land_extract.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nRecord of Rights Extract\nR.S. No.: 402/1 | Khata: 56 | Extent: 0.08 hectare\nRecorded holder: Neha Kulkarni\nPrevious holder: Vikram Sethi. Mutated on 11.03.2021."
+    }
+  ],
+  "classification": {
+    "type": "land_record",
+    "label": "Khasra / Khatauni / Jamabandi",
+    "confidence": 1.0,
+    "evidence": [
+      "record of rights"
+    ],
+    "scores": {
+      "land_record": 20.0
+    }
+  },
+  "structured_fields": {
+    "owners": [],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "402/1",
+        "page": 1,
+        "evidence": "are fictional. Not a legal record. Record of Rights Extract R.S. No.: 402/1 | Khata: 56 | Extent: 0.08 hectare Recorded holder: Neha Kulkarni",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 0.08,
+        "unit": "hectare",
+        "sq_m": 800.0,
+        "text": "0.08 hectare"
+      },
+      "page": 1,
+      "evidence": "Record of Rights Extract R.S. No.: 402/1 | Khata: 56 | Extent: 0.08 hectare Recorded holder: Neha Kulkarni Previous holder: Vikram Sethi.",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "land_record",
+        "actual": "land_record",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Neha Kulkarni"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "402/1"
+        ],
+        "actual": [
+          "402/1"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "56"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "field": "area_sqm",
+        "expected": 800.0,
+        "actual": 800.0,
+        "ok": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/fresh_receipt.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nProperty Tax Receipt\nSunrise Municipal Council. Tax Year: 2023-24.\nAssessee: Neha Kulkarni\nSite area 0.08 hectare. Paid Rs. 9,900 on 02/06/2023."
+    }
+  ],
+  "classification": {
+    "type": "property_tax_receipt",
+    "label": "Property Tax Receipt",
+    "confidence": 1.0,
+    "evidence": [
+      "property tax",
+      "receipt"
+    ],
+    "scores": {
+      "property_tax_receipt": 36.0
+    }
+  },
+  "structured_fields": {
+    "owners": [
+      {
+        "value": "Neha Kulkarni",
+        "page": 1,
+        "evidence": "Property Tax Receipt Sunrise Municipal Council. Tax Year: 2023-24. Assessee: Neha Kulkarni Site area 0.08 hectare. Paid Rs. 9,900 on 02/06/2023.",
+        "method": "rule"
+      }
+    ],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [],
+    "plot_numbers": [],
+    "khata_numbers": [],
+    "area": {
+      "value": {
+        "amount": 0.08,
+        "unit": "hectare",
+        "sq_m": 800.0,
+        "text": "0.08 hectare"
+      },
+      "page": 1,
+      "evidence": "Council. Tax Year: 2023-24. Assessee: Neha Kulkarni Site area 0.08 hectare. Paid Rs. 9,900 on 02/06/2023.",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "tax_paid": null,
+    "assessment_year": {
+      "value": "2023-24",
+      "page": 1,
+      "evidence": "legal record. Property Tax Receipt Sunrise Municipal Council. Tax Year: 2023-24. Assessee: Neha Kulkarni Site area 0.08 hectare. Paid Rs. 9,900",
+      "method": "rule"
+    },
+    "receipt_date": null,
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "property_tax_receipt",
+        "actual": "property_tax_receipt",
+        "ok": true
+      },
+      {
+        "field": "owners",
+        "expected": [
+          "Neha Kulkarni"
+        ],
+        "actual": [
+          "Neha Kulkarni"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 800.0,
+        "actual": 800.0,
+        "ok": true
+      },
+      {
+        "field": "assessment_year",
+        "expected": "2023-24",
+        "actual": "2023-24",
+        "ok": true
+      }
+    ]
+  }
+}

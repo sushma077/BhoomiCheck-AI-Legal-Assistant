@@ -1,0 +1,125 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/ec_clean.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nENCUMBRANCE CERTIFICATE\nOffice of the Sub-Registrar Harinagar-II\nCertificate Date: 02/11/2026\nSearch Period: 01/01/2005 to 31/10/2026\nProperty: Plot No. 17, Lakshmi Nagar Extension, Khasra No. 245/2.\nTransactions found in the index\nEntry 1. Sale deed dated 05/08/2009, Document No. 3341/2009, from Suresh Prasad Gupta to\nRamesh Chandra Verma.\nEntry 2. Sale deed dated 12/03/2023, Document No. 2217/2023, from Ramesh Chandra Verma\nto Anita Sharma.\nThis certificate covers only documents registered in this office and indexed for the search\nperiod."
+    }
+  ],
+  "classification": {
+    "type": "encumbrance_certificate",
+    "label": "Encumbrance Certificate",
+    "confidence": 0.8,
+    "evidence": [
+      "encumbrance certificate",
+      "search period"
+    ],
+    "scores": {
+      "sale_deed": 8.49,
+      "land_record": 2.0,
+      "encumbrance_certificate": 42.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [],
+    "buyers": [],
+    "owners": [],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "to 31/10/2026 Property: Plot No. 17, Lakshmi Nagar Extension, Khasra No. 245/2. Transactions found in the index Entry 1. Sale deed dated 05/08/2009,",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [
+      {
+        "value": "17",
+        "page": 1,
+        "evidence": "02/11/2026 Search Period: 01/01/2005 to 31/10/2026 Property: Plot No. 17, Lakshmi Nagar Extension, Khasra No. 245/2. Transactions found",
+        "method": "rule"
+      }
+    ],
+    "khata_numbers": [],
+    "area": null,
+    "boundaries": {},
+    "transaction_amount": null,
+    "stamp_duty": null,
+    "registration": {},
+    "execution_date": null,
+    "registration_date": null,
+    "ec": {
+      "search_period": {
+        "value": {
+          "from": "2005-01-01",
+          "to": "2026-10-31"
+        },
+        "page": 1,
+        "evidence": "Sub-Registrar Harinagar-II Certificate Date: 02/11/2026 Search Period: 01/01/2005 to 31/10/2026 Property: Plot No. 17, Lakshmi Nagar Extension, Khasra No. 245/2.",
+        "method": "rule"
+      }
+    },
+    "ec_date": {
+      "value": "2026-11-02",
+      "page": 1,
+      "evidence": "ENCUMBRANCE CERTIFICATE Office of the Sub-Registrar Harinagar-II Certificate Date: 02/11/2026 Search Period: 01/01/2005 to 31/10/2026 Property: Plot No. 17,",
+      "method": "rule"
+    },
+    "sub_registrar": {
+      "value": "Harinagar-II",
+      "page": 1,
+      "evidence": "fictional. Not a legal record. ENCUMBRANCE CERTIFICATE Office of the Sub-Registrar Harinagar-II Certificate Date: 02/11/2026 Search Period: 01/01/2005 to 31/10/2026 Property:",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "encumbrance_certificate",
+        "actual": "encumbrance_certificate",
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "245/2"
+        ],
+        "actual": [
+          "245/2"
+        ],
+        "ok": true
+      },
+      {
+        "field": "ec_period",
+        "expected": [
+          "2005-01-01",
+          "2026-10-31"
+        ],
+        "actual": [
+          "2005-01-01",
+          "2026-10-31"
+        ],
+        "ok": true
+      }
+    ]
+  }
+}

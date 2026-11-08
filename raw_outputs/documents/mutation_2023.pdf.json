@@ -1,0 +1,176 @@
+{
+  "execution_timestamp": "2026-11-07T16:20:20+00:00",
+  "input_document": "data/synthetic_documents/mutation_2023.pdf",
+  "model_identifier": "none: rule-based extraction",
+  "status": "ok",
+  "error": null,
+  "original_extracted_text": [
+    {
+      "page": 1,
+      "method": "text-layer",
+      "ocr_confidence": null,
+      "text": "SYNTHETIC TEST DOCUMENT. All people and places are fictional. Not a legal record.\nMUTATION ORDER (DAKHIL KHARIJ)\nOffice of the Tehsildar, Sadar, District Harinagar\nMutation Case No. MUT/884/2023\nDate of Order: 20/06/2023\nOld Owner: Ramesh Chandra Verma\nNew Owner: Anita Sharma\nBasis of mutation: Sale Deed, Document No. 2217/2023.\nKhasra No. 245/2, Khata No. 118, area 167.22 sq. m, Lakshmi Nagar Extension.\nThe entry in the revenue record is ordered accordingly. Objections, if any, were heard."
+    }
+  ],
+  "classification": {
+    "type": "mutation_record",
+    "label": "Mutation Record",
+    "confidence": 0.91,
+    "evidence": [
+      "mutation",
+      "dakhil kharij",
+      "mutation order"
+    ],
+    "scores": {
+      "sale_deed": 6.0,
+      "mutation_record": 79.66,
+      "land_record": 2.0
+    }
+  },
+  "structured_fields": {
+    "sellers": [
+      {
+        "value": "Ramesh Chandra Verma",
+        "page": 1,
+        "evidence": "Harinagar Mutation Case No. MUT/884/2023 Date of Order: 20/06/2023 Old Owner: Ramesh Chandra Verma New Owner: Anita Sharma Basis of mutation: Sale Deed, Document",
+        "method": "rule"
+      }
+    ],
+    "buyers": [
+      {
+        "value": "Anita Sharma",
+        "page": 1,
+        "evidence": "MUT/884/2023 Date of Order: 20/06/2023 Old Owner: Ramesh Chandra Verma New Owner: Anita Sharma Basis of mutation: Sale Deed, Document No. 2217/2023. Khasra",
+        "method": "rule"
+      }
+    ],
+    "owners": [],
+    "prior_deed_refs": [],
+    "previous_owners": [],
+    "property_address": null,
+    "survey_numbers": [
+      {
+        "value": "245/2",
+        "page": 1,
+        "evidence": "Sharma Basis of mutation: Sale Deed, Document No. 2217/2023. Khasra No. 245/2, Khata No. 118, area 167.22 sq. m, Lakshmi Nagar Extension.",
+        "method": "rule"
+      }
+    ],
+    "plot_numbers": [],
+    "khata_numbers": [
+      {
+        "value": "118",
+        "page": 1,
+        "evidence": "mutation: Sale Deed, Document No. 2217/2023. Khasra No. 245/2, Khata No. 118, area 167.22 sq. m, Lakshmi Nagar Extension. The entry in the",
+        "method": "rule"
+      }
+    ],
+    "area": {
+      "value": {
+        "amount": 167.22,
+        "unit": "sq. m",
+        "sq_m": 167.22,
+        "text": "167.22 sq. m"
+      },
+      "page": 1,
+      "evidence": "Document No. 2217/2023. Khasra No. 245/2, Khata No. 118, area 167.22 sq. m, Lakshmi Nagar Extension. The entry in the revenue record is",
+      "method": "rule"
+    },
+    "boundaries": {},
+    "transaction_amount": null,
+    "stamp_duty": null,
+    "registration": {
+      "document_no": {
+        "value": "2217/2023",
+        "page": 1,
+        "evidence": "Verma New Owner: Anita Sharma Basis of mutation: Sale Deed, Document No. 2217/2023. Khasra No. 245/2, Khata No. 118, area 167.22 sq. m, Lakshmi",
+        "method": "rule"
+      }
+    },
+    "execution_date": null,
+    "registration_date": null,
+    "mutation_order_date": {
+      "value": "2023-06-20",
+      "page": 1,
+      "evidence": "Tehsildar, Sadar, District Harinagar Mutation Case No. MUT/884/2023 Date of Order: 20/06/2023 Old Owner: Ramesh Chandra Verma New Owner: Anita Sharma Basis",
+      "method": "rule"
+    },
+    "mutation_no": {
+      "value": "MUT/884/2023",
+      "page": 1,
+      "evidence": "(DAKHIL KHARIJ) Office of the Tehsildar, Sadar, District Harinagar Mutation Case No. MUT/884/2023 Date of Order: 20/06/2023 Old Owner: Ramesh Chandra Verma New",
+      "method": "rule"
+    },
+    "ownership_shares": [],
+    "possession_details": [],
+    "mortgage_refs": [],
+    "release_refs": [],
+    "litigation_refs": [],
+    "inheritance_refs": [],
+    "land_use_refs": [],
+    "permission_refs": []
+  },
+  "warnings": [],
+  "score": {
+    "checks": [
+      {
+        "field": "doc_type",
+        "expected": "mutation_record",
+        "actual": "mutation_record",
+        "ok": true
+      },
+      {
+        "field": "sellers",
+        "expected": [
+          "Ramesh Chandra Verma"
+        ],
+        "actual": [
+          "Ramesh Chandra Verma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "buyers",
+        "expected": [
+          "Anita Sharma"
+        ],
+        "actual": [
+          "Anita Sharma"
+        ],
+        "ok": true
+      },
+      {
+        "field": "survey",
+        "expected": [
+          "245/2"
+        ],
+        "actual": [
+          "245/2"
+        ],
+        "ok": true
+      },
+      {
+        "field": "khata",
+        "expected": [
+          "118"
+        ],
+        "actual": [
+          "118"
+        ],
+        "ok": true
+      },
+      {
+        "field": "area_sqm",
+        "expected": 167.22,
+        "actual": 167.22,
+        "ok": true
+      },
+      {
+        "field": "mutation_order_date",
+        "expected": "2023-06-20",
+        "actual": "2023-06-20",
+        "ok": true
+      }
+    ]
+  }
+}
