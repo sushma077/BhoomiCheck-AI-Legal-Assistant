@@ -1,0 +1,27 @@
+{
+  "built_at": "2026-11-07T15:37:19+00:00",
+  "chunk_count": 2833,
+  "embedding_model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "files": {
+    "tpa_1882": "5223fdf06a0aa3ed14ca62cb2b6b923d42e14a159d7f2c8b8f96cbe1800a7a3a",
+    "registration_1908": "be32e7165b817441a08bd3d2f8acf80d72ec1c1dfa2839adbbdd56781f68bec0",
+    "stamp_1899": "acf990bba8475689f7e08f54bbe7aa03a0322886f23c2e3b68aff4d7446dbcc9",
+    "rera_2016": "312d8c92bb8a3be7b915281197f65e45b8951af53bcb32548d434067b6591127",
+    "contract_1872": "7aba8dae3aa62b6a6ef841ad9de0ea7aee6574588f4d9d800bcd4bd0053cdfca",
+    "specific_relief_1963": "7b90aae6b01d7c9533f5b69a8ccbf00c16ba439e4624561204de236d5cb7f43d",
+    "limitation_1963": "508feabba1a8039d2d30fd74ddfec2155d912c44c63f988947f95e0a5a92176c",
+    "hindu_succession_1956": "8ee27226825b90210a3c17646049cb3e73cb2e32fd92d7d8c857e8808adb3ca2",
+    "indian_succession_1925": "4ad3606e6d6143f9b1fc4e5a9e8233a1cf46adc988460f493deeddf3d0b46154",
+    "poa_1882": "762f965570af1b37dc47b59968d04b7d8fc1b2c737f90124109146cfa3582c44",
+    "easements_1882": "a2f5eff857731a1fb12793f02400f8fee8e4d241827693c55abbd78f9f126858",
+    "partition_1893": "c23f27eb834223bfe9cf567522aa8fbff66610bc1cfd85853099c38e027342e9",
+    "up_revenue_code_2006": "09e683d32015a3aa0ac916b223cf862794a05e35848c5f8d5ebda5c70109bf7e",
+    "mh_land_revenue_1966": "00ec56451d0d5ae47c6d6b234d8efe58d05614f09410d7dac43fb8e467ddf692",
+    "draft_registration_bill_2025": "aae8b21b9a86dafab9f5a3bc72c083fadacdb765c78acded8c7ee5cf3124a75d",
+    "dilrmp_guidelines": "f3e42713fb20a3f54796cf0987645e4c7c25e5209f24bfb01f3f15d568b4b91b",
+    "sc_2025_insc_1238": "c6cf970690fe0d9eef28fa604ac667b976c65696e3abf1efb67af8d8981af8fd",
+    "sc_2024_insc_1006": "3ae202e50b700ca1227a88da4990d408b622d1e70674540046b34461379c2331",
+    "sc_2023_insc_1009": "35ddfa3c1706371d105532b5c3eafe995c0c5b2bbec5e92d9a85a0ca69c3a5a6",
+    "rera_portal": "adad7bcc251000d79c10c35beaa308581cadb68af8f6f0dd03762c42d36a4ed5"
+  }
+}
