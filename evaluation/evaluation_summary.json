@@ -1,0 +1,702 @@
+{
+  "generated_at": "2026-11-07T16:20:20+00:00",
+  "runtime_seconds": 49.7,
+  "model_used_for_main_tests": {
+    "provider": "none",
+    "model": "none (deterministic rules and retrieval)",
+    "llm_available": false
+  },
+  "retrieval_mode": "hybrid (BM25 + embeddings)",
+  "knowledge_base": {
+    "sources_attempted": 28,
+    "sources_indexed": 20,
+    "chunks": 2833,
+    "unavailable": [
+      {
+        "id": "benami_1988",
+        "reason": "https://indiacode.gov.in/server/api/core/bitstreams/452acaca-88b8-408c-abb4-13160f555d15/content: rejected, only 2 pages, expected at least 15: probably a notification, not the Act"
+      },
+      {
+        "id": "ka_land_revenue_1964",
+        "reason": "https://indiacode.gov.in/server/api/core/bitstreams/cf46098e-9942-4e1d-bd79-8772ee2f96ad/content: rejected, only 1 pages, expected at least 40: probably a notification, not the Act"
+      },
+      {
+        "id": "model_tenancy_2021",
+        "reason": "https://mohua.gov.in/upload/uploadfiles/files/Model-Tenancy-Act-English-02_06_2021.pdf: HTTP 404"
+      },
+      {
+        "id": "uttarakhand_tenancy_2021",
+        "reason": "https://www.indiacode.nic.in/bitstream/123456789/20015/1/uk_tenancy_act,_2021_eng.pdf: HTTP 504"
+      },
+      {
+        "id": "dolr_home",
+        "reason": "https://www.dolr.gov.in/: page has too little server-rendered text (0 chars)"
+      },
+      {
+        "id": "dolr_dilrmp",
+        "reason": "https://dolr.gov.in/en/programme-schemes/dilrmp/digital-india-land-records-modernization-programme: HTTP 404"
+      },
+      {
+        "id": "up_igrs",
+        "reason": "https://igrsup.gov.in/: page has too little server-rendered text (0 chars)"
+      },
+      {
+        "id": "up_bhulekh",
+        "reason": "https://upbhulekh.gov.in/: page has too little server-rendered text (5 chars)"
+      }
+    ]
+  },
+  "synthetic_documents": 51,
+  "development_set": {
+    "classification": {
+      "passed": 35,
+      "total": 35,
+      "pct": 100.0
+    },
+    "field_extraction": {
+      "passed": 236,
+      "total": 237,
+      "pct": 99.6
+    },
+    "unreadable_handling": {
+      "passed": 4,
+      "total": 4,
+      "pct": 100.0
+    },
+    "ocr_used_where_needed": {
+      "passed": 4,
+      "total": 4,
+      "pct": 100.0
+    },
+    "failed_field_checks": [
+      {
+        "document": "scanned_sale_deed.pdf",
+        "field": "boundary_west",
+        "expected": "Community Park",
+        "actual": null,
+        "ok": false
+      }
+    ],
+    "scenarios": {
+      "passed": 32,
+      "total": 32,
+      "failed": []
+    },
+    "cross_document_comparison": {
+      "passed": 13,
+      "total": 13
+    },
+    "risk_detection": {
+      "passed": 19,
+      "total": 19
+    },
+    "retrieval": {
+      "total": 32,
+      "top1": 27,
+      "top3": 31,
+      "top5": 32,
+      "misses_top5": []
+    }
+  },
+  "first_holdout_at_first_run": {
+    "note": "Other wording and layout. Not used to tune the rules before this measurement.",
+    "classification": {
+      "passed": 6,
+      "total": 6,
+      "pct": 100.0
+    },
+    "field_extraction": {
+      "passed": 18,
+      "total": 28,
+      "pct": 64.3
+    },
+    "failed_field_checks": [
+      {
+        "document": "holdout_conveyance_deed.pdf",
+        "field": "sellers",
+        "expected": [
+          "Gopal Krishna Iyer"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "holdout_conveyance_deed.pdf",
+        "field": "buyers",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "holdout_conveyance_deed.pdf",
+        "field": "boundary_west",
+        "expected": "Site No. 14",
+        "actual": "Site No",
+        "ok": false
+      },
+      {
+        "document": "holdout_leave_licence.pdf",
+        "field": "landlord",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "holdout_leave_licence.pdf",
+        "field": "tenant",
+        "expected": [
+          "Tarun Nair"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "holdout_leave_licence.pdf",
+        "field": "term_months",
+        "expected": 24,
+        "actual": null,
+        "ok": false
+      },
+      {
+        "document": "holdout_leave_licence.pdf",
+        "field": "start_date",
+        "expected": "2024-01-01",
+        "actual": null,
+        "ok": false
+      },
+      {
+        "document": "holdout_tax_bill.pdf",
+        "field": "owners",
+        "expected": [
+          "Farida Khan"
+        ],
+        "actual": [
+          "Farida Khan. Assessment No. GF"
+        ],
+        "ok": false
+      },
+      {
+        "document": "holdout_mukhtarnama.pdf",
+        "field": "poa_principal",
+        "expected": [
+          "Dinesh Yadav"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "holdout_mukhtarnama.pdf",
+        "field": "poa_attorney",
+        "expected": [
+          "Mukesh Yadav"
+        ],
+        "actual": [],
+        "ok": false
+      }
+    ],
+    "scenarios": {
+      "passed": 3,
+      "total": 4,
+      "failed": [
+        {
+          "id": "H03",
+          "name": "Holdout: 24-month leave and licence",
+          "missing": [
+            "LEASE_NEEDS_REGISTRATION"
+          ],
+          "forbidden": [],
+          "lawyer_missing": false,
+          "evidence_missing": []
+        }
+      ]
+    },
+    "retrieval": {
+      "total": 12,
+      "top1": 9,
+      "top3": 10,
+      "top5": 10,
+      "misses_top5": [
+        {
+          "q": "Is my name in the revenue records enough to prove that I own the land?",
+          "got": [
+            [
+              "indian_succession_1925",
+              "81"
+            ],
+            [
+              "indian_succession_1925",
+              "76"
+            ],
+            [
+              "indian_succession_1925",
+              "142"
+            ]
+          ]
+        },
+        {
+          "q": "किराये का समझौता एक साल से ज्यादा का हो तो क्या रजिस्ट्रेशन जरूरी है?",
+          "got": [
+            [
+              "limitation_1963",
+              null
+            ],
+            [
+              "limitation_1963",
+              null
+            ],
+            [
+              "limitation_1963",
+              null
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "fresh_set": {
+    "note": "Second unseen set. Written before the rule fixes were tested, and run once. This is the cleanest measure of performance on unfamiliar wording.",
+    "classification": {
+      "passed": 6,
+      "total": 6,
+      "pct": 100.0
+    },
+    "field_extraction": {
+      "passed": 23,
+      "total": 27,
+      "pct": 85.2
+    },
+    "failed_field_checks": [
+      {
+        "document": "fresh_indenture.pdf",
+        "field": "registration_date",
+        "expected": "2021-01-25",
+        "actual": null,
+        "ok": false
+      },
+      {
+        "document": "fresh_indenture.pdf",
+        "field": "boundary_west",
+        "expected": "House of A. Rao",
+        "actual": "House of A",
+        "ok": false
+      },
+      {
+        "document": "fresh_land_extract.pdf",
+        "field": "owners",
+        "expected": [
+          "Neha Kulkarni"
+        ],
+        "actual": [],
+        "ok": false
+      },
+      {
+        "document": "fresh_land_extract.pdf",
+        "field": "khata",
+        "expected": [
+          "56"
+        ],
+        "actual": [],
+        "ok": false
+      }
+    ],
+    "scenarios": {
+      "passed": 4,
+      "total": 4,
+      "failed": []
+    },
+    "retrieval": {
+      "total": 8,
+      "top1": 4,
+      "top3": 6,
+      "top5": 6,
+      "misses_top5": [
+        {
+          "q": "पिता की मृत्यु बिना वसीयत के हुई, संपत्ति किसे मिलेगी?",
+          "got": [
+            [
+              "indian_succession_1925",
+              "61"
+            ],
+            [
+              "indian_succession_1925",
+              "59"
+            ],
+            [
+              "indian_succession_1925",
+              "88"
+            ]
+          ]
+        },
+        {
+          "q": "बिना स्टाम्प के दस्तावेज़ को कोर्ट में सबूत माना जाएगा?",
+          "got": [
+            [
+              "stamp_1899",
+              "14"
+            ],
+            [
+              "stamp_1899",
+              "52"
+            ],
+            [
+              "stamp_1899",
+              "47"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "holdout_set": {
+    "note": "First holdout, re-run after fixes. Its failures guided those fixes, so it is no longer unseen. See first_holdout_at_first_run for the original score.",
+    "classification": {
+      "passed": 6,
+      "total": 6,
+      "pct": 100.0
+    },
+    "field_extraction": {
+      "passed": 27,
+      "total": 28,
+      "pct": 96.4
+    },
+    "failed_field_checks": [
+      {
+        "document": "holdout_mukhtarnama.pdf",
+        "field": "poa_principal",
+        "expected": [
+          "Dinesh Yadav"
+        ],
+        "actual": [
+          "Ramnath Yadav"
+        ],
+        "ok": false
+      }
+    ],
+    "scenarios": {
+      "passed": 4,
+      "total": 4,
+      "failed": []
+    },
+    "retrieval": {
+      "total": 12,
+      "top1": 11,
+      "top3": 12,
+      "top5": 12,
+      "misses_top5": []
+    }
+  },
+  "citation_correctness": {
+    "citations_checked": 184,
+    "invalid": [],
+    "note": "Checks each citation exists in the index with matching provision and quote. It does not assess legal interpretation."
+  },
+  "assistant": {
+    "passed": 14,
+    "total": 14,
+    "failed": []
+  },
+  "hallucination_resistance": {
+    "passed": 7,
+    "total": 7,
+    "note": "Deterministic assistant only, unless a model section shows otherwise."
+  },
+  "validator_stress": {
+    "false_statements": 16,
+    "false_statements_caught": 11,
+    "false_statements_missed": [
+      "Once mutation is done, the person becomes the legal owner with clear title [L1].",
+      "A mortgage does not transfer any interest in the property [L1].",
+      "An agent's authority continues after the death of the principal [L1].",
+      "A document can be registered at any time, even after twenty years [L1].",
+      "An unstamped instrument is fully admissible in evidence [L1]."
+    ],
+    "true_statements": 6,
+    "true_statements_accepted": 6,
+    "true_statements_wrongly_rejected": []
+  },
+  "lawyer_escalation": {
+    "passed": 6,
+    "total": 6
+  },
+  "reports": {
+    "generated_ok": 40,
+    "total": 40
+  },
+  "real_model_test": {
+    "ran": true,
+    "model": "mlx-community/Qwen2.5-3B-Instruct-4bit",
+    "provider": "mlx",
+    "total": 8,
+    "model_produced_output": 6,
+    "accepted_by_validator": 1,
+    "rejected_by_validator": [
+      {
+        "id": "M02",
+        "question": "Is a mutation entry proof of ownership?",
+        "seconds": 5.2,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "No, a mutation entry is not proof of ownership."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M03",
+        "question": "Can a tenant be evicted without notice under this law?",
+        "seconds": 5.1,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "No, a tenant cannot be evicted without notice."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M04",
+        "question": "What is the penalty for not registering a sale deed under Section 83 of the Registration Act?",
+        "seconds": 7.2,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [
+            "However,   does not specify the exact penalty for not registering a sale deed."
+          ],
+          "unsupported_negatives": [
+            "However,   does not specify the exact penalty for not registering a sale deed."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M07",
+        "question": "Based on these papers, is this property safe to buy? Answer yes or no.",
+        "seconds": 7.6,
+        "kind": "direct_model_call",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": true,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "The property is not safe to buy based on the provided documents alone.",
+            "There are no conclusive proofs of title, and there is no mention of a perfect title."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M08",
+        "question": "Which Supreme Court case says mutation gives ownership?",
+        "seconds": 5.4,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [
+            "mutation gives ownership"
+          ],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [],
+          "empty": false
+        }
+      }
+    ],
+    "rows": [
+      {
+        "id": "M01",
+        "question": "Does a sale of immovable property worth more than one hundred rupees need registration?",
+        "seconds": 8.5,
+        "kind": "legal+model",
+        "model_ran": true,
+        "accepted": true,
+        "validation": {
+          "ok": true,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [],
+          "empty": false
+        }
+      },
+      {
+        "id": "M02",
+        "question": "Is a mutation entry proof of ownership?",
+        "seconds": 5.2,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "No, a mutation entry is not proof of ownership."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M03",
+        "question": "Can a tenant be evicted without notice under this law?",
+        "seconds": 5.1,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "No, a tenant cannot be evicted without notice."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M04",
+        "question": "What is the penalty for not registering a sale deed under Section 83 of the Registration Act?",
+        "seconds": 7.2,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [
+            "However,   does not specify the exact penalty for not registering a sale deed."
+          ],
+          "unsupported_negatives": [
+            "However,   does not specify the exact penalty for not registering a sale deed."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M05",
+        "question": "Registry karana zaroori hai kya?",
+        "seconds": 0.0,
+        "kind": "legal",
+        "model_ran": false,
+        "accepted": false,
+        "validation": {
+          "ok": null,
+          "skipped": "mlx is limited to English"
+        }
+      },
+      {
+        "id": "M06",
+        "question": "बंधक क्या होता है?",
+        "seconds": 0.0,
+        "kind": "definition",
+        "model_ran": false,
+        "accepted": false,
+        "validation": null
+      },
+      {
+        "id": "M07",
+        "question": "Based on these papers, is this property safe to buy? Answer yes or no.",
+        "seconds": 7.6,
+        "kind": "direct_model_call",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": true,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [
+            "The property is not safe to buy based on the provided documents alone.",
+            "There are no conclusive proofs of title, and there is no mention of a perfect title."
+          ],
+          "empty": false
+        }
+      },
+      {
+        "id": "M08",
+        "question": "Which Supreme Court case says mutation gives ownership?",
+        "seconds": 5.4,
+        "kind": "legal",
+        "model_ran": true,
+        "accepted": false,
+        "validation": {
+          "ok": false,
+          "forbidden_claims": [
+            "mutation gives ownership"
+          ],
+          "unsupported_sections": [],
+          "unknown_tags": [],
+          "missing_citation_tag": false,
+          "script_problems": [],
+          "ungrounded_sentences": [],
+          "unsupported_negatives": [],
+          "empty": false
+        }
+      }
+    ]
+  },
+  "limits_of_this_evaluation": [
+    "All documents are synthetic, and the author of the rules also wrote them. Real documents will be messier.",
+    "Development scores were used to fix bugs, so they are optimistic. The fresh-set scores are the better guide, on a small sample of documents.",
+    "Citation checks confirm that a passage exists, not that a legal interpretation is right. No lawyer has reviewed this project."
+  ]
+}
