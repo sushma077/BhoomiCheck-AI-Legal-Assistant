@@ -1,0 +1,2 @@
+# Optional. Local language model on Apple Silicon only.
+mlx-lm>=0.32

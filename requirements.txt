@@ -1,0 +1,17 @@
+# Needed to run the app and tests. System packages for OCR: see packages.txt and the README.
+streamlit==1.67.0
+pymupdf==2.1
+pillow==13.0.0
+pytesseract==0.3.13
+rapidocr-onnxruntime==1.4.4
+rank-bm25==0.2.2
+fastembed==0.9.1
+numpy==2.5.4
+rapidfuzz==3.14.6
+python-docx==1.2.0
+python-dotenv==1.2.4
+requests==2.34.2
+beautifulsoup4==4.15.0
+anthropic==2.6.0
+pytest==9.2.0
+reportlab==5.1.0
